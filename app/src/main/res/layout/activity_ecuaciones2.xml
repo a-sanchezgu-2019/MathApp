@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fondo_ecuaciones_grado2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_ecuaciones_grado2_noche_2"
+    tools:context=".ecuaciones2">
+
+    <EditText
+        android:id="@+id/ec_1_campo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@android:color/background_light"
+        android:drawableBottom="@android:color/background_light"
+        android:ems="10"
+        android:inputType="numberSigned|number|numberDecimal"
+        android:textColor="#1B1919"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.321" />
+
+    <TextView
+        android:id="@+id/resultadosView4"
+        android:layout_width="208dp"
+        android:layout_height="63dp"
+        android:background="@drawable/fondo_resultado"
+        android:gravity="bottom|right"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.866"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.535" />
+
+    <TextView
+        android:id="@+id/resultadosView2"
+        android:layout_width="208dp"
+        android:layout_height="63dp"
+        android:background="@drawable/fondo_resultado"
+        android:gravity="bottom|right"
+        android:text="0"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.866"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.673" />
+
+    <ImageButton
+        android:id="@+id/boton_menu_ecuaciones"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:adjustViewBounds="true"
+        android:background="#0000"
+
+        android:contentDescription="imagen menu"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.236"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/home" />
+
+    <ImageButton
+        android:id="@+id/ajuste_ec1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+
+        android:adjustViewBounds="true"
+        android:background="#0000"
+        android:contentDescription="imagen ajuste"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.74"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/ajustes_mini" />
+
+    <ImageButton
+        android:id="@+id/cerrar_Boton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+
+        android:adjustViewBounds="true"
+        android:background="#0000"
+        android:contentDescription="imagen cerrar"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/x" />
+
+    <EditText
+        android:id="@+id/ec_1_campo_1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@android:color/background_light"
+        android:drawableBottom="@android:color/background_light"
+        android:ems="10"
+        android:inputType="numberSigned|number|numberDecimal"
+        android:textColor="#1B1919"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.422"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.322" />
+
+    <EditText
+        android:id="@+id/ec_1_campo_2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@android:color/background_light"
+        android:drawableBottom="@android:color/background_light"
+        android:ems="10"
+        android:inputType="numberSigned|number|numberDecimal"
+        android:textColor="#1B1919"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.742"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.321" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

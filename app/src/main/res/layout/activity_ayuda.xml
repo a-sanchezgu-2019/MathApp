@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fondo_ayuda"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context=".activity_ayuda">
+
+    <ImageButton
+        android:id="@+id/boton_ayuda_menu"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:adjustViewBounds="true"
+
+        android:background="#0000"
+        android:contentDescription="imagen menu"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044"
+        app:srcCompat="@drawable/home" />
+
+    <ScrollView
+        android:layout_width="371dp"
+        android:layout_height="640dp"
+        android:layout_marginTop="16dp"
+        android:scrollbarStyle="outsideInset"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/boton_ayuda_menu"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:shadowColor="#FFFFFF"
+                android:text="MENÚ"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.008"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.177" />
+
+            <TextView
+                android:id="@+id/textViewAyudaMenu"
+                android:layout_width="339dp"
+                android:layout_height="207dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Pulsando en el botón 'Calculadora básica' se accede a una calculadora simple con sumas, restas, multiplicaciones y divisiones. \n \nPulsando el botón 'Calculadora científica', se accede a una calculadora con operaciones simples, operaciones trigonométricas y con posibilidad de realizar raíces cuadradas y usar los numeros π y e. \n \nPulsando en el botón 'Ecuaciones grado 1' (EN DESARROLLO).\n \nPulsando en el botón 'Ajustes' se accede al menú de ajustes de la calculadora."
+                android:textColor="#FFFFFF"
+                android:textSize="12dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.086"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView5"
+                app:layout_constraintVertical_bias="0.018" />
+
+            <TextView
+                android:id="@+id/textViewCalculadoraBasica"
+                android:layout_width="wrap_content"
+                android:layout_height="39dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:shadowColor="#FFFFFF"
+                android:text="CALCULADORA BÁSICA"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView4"
+                app:layout_constraintVertical_bias="0.037" />
+
+            <TextView
+                android:id="@+id/textViewAyudaCalculadoraBasica"
+                android:layout_width="339dp"
+                android:layout_height="341dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Pulsando cualquier número, el mimso se agregará a la operación y se mostrará por pantalla.\n \nPulsando en cualquier operando (+,-,x,/), este se agregará a la operación y se mostrará por pantalla.\n \nPulsando en el botón 'borrar', se eliminará el último número u operando introducido.\n \nPulsando en el botón 'Clear', se eliminará la operación actual al completo.\n \nPulsando en el botón '=', se realizará la operación anteriormente introducida y devolverá el valor resultante.\n \nPulsando en el botón con la imagen de la casa, se volverá al menú inicial.\n \nPulsando en el botón 'x' superior, se saldrá de la calculadora.\n \nPulsando en el botón 'Configuración', se accederá al menú de ajustes."
+                android:textColor="#FFFFFF"
+                android:textSize="12dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView6"
+                app:layout_constraintVertical_bias="0.625" />
+
+            <TextView
+                android:id="@+id/textViewCalculadoraTrigonometrica"
+                android:layout_width="wrap_content"
+                android:layout_height="39dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:shadowColor="#FFFFFF"
+                android:text="CALCULADORA CIENTÍFICA"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView4"
+                app:layout_constraintVertical_bias="0.037" />
+
+            <TextView
+                android:id="@+id/textViewAyudaCalculadoraTrigonometrica"
+                android:layout_width="341dp"
+                android:layout_height="214dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Mirar parrafo superior para los botones básicos.\n \nPulsando los botones de operandos trigonométricos (sin,cos,tg), se añade dicho operando a la operación.\n \nPulsando el botón 'deg' se alterna el valor numérico de grados a radianes.\n \nLos botones 'π' y 'e' funcionan como números normales.\n \nPulsando el botón '1/x' implementamos fracciones.\n \nPulsando el botón '^' implementamos potencias a la operación."
+                android:textColor="#FFFFFF"
+                android:textSize="12dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.086"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView5"
+                app:layout_constraintVertical_bias="0.018" />
+
+            <TextView
+                android:id="@+id/textViewEcuaciones1"
+                android:layout_width="wrap_content"
+                android:layout_height="39dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:shadowColor="#FFFFFF"
+                android:text="ECUACIONES GRADO 1"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView4"
+                app:layout_constraintVertical_bias="0.037" />
+
+            <TextView
+                android:id="@+id/textViewAyudaEcuaciones1"
+                android:layout_width="340dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="EN DESARROLLO"
+                android:textColor="#FFFFFF"
+                android:textSize="12dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.086"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView5"
+                app:layout_constraintVertical_bias="0.018" />
+
+            <TextView
+                android:id="@+id/textViewAjustes"
+                android:layout_width="wrap_content"
+                android:layout_height="39dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:shadowColor="#FFFFFF"
+                android:text="AJUSTES"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView4"
+                app:layout_constraintVertical_bias="0.037" />
+
+            <TextView
+                android:id="@+id/textViewAyudaAjustes"
+                android:layout_width="348dp"
+                android:layout_height="296dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Pulsando en el botón 'ON' al lado del texto 'Modo noche' podemos alternar entre el modo noche y el modo día.\n \nEn el botón 'Spanish' al lado del texto 'Idioma' podemos cambiar el idioma de la aplicación.\n \nPulsando en el botón con la imagen de la casa, se volverá al menú inicial."
+                android:textColor="#FFFFFF"
+                android:textSize="12dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.086"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView5"
+                app:layout_constraintVertical_bias="0.018" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
