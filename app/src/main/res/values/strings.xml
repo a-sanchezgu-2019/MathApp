@@ -1,8 +1,25 @@
 <resources>
+
+    <!-- Main strings -->
     <string name="app_name">ejemplo</string>
     <string name="mathapp">MathApp</string>
-    <string name="loading">Loading ...</string>
+    <string name="loading">Loading…</string>
     <string name="ir_a_men">Ir a menú</string>
+
+    <!-- Ayuda strings -->
+    <string name="imagen_menu_CD">imagen menu</string>
+    <string name="ayuda_menu_title">MENÚ</string>
+    <string name="ayuda_menu_content">Pulsando en el botón \'Calculadora básica\' se accede a una calculadora simple con sumas, restas, multiplicaciones y divisiones. \n \nPulsando el botón \'Calculadora científica\', se accede a una calculadora con operaciones simples, operaciones trigonométricas y con posibilidad de realizar raíces cuadradas y usar los numeros π y e. \n \nPulsando en el botón \'Ecuaciones grado 1\' (EN DESARROLLO).\n \nPulsando en el botón \'Ajustes\' se accede al menú de ajustes de la calculadora.</string>
+    <string name="ayuda_calculadora_title">CALCULADORA BÁSICA</string>
+    <string name="ayuda_calculadora_content">Pulsando cualquier número, el mimso se agregará a la operación y se mostrará por pantalla.\n \nPulsando en cualquier operando (+,-,x,/), este se agregará a la operación y se mostrará por pantalla.\n \nPulsando en el botón \'borrar\', se eliminará el último número u operando introducido.\n \nPulsando en el botón \'Clear\', se eliminará la operación actual al completo.\n \nPulsando en el botón \'=\', se realizará la operación anteriormente introducida y devolverá el valor resultante.\n \nPulsando en el botón con la imagen de la casa, se volverá al menú inicial.\n \nPulsando en el botón \'x\' superior, se saldrá de la calculadora.\n \nPulsando en el botón \'Configuración\', se accederá al menú de ajustes.</string>
+    <string name="ayuda_calculadora_cient_title">CALCULADORA CIENTÍFICA</string>
+    <string name="ayuda_calculadora_cient_content">Mirar parrafo superior para los botones básicos.\n \nPulsando los botones de operandos trigonométricos (sin,cos,tg), se añade dicho operando a la operación.\n \nPulsando el botón \'deg\' se alterna el valor numérico de grados a radianes.\n \nLos botones \'π\' y \'e\' funcionan como números normales.\n \nPulsando el botón \'1/x\' implementamos fracciones.\n \nPulsando el botón \'^\' implementamos potencias a la operación.</string>
+    <string name="ecuaciones_1_ayuda_title">ECUACIONES GRADO 1</string>
+    <string name="ajustes_ayuda_title">AJUSTES</string>
+    <string name="ajustes_ayuda_content">Pulsando en el botón \'ON\' al lado del texto \'Modo noche\' podemos alternar entre el modo noche y el modo día.\n \nEn el botón \'Spanish\' al lado del texto \'Idioma\' podemos cambiar el idioma de la aplicación.\n \nPulsando en el botón con la imagen de la casa, se volverá al menú inicial.</string>
+
+    <!-- Development strings -->
     <string name="todo">TODO</string>
+    <string name="en_desarrollo">EN DESARROLLO</string>
 
 </resources>
