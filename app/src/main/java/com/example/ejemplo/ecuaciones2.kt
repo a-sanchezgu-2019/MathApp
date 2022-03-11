@@ -26,14 +26,15 @@ class ecuaciones2 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ecuaciones2)
 
-
-        resultadosView2.setBackgroundColor(Color.parseColor("#FFFFFF"))
-        resultadosView2.setTextColor(Color.parseColor("#000000"))
-        resultadosView4.setBackgroundColor(Color.parseColor("#FFFFFF"))
-        resultadosView4.setTextColor(Color.parseColor("#000000"))
-        ec_1_campo_1.setTextColor(Color.parseColor("#000000"))
-        ec_1_campo_2.setTextColor(Color.parseColor("#000000"))
-        ec_1_campo.setTextColor(Color.parseColor("#000000"))
+        val blanco = "#FFFFFF"
+        val negro = "#000000"
+        resultadosView2.setBackgroundColor(Color.parseColor(blanco))
+        resultadosView2.setTextColor(Color.parseColor(negro))
+        resultadosView4.setBackgroundColor(Color.parseColor(blanco))
+        resultadosView4.setTextColor(Color.parseColor(negro))
+        ec_1_campo_1.setTextColor(Color.parseColor(negro))
+        ec_1_campo_2.setTextColor(Color.parseColor(negro))
+        ec_1_campo.setTextColor(Color.parseColor(negro))
 
 
         // Control de los campos donde el usuario introduce los datos
@@ -127,21 +128,18 @@ class ecuaciones2 : AppCompatActivity() {
 
         if (!Global.modo_noche) {
             fondo_ecuaciones_grado2.setBackgroundResource(R.drawable.fondo_ecuaciones_grado2_dia_1)
-            resultadosView2.setBackgroundColor(Color.parseColor("#000000"))
-            resultadosView2.setTextColor(Color.parseColor("#FFFFFF"))
-            resultadosView4.setBackgroundColor(Color.parseColor("#000000"))
-            resultadosView4.setTextColor(Color.parseColor("#FFFFFF"))
-            ec_1_campo.setBackgroundColor(Color.parseColor("#000000"))
-            ec_1_campo.setTextColor(Color.parseColor("#FFFFFF"))
-            ec_1_campo_1.setBackgroundColor(Color.parseColor("#000000"))
-            ec_1_campo_1.setTextColor(Color.parseColor("#FFFFFF"))
-            ec_1_campo_2.setBackgroundColor(Color.parseColor("#000000"))
-            ec_1_campo_2.setTextColor(Color.parseColor("#FFFFFF"))
+            resultadosView2.setBackgroundColor(Color.parseColor(negro))
+            resultadosView2.setTextColor(Color.parseColor(blanco))
+            resultadosView4.setBackgroundColor(Color.parseColor(negro))
+            resultadosView4.setTextColor(Color.parseColor(blanco))
+            ec_1_campo.setBackgroundColor(Color.parseColor(negro))
+            ec_1_campo.setTextColor(Color.parseColor(blanco))
+            ec_1_campo_1.setBackgroundColor(Color.parseColor(negro))
+            ec_1_campo_1.setTextColor(Color.parseColor(blanco))
+            ec_1_campo_2.setBackgroundColor(Color.parseColor(negro))
+            ec_1_campo_2.setTextColor(Color.parseColor(blanco))
         }
 
-        if (Global.idioma=="English"){
-
-        }
 
         // Botón "Casita"
         val boton1 = findViewById<ImageButton>(R.id.boton_menu_ecuaciones)
