@@ -28,26 +28,26 @@ class calculadora_trigonometrica:AppCompatActivity() {
         if (!Global.modo_noche) {
             parentesisiz.setBackgroundResource(R.drawable.fondo_calc_dia)
             resultadosTrigo.setBackgroundResource(R.drawable.fondo_resultadodia)
-            inversoBoton1.setBackgroundResource(R.drawable.inversodia)
-            eBoton1.setBackgroundResource(R.drawable.edia)
-            piBoton1.setBackgroundResource(R.drawable.pidia)
-            nueveBoton1.setBackgroundResource(R.drawable.nuevedia)
-            ochoBoton1.setBackgroundResource(R.drawable.ochodia)
-            sieteBoton1.setBackgroundResource(R.drawable.sietedia)
-            seisBoton1.setBackgroundResource(R.drawable.seisdia)
-            cincoBoton1.setBackgroundResource(R.drawable.cincodia)
-            cuatroBoton1.setBackgroundResource(R.drawable.cuatrodia)
-            tresBoton1.setBackgroundResource(R.drawable.tresdia)
-            dosBoton1.setBackgroundResource(R.drawable.dosdia)
-            unoBoton1.setBackgroundResource(R.drawable.unodia)
-            ceroBoton1.setBackgroundResource(R.drawable.cerodia)
-            comaBoton1.setBackgroundResource(R.drawable.comadia)
+            inversoBotonTrig.setBackgroundResource(R.drawable.inversodia)
+            eBotonTrig.setBackgroundResource(R.drawable.edia)
+            piBotonTrig.setBackgroundResource(R.drawable.pidia)
+            nueveBotonTrig.setBackgroundResource(R.drawable.nuevedia)
+            ochoBotonTrig.setBackgroundResource(R.drawable.ochodia)
+            sieteBotonTrig.setBackgroundResource(R.drawable.sietedia)
+            seisBotonTrig.setBackgroundResource(R.drawable.seisdia)
+            cincoBotonTrig.setBackgroundResource(R.drawable.cincodia)
+            cuatroBotonTrig.setBackgroundResource(R.drawable.cuatrodia)
+            tresBotonTrig.setBackgroundResource(R.drawable.tresdia)
+            dosBotonTrig.setBackgroundResource(R.drawable.dosdia)
+            unoBotonTrig.setBackgroundResource(R.drawable.unodia)
+            ceroBotonTrig.setBackgroundResource(R.drawable.cerodia)
+            comaBotonTrig.setBackgroundResource(R.drawable.comadia)
 
             resultadosTrigo.setTextColor(Color.parseColor("#000000") )
-            ListaOperaciones1.setTextColor(Color.parseColor("#080808") )
+            ListaOperacionesTrig.setTextColor(Color.parseColor("#080808") )
         }
 
-        gradosRadianesBoton1.setBackgroundResource(R.drawable.deg)//inicializamos el fondo del boton porque si no no sale
+        gradosRadianesBotonTrig.setBackgroundResource(R.drawable.deg)//inicializamos el fondo del boton porque si no no sale
 
         // Botón "Casita"
         val boton1 = findViewById<ImageButton>(R.id.boton_decalculadoraTrigo_amenu)
@@ -69,26 +69,26 @@ class calculadora_trigonometrica:AppCompatActivity() {
             finishAffinity()
         }
 
-        ceroBoton1.setOnClickListener { numeroPresionado(digito = "0") }
-        unoBoton1.setOnClickListener { numeroPresionado(digito = "1") }
-        dosBoton1.setOnClickListener { numeroPresionado(digito = "2") }
-        tresBoton1.setOnClickListener { numeroPresionado(digito = "3") }
-        cuatroBoton1.setOnClickListener { numeroPresionado(digito = "4") }
-        cincoBoton1.setOnClickListener { numeroPresionado(digito = "5") }
-        seisBoton1.setOnClickListener { numeroPresionado(digito = "6") }
-        sieteBoton1.setOnClickListener { numeroPresionado(digito = "7") }
-        ochoBoton1.setOnClickListener { numeroPresionado(digito = "8") }
-        nueveBoton1.setOnClickListener { numeroPresionado(digito = "9") }
+        ceroBotonTrig.setOnClickListener { numeroPresionado(digito = "0") }
+        unoBotonTrig.setOnClickListener { numeroPresionado(digito = "1") }
+        dosBotonTrig.setOnClickListener { numeroPresionado(digito = "2") }
+        tresBotonTrig.setOnClickListener { numeroPresionado(digito = "3") }
+        cuatroBotonTrig.setOnClickListener { numeroPresionado(digito = "4") }
+        cincoBotonTrig.setOnClickListener { numeroPresionado(digito = "5") }
+        seisBotonTrig.setOnClickListener { numeroPresionado(digito = "6") }
+        sieteBotonTrig.setOnClickListener { numeroPresionado(digito = "7") }
+        ochoBotonTrig.setOnClickListener { numeroPresionado(digito = "8") }
+        nueveBotonTrig.setOnClickListener { numeroPresionado(digito = "9") }
 
-        comaBoton1.setOnClickListener { numeroPresionado(digito=".") }
+        comaBotonTrig.setOnClickListener { numeroPresionado(digito=".") }
 
         //BOTONES DE LA CALCULADORA DEL SPRINT 2
-        gradosRadianesBoton1.setOnClickListener { cambiarGradosRadianes() }
-        piBoton1.setOnClickListener { numeroPresionado(digito="π") }
-        eBoton1.setOnClickListener { numeroPresionado(digito="e") }
+        gradosRadianesBotonTrig.setOnClickListener { cambiarGradosRadianes() }
+        piBotonTrig.setOnClickListener { numeroPresionado(digito="π") }
+        eBotonTrig.setOnClickListener { numeroPresionado(digito="e") }
 
 
-        borrarBoton1.setOnClickListener {
+        borrarBotonTrig.setOnClickListener {
             var numeroBorrado:String
             if(resultadosTrigo.length()>0 && operacion==0){
 
@@ -96,9 +96,9 @@ class calculadora_trigonometrica:AppCompatActivity() {
                 resultadosTrigo.text=numeroBorrado
             }
 
-            if(ListaOperaciones1.length()>0){
-                var numeroBorrado2=ListaOperaciones1.text.substring(0,ListaOperaciones1.length()-1)
-                ListaOperaciones1.text=numeroBorrado2}
+            if(ListaOperacionesTrig.length()>0){
+                var numeroBorrado2=ListaOperacionesTrig.text.substring(0,ListaOperacionesTrig.length()-1)
+                ListaOperacionesTrig.text=numeroBorrado2}
 
             if(operacion!=0){
                 operacion=0
@@ -115,50 +115,50 @@ class calculadora_trigonometrica:AppCompatActivity() {
         }
 
 
-        sumaBoton1.setOnClickListener { operacionPresinado(SUMA) }
-        restaBoton1.setOnClickListener { operacionPresinado(RESTA) }
-        multboton1.setOnClickListener { operacionPresinado(MULTIPLICACION) }
-        divBoton1.setOnClickListener { operacionPresinado(DIVISION) }
+        sumaBotonTrig.setOnClickListener { operacionPresinado(SUMA) }
+        restaBotonTrig.setOnClickListener { operacionPresinado(RESTA) }
+        multbotonTrig.setOnClickListener { operacionPresinado(MULTIPLICACION) }
+        divBotonTrig.setOnClickListener { operacionPresinado(DIVISION) }
         //OPERACIONES DEL SEGUNDO SPRINT
-        raizBoton1.setOnClickListener { operacionPresinado(RAIZ) }
-        potenciaBoton1.setOnClickListener { operacionPresinado(POTENCIA) }
-        inversoBoton1.setOnClickListener { operacionPresinado(INVERSO) }
-        senoBoton1.setOnClickListener {operacionPresinado(SENO)}
-        cosenoBoton1.setOnClickListener {operacionPresinado(COSENO)}
-        tangenteBoton1.setOnClickListener {operacionPresinado(TANGENTE)}
+        raizBotonTrig.setOnClickListener { operacionPresinado(RAIZ) }
+        potenciaBotonTrig.setOnClickListener { operacionPresinado(POTENCIA) }
+        inversoBotonTrig.setOnClickListener { operacionPresinado(INVERSO) }
+        senoBotonTrig.setOnClickListener {operacionPresinado(SENO)}
+        cosenoBotonTrig.setOnClickListener {operacionPresinado(COSENO)}
+        tangenteBotonTrig.setOnClickListener {operacionPresinado(TANGENTE)}
         parentesis_iz.setOnClickListener { operacionPresinado(PARENIZ)}
         parentesis_der.setOnClickListener { operacionPresinado(PARENDER)}
         //OPERACIONES DEL TERCER SPRINT
-        porcentajeBoton1.setOnClickListener {operacionPresinado(PORCENTAJE)}
+        porcentajeBotonTrig.setOnClickListener {operacionPresinado(PORCENTAJE)}
 
 
 
-        clearBoton1.setOnClickListener {
+        clearBotonTrig.setOnClickListener {
             num1 = 0.0
             num2 = 0.0
 
             resultadosTrigo.text = ""
             operacion = SIN_OPERACION
-            ListaOperaciones1.text=""
+            ListaOperacionesTrig.text=""
         }
 
-        igualBoton1.setOnClickListener {
-            var nuevapi = ListaOperaciones1.text.toString()//tengo que hacer esto para π ya que si no no se hacer que vaya
-            ListaOperaciones1.text = "$nuevapi".replace("π","3.14159265358979323846")
-            var nuevae=ListaOperaciones1.text.toString()
-            ListaOperaciones1.text = "$nuevae".replace("e","2.71828182845904523536")
-            var nuevaporcent = ListaOperaciones1.text.toString()
-            ListaOperaciones1.text = "$nuevaporcent".replace("%","/100")
+        igualBotonTrig.setOnClickListener {
+            var nuevapi = ListaOperacionesTrig.text.toString()//tengo que hacer esto para π ya que si no no se hacer que vaya
+            ListaOperacionesTrig.text = "$nuevapi".replace("π","3.14159265358979323846")
+            var nuevae=ListaOperacionesTrig.text.toString()
+            ListaOperacionesTrig.text = "$nuevae".replace("e","2.71828182845904523536")
+            var nuevaporcent = ListaOperacionesTrig.text.toString()
+            ListaOperacionesTrig.text = "$nuevaporcent".replace("%","/100")
 
-            resultado = igual(ListaOperaciones1.text.toString())
+            resultado = igual(ListaOperacionesTrig.text.toString())
             resultadosTrigo.text = if("$resultado".endsWith(".0")){"$resultado".replace(".0","")}else{"%.2f".format(resultado)}
 
-            var nueva1pi = ListaOperaciones1.text.toString()//esto lo hago para que se muestre "bonito" en la pantalla de la calcu
-            ListaOperaciones1.text = "$nueva1pi".replace("3.14159265358979323846","π")
-            var nueva1e=ListaOperaciones1.text.toString()
-            ListaOperaciones1.text = "$nueva1e".replace("2.71828182845904523536","e")
-            var nueva2porcent = ListaOperaciones1.text.toString()//esto lo hago para que se muestre "bonito" en la pantalla de la calcu
-            ListaOperaciones1.text = "$nueva2porcent ".replace("/100","%")
+            var nueva1pi = ListaOperacionesTrig.text.toString()//esto lo hago para que se muestre "bonito" en la pantalla de la calcu
+            ListaOperacionesTrig.text = "$nueva1pi".replace("3.14159265358979323846","π")
+            var nueva1e=ListaOperacionesTrig.text.toString()
+            ListaOperacionesTrig.text = "$nueva1e".replace("2.71828182845904523536","e")
+            var nueva2porcent = ListaOperacionesTrig.text.toString()//esto lo hago para que se muestre "bonito" en la pantalla de la calcu
+            ListaOperacionesTrig.text = "$nueva2porcent ".replace("/100","%")
         }
     }
 
@@ -258,10 +258,10 @@ class calculadora_trigonometrica:AppCompatActivity() {
     private fun numeroPresionado(digito:String) {
         if (resultadosTrigo.text=="0" && digito != "."){
             resultadosTrigo.text="$digito"
-            ListaOperaciones1.text="$digito"
+            ListaOperacionesTrig.text="$digito"
         }else{
             resultadosTrigo.text="${resultadosTrigo.text}$digito"
-            ListaOperaciones1.text="${ListaOperaciones1.text}$digito"
+            ListaOperacionesTrig.text="${ListaOperacionesTrig.text}$digito"
         }
 
         if(operacion == SIN_OPERACION){
@@ -290,74 +290,74 @@ class calculadora_trigonometrica:AppCompatActivity() {
 
         if (operacion==1){
             var ope = "+"
-            ListaOperaciones1.text="${ListaOperaciones1.text}$ope"
+            ListaOperacionesTrig.text="${ListaOperacionesTrig.text}$ope"
         }
         if(operacion==2){
             var ope = "-"
-            ListaOperaciones1.text="${ListaOperaciones1.text}$ope"
+            ListaOperacionesTrig.text="${ListaOperacionesTrig.text}$ope"
 
         }
         if(operacion==3){
             var ope = "*"
-            ListaOperaciones1.text="${ListaOperaciones1.text}$ope"
+            ListaOperacionesTrig.text="${ListaOperacionesTrig.text}$ope"
 
         }
         if(operacion==4){
             var ope = "/"
-            ListaOperaciones1.text="${ListaOperaciones1.text}$ope"
+            ListaOperacionesTrig.text="${ListaOperacionesTrig.text}$ope"
         }
 
         if(operacion==5){
             var ope="sqrt"
-            ListaOperaciones1.text="${ListaOperaciones1.text}$ope"
+            ListaOperacionesTrig.text="${ListaOperacionesTrig.text}$ope"
         }
 
         if(operacion==6){
             var ope="^"
-            ListaOperaciones1.text="${ListaOperaciones1.text}$ope"
+            ListaOperacionesTrig.text="${ListaOperacionesTrig.text}$ope"
         }
 
         if(operacion==7){
             var ope="^-1"
-            ListaOperaciones1.text="${ListaOperaciones1.text}$ope"
+            ListaOperacionesTrig.text="${ListaOperacionesTrig.text}$ope"
         }
 
         if(operacion==8){
             var ope="sin"
-            ListaOperaciones1.text="${ListaOperaciones1.text}$ope"
+            ListaOperacionesTrig.text="${ListaOperacionesTrig.text}$ope"
         }
 
         if(operacion==9){
             var ope="cos"
-            ListaOperaciones1.text="${ListaOperaciones1.text}$ope"
+            ListaOperacionesTrig.text="${ListaOperacionesTrig.text}$ope"
         }
 
         if(operacion==10){
             var ope="tan"
-            ListaOperaciones1.text="${ListaOperaciones1.text}$ope"
+            ListaOperacionesTrig.text="${ListaOperacionesTrig.text}$ope"
         }
         if(operacion==11){
             var ope="("
-            ListaOperaciones1.text="${ListaOperaciones1.text}$ope"
+            ListaOperacionesTrig.text="${ListaOperacionesTrig.text}$ope"
         }
         if(operacion==12){
             var ope=")"
-            ListaOperaciones1.text="${ListaOperaciones1.text}$ope"
+            ListaOperacionesTrig.text="${ListaOperacionesTrig.text}$ope"
         }
         if(operacion==13){
             var ope = "%"
-            ListaOperaciones1.text="${ListaOperaciones1.text}$ope"
+            ListaOperacionesTrig.text="${ListaOperacionesTrig.text}$ope"
         }
     }
 
     private fun cambiarGradosRadianes(){
         if(botonDegRad){
             botonDegRad=false
-            gradosRadianesBoton1.setBackgroundResource(R.drawable.rad)
+            gradosRadianesBotonTrig.setBackgroundResource(R.drawable.rad)
 
         }else{
             botonDegRad=true
-            gradosRadianesBoton1.setBackgroundResource(R.drawable.deg)
+            gradosRadianesBotonTrig.setBackgroundResource(R.drawable.deg)
 
         }
     }
