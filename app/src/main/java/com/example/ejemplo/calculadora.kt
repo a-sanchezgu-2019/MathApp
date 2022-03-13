@@ -4,7 +4,6 @@ import android.content.Intent
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.EditText
 import android.widget.ImageButton
 import kotlinx.android.synthetic.main.activity_calculadora.*
 
@@ -218,8 +217,12 @@ class calculadora:AppCompatActivity(){
 
     private fun operacionPresinado(operacion: Operacion) {
 
+        if(logCalculadora.operacion != Operacion.SIN_OPERACION) {
+            logCalculadora.igual()
+        }
         logCalculadora.operacion = operacion
-        resultadosView.text=""
+
+        resultadosView.text = ""
         ListaOperaciones.text = "${ListaOperaciones.text}${operacion.toString()}"
 
     }
