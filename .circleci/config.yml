@@ -46,7 +46,7 @@ jobs:
       - checkout
       - run:
           name: Analyze on SonarCloud
-          command: gradle build sonarqube"
+          command: gradle build sonarqube
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
