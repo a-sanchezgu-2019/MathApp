@@ -11,8 +11,8 @@
         android:layout_width="429dp"
         android:layout_height="789dp"
         android:background="@drawable/fondo"
-        tools:layout_editor_absoluteX="-21dp"
-        tools:layout_editor_absoluteY="8dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <ImageView
         android:id="@+id/cierraApp_calTrigo"
@@ -44,7 +44,6 @@
         android:contentDescription="imagen menu"
         android:padding="0dp"
         android:scaleType="fitXY"
-        app:layout_constraintBottom_toTopOf="@+id/guideline9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.387"
         app:layout_constraintStart_toStartOf="parent"
