@@ -11,8 +11,8 @@
         android:layout_width="429dp"
         android:layout_height="789dp"
         android:background="@drawable/fondo"
-        tools:layout_editor_absoluteX="-21dp"
-        tools:layout_editor_absoluteY="8dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <ImageView
         android:id="@+id/cierraApp_calTrigo"
@@ -44,7 +44,6 @@
         android:contentDescription="imagen menu"
         android:padding="0dp"
         android:scaleType="fitXY"
-        app:layout_constraintBottom_toTopOf="@+id/guideline9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.387"
         app:layout_constraintStart_toStartOf="parent"
@@ -108,7 +107,7 @@
 
 
     <ImageButton
-        android:id="@+id/clearBoton1"
+        android:id="@+id/clearBotonTrig"
         android:layout_width="56dp"
         android:layout_height="56dp"
         android:layout_marginTop="36dp"
@@ -126,7 +125,7 @@
         app:srcCompat="@drawable/ac" />
 
     <ImageButton
-        android:id="@+id/borrarBoton1"
+        android:id="@+id/borrarBotonTrig"
         android:layout_width="56dp"
         android:layout_height="56dp"
         android:layout_marginTop="36dp"
@@ -144,7 +143,7 @@
         app:srcCompat="@drawable/delete" />
 
     <ImageButton
-        android:id="@+id/ceroBoton1"
+        android:id="@+id/ceroBotonTrig"
         android:layout_width="56dp"
         android:layout_height="56dp"
 
@@ -156,15 +155,16 @@
         app:layout_constraintEnd_toStartOf="@+id/comaBoton1"
         app:layout_constraintHorizontal_bias="0.87"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline16" />
+        app:layout_constraintTop_toTopOf="@+id/guideline16"
+        tools:ignore="DuplicateClickableBoundsCheck" />
 
     <ImageButton
-        android:id="@+id/cincoBoton1"
+        android:id="@+id/cincoBotonTrig"
         android:layout_width="56dp"
         android:layout_height="56dp"
 
-        android:layout_marginStart="72dp"
-        android:layout_marginLeft="72dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginLeft="92dp"
         android:background="@drawable/_cinco"
         android:contentDescription="cincoBoton"
         android:padding="0dp"
@@ -173,10 +173,11 @@
         app:layout_constraintEnd_toStartOf="@+id/seisBoton1"
         app:layout_constraintHorizontal_bias="0.65"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline14" />
+        app:layout_constraintTop_toTopOf="@+id/guideline14"
+        app:layout_constraintVertical_bias="0.529" />
 
     <ImageButton
-        android:id="@+id/cuatroBoton1"
+        android:id="@+id/cuatroBotonTrig"
         android:layout_width="56dp"
         android:layout_height="56dp"
 
@@ -191,7 +192,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline14" />
 
     <ImageButton
-        android:id="@+id/nueveBoton1"
+        android:id="@+id/nueveBotonTrig"
         android:layout_width="56dp"
         android:layout_height="56dp"
 
@@ -201,11 +202,13 @@
         android:scaleType="centerInside"
         app:layout_constraintBottom_toTopOf="@+id/guideline14"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline12" />
+        app:layout_constraintTop_toTopOf="@+id/guideline12"
+        app:layout_constraintVertical_bias="0.529" />
 
     <ImageButton
-        android:id="@+id/ochoBoton1"
+        android:id="@+id/ochoBotonTrig"
         android:layout_width="56dp"
         android:layout_height="56dp"
 
@@ -220,7 +223,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline12" />
 
     <ImageButton
-        android:id="@+id/seisBoton1"
+        android:id="@+id/seisBotonTrig"
         android:layout_width="56dp"
         android:layout_height="56dp"
 
@@ -230,14 +233,18 @@
         android:scaleType="centerInside"
         app:layout_constraintBottom_toTopOf="@+id/guideline15"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline14" />
+        app:layout_constraintTop_toTopOf="@+id/guideline14"
+        app:layout_constraintVertical_bias="0.529" />
 
     <ImageButton
-        android:id="@+id/sieteBoton1"
+        android:id="@+id/sieteBotonTrig"
         android:layout_width="56dp"
         android:layout_height="56dp"
 
+        android:layout_marginStart="92dp"
+        android:layout_marginLeft="92dp"
         android:background="@drawable/_seis"
         android:contentDescription="siete boton"
         android:padding="0dp"
@@ -247,10 +254,10 @@
         app:layout_constraintHorizontal_bias="0.214"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline12"
-        app:layout_constraintVertical_bias="0.521" />
+        app:layout_constraintVertical_bias="0.529" />
 
     <ImageButton
-        android:id="@+id/dosBoton1"
+        android:id="@+id/dosBotonTrig"
         android:layout_width="56dp"
         android:layout_height="56dp"
 
@@ -265,7 +272,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline15" />
 
     <ImageButton
-        android:id="@+id/tresBoton1"
+        android:id="@+id/tresBotonTrig"
         android:layout_width="56dp"
         android:layout_height="56dp"
 
@@ -275,14 +282,18 @@
         android:scaleType="centerInside"
         app:layout_constraintBottom_toTopOf="@+id/guideline16"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline15" />
+        app:layout_constraintTop_toTopOf="@+id/guideline15"
+        app:layout_constraintVertical_bias="0.529" />
 
     <ImageButton
-        android:id="@+id/unoBoton1"
+        android:id="@+id/unoBotonTrig"
         android:layout_width="56dp"
         android:layout_height="56dp"
 
+        android:layout_marginStart="92dp"
+        android:layout_marginLeft="92dp"
         android:background="@drawable/uno"
         android:contentDescription="uno boton"
         android:padding="0dp"
@@ -292,13 +303,15 @@
         app:layout_constraintHorizontal_bias="0.214"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline15"
-        app:layout_constraintVertical_bias="0.521" />
+        app:layout_constraintVertical_bias="0.529" />
 
     <ImageButton
-        android:id="@+id/igualBoton1"
+        android:id="@+id/igualBotonTrig"
         android:layout_width="56dp"
         android:layout_height="56dp"
 
+        android:layout_marginStart="92dp"
+        android:layout_marginLeft="92dp"
         android:contentDescription="igual boton"
         android:padding="0dp"
         android:scaleType="centerInside"
@@ -307,10 +320,11 @@
         app:layout_constraintHorizontal_bias="0.214"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline16"
+        app:layout_constraintVertical_bias="0.529"
         app:srcCompat="@drawable/igual" />
 
     <ImageButton
-        android:id="@+id/comaBoton1"
+        android:id="@+id/comaBotonTrig"
         android:layout_width="56dp"
         android:layout_height="56dp"
 
@@ -320,11 +334,13 @@
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline16" />
+        app:layout_constraintTop_toTopOf="@+id/guideline16"
+        app:layout_constraintVertical_bias="0.529" />
 
     <ImageButton
-        android:id="@+id/sumaBoton1"
+        android:id="@+id/sumaBotonTrig"
         android:layout_width="56dp"
         android:layout_height="56dp"
 
@@ -339,12 +355,12 @@
         app:srcCompat="@drawable/mas" />
 
     <ImageButton
-        android:id="@+id/potenciaBoton1"
+        android:id="@+id/potenciaBotonTrig"
         android:layout_width="56dp"
         android:layout_height="56dp"
 
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginRight="84dp"
         android:contentDescription="potenciaBoton"
         android:padding="0dp"
         android:scaleType="centerInside"
@@ -354,10 +370,11 @@
         app:layout_constraintHorizontal_bias="0.958"
         app:layout_constraintStart_toEndOf="@+id/comaBoton1"
         app:layout_constraintTop_toTopOf="@+id/guideline16"
+        app:layout_constraintVertical_bias="0.529"
         tools:srcCompat="@drawable/potencia" />
 
     <ImageButton
-        android:id="@+id/restaBoton1"
+        android:id="@+id/restaBotonTrig"
         android:layout_width="56dp"
         android:layout_height="56dp"
         android:layout_marginEnd="84dp"
@@ -373,7 +390,7 @@
         app:srcCompat="@drawable/menos" />
 
     <ImageButton
-        android:id="@+id/divBoton1"
+        android:id="@+id/divBotonTrig"
         android:layout_width="56dp"
         android:layout_height="56dp"
         android:contentDescription="div boton"
@@ -387,7 +404,7 @@
         app:srcCompat="@drawable/div" />
 
     <ImageButton
-        android:id="@+id/multboton1"
+        android:id="@+id/multbotonTrig"
         android:layout_width="56dp"
         android:layout_height="56dp"
         android:contentDescription="mult boton"
@@ -401,7 +418,7 @@
         app:srcCompat="@drawable/x" />
 
     <ImageButton
-        android:id="@+id/inversoBoton1"
+        android:id="@+id/inversoBotonTrig"
         android:layout_width="56dp"
         android:layout_height="56dp"
         android:layout_marginEnd="84dp"
@@ -418,7 +435,7 @@
         tools:srcCompat="@drawable/inverso" />
 
     <ImageButton
-        android:id="@+id/porcentajeBoton1"
+        android:id="@+id/porcentajeBotonTrig"
         android:layout_width="56dp"
         android:layout_height="56dp"
         android:layout_marginTop="36dp"
@@ -435,7 +452,7 @@
         tools:srcCompat="@drawable/porcentaje" />
 
     <ImageButton
-        android:id="@+id/piBoton1"
+        android:id="@+id/piBotonTrig"
         android:layout_width="56dp"
         android:layout_height="56dp"
         android:background="@drawable/pi"
@@ -449,9 +466,11 @@
         tools:srcCompat="@drawable/pi" />
 
     <ImageButton
-        android:id="@+id/eBoton1"
+        android:id="@+id/eBotonTrig"
         android:layout_width="56dp"
         android:layout_height="56dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginLeft="92dp"
         android:background="@drawable/e"
         android:contentDescription="e boton"
         android:padding="0dp"
@@ -461,14 +480,15 @@
         app:layout_constraintHorizontal_bias="0.875"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline13"
+        app:layout_constraintVertical_bias="0.47"
         tools:srcCompat="@drawable/e" />
 
     <ImageButton
-        android:id="@+id/cosenoBoton1"
+        android:id="@+id/cosenoBotonTrig"
         android:layout_width="56dp"
         android:layout_height="56dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginRight="84dp"
         android:contentDescription="coseno"
         android:padding="0dp"
         android:scaleType="centerInside"
@@ -478,10 +498,11 @@
         app:layout_constraintHorizontal_bias="0.958"
         app:layout_constraintStart_toEndOf="@+id/seisBoton1"
         app:layout_constraintTop_toTopOf="@+id/guideline14"
+        app:layout_constraintVertical_bias="0.529"
         tools:srcCompat="@drawable/coseno" />
 
     <ImageButton
-        android:id="@+id/raizBoton1"
+        android:id="@+id/raizBotonTrig"
         android:layout_width="56dp"
         android:layout_height="56dp"
         android:contentDescription="raiz boton"
@@ -496,11 +517,11 @@
         tools:srcCompat="@drawable/raiz" />
 
     <ImageButton
-        android:id="@+id/gradosRadianesBoton1"
+        android:id="@+id/gradosRadianesBotonTrig"
         android:layout_width="56dp"
         android:layout_height="56dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginRight="84dp"
         android:contentDescription="grados a radianes"
         android:padding="0dp"
         android:scaleType="centerInside"
@@ -509,14 +530,15 @@
         app:layout_constraintHorizontal_bias="0.958"
         app:layout_constraintStart_toEndOf="@+id/inversoBoton1"
         app:layout_constraintTop_toTopOf="@+id/guideline13"
+        app:layout_constraintVertical_bias="0.47"
         tools:srcCompat="@drawable/deg" />
 
     <ImageButton
-        android:id="@+id/senoBoton1"
+        android:id="@+id/senoBotonTrig"
         android:layout_width="56dp"
         android:layout_height="56dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginRight="84dp"
         android:contentDescription="seno"
         android:padding="0dp"
         android:scaleType="centerInside"
@@ -526,11 +548,11 @@
         app:layout_constraintHorizontal_bias="0.965"
         app:layout_constraintStart_toEndOf="@+id/nueveBoton1"
         app:layout_constraintTop_toTopOf="@+id/guideline12"
-        app:layout_constraintVertical_bias="0.521"
+        app:layout_constraintVertical_bias="0.529"
         tools:srcCompat="@drawable/seno" />
 
     <ImageButton
-        android:id="@+id/tangenteBoton1"
+        android:id="@+id/tangenteBotonTrig"
         android:layout_width="56dp"
         android:layout_height="56dp"
         android:contentDescription="tangente"
@@ -572,7 +594,7 @@
         app:layout_constraintVertical_bias="0.013" />
 
     <TextView
-        android:id="@+id/ListaOperaciones1"
+        android:id="@+id/ListaOperacionesTrig"
         android:layout_width="224dp"
         android:layout_height="24dp"
         android:textColor="#FFFFFF"

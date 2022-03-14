@@ -4,22 +4,14 @@ import android.content.Intent
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.EditText
 import android.widget.ImageButton
 import kotlinx.android.synthetic.main.activity_calculadora.*
-import kotlinx.android.synthetic.main.activity_calculadora_trigonometrica.*
-import kotlin.math.truncate
 
 class calculadora:AppCompatActivity(){
-    private var num1:Double=0.0
-    private var num2 : Double = 0.0
-    private var resultado : Double = 0.0
 
-    private var operacion: Int = 0
-
+    private var logCalculadora: LogicaCalculadora = LogicaCalculadora()
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        lateinit var editText: EditText
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_calculadora)
 
@@ -58,7 +50,6 @@ class calculadora:AppCompatActivity(){
 
 
         cierreBoton.setOnClickListener {
-            val salida = Intent(Intent.ACTION_MAIN)
             finishAffinity()
         }
 
@@ -75,266 +66,84 @@ class calculadora:AppCompatActivity(){
 
         comaBoton.setOnClickListener { numeroPresionado(digito=".") }
         borrarBoton.setOnClickListener {
-            var numeroBorrado:String
-            if(resultadosView.length()>0 && operacion==0){
+            val numeroBorrado:String
+            if(resultadosView.length()>0 && logCalculadora.operacion == Operacion.SIN_OPERACION){
 
                 numeroBorrado=resultadosView.text.substring(0,resultadosView.length()-1)
                 resultadosView.text=numeroBorrado
             }
 
             if(ListaOperaciones.length()>0){
-            var numeroBorrado2=ListaOperaciones.text.substring(0,ListaOperaciones.length()-1)
-            ListaOperaciones.text=numeroBorrado2}
-
-            if(operacion!=0){
-                operacion=0
-                num2=0.0
+                val numeroBorrado2=ListaOperaciones.text.substring(0,ListaOperaciones.length()-1)
+                ListaOperaciones.text=numeroBorrado2
             }
 
-            if(num2==0.0 && operacion!=0){
-                var num = truncate(num1/10)
-                num1=num
-            }else{
-                var num = truncate(num2/10)
-                num2=num
-            }
+            logCalculadora.borrar()
+
         }
 
 
-        sumaBoton.setOnClickListener { operacionPresinado(SUMA) }
-        restaBoton.setOnClickListener { operacionPresinado(RESTA) }
-        multBoton.setOnClickListener { operacionPresinado(MULTIPLICACION) }
-        divBoton.setOnClickListener { operacionPresinado(DIVISION) }
-        porcentajeBoton.setOnClickListener {operacionPresinado(PORCENTAJE) }
+        sumaBoton.setOnClickListener { operacionPresinado(Operacion.SUMA) }
+        restaBoton.setOnClickListener { operacionPresinado(Operacion.RESTA) }
+        multBoton.setOnClickListener { operacionPresinado(Operacion.MULTIPLICACION) }
+        divBoton.setOnClickListener { operacionPresinado(Operacion.DIVISION) }
+        porcentajeBoton.setOnClickListener {operacionPresinado(Operacion.PORCENTAJE) }
 
         clearBoton.setOnClickListener {
-            num1 = 0.0
-            num2 = 0.0
+
+            logCalculadora.clear()
 
             resultadosView.text = ""
-            operacion = SIN_OPERACION
             ListaOperaciones.text=""
         }
 
         igualBoton.setOnClickListener {
 
-            var porcent = ListaOperaciones.text.toString()
-            ListaOperaciones.text = "$porcent".replace("%","/100")
+            val porcent = ListaOperaciones.text.toString()
+            ListaOperaciones.text = porcent.replace("%","/100")
 
-            resultado = igual(ListaOperaciones.text.toString())
+            val resultado = igual()
             resultadosView.text = if("$resultado".endsWith(".0")){"$resultado".replace(".0","")}else{"%.2f".format(resultado)}
 
-            var porcent2 = ListaOperaciones.text.toString()//esto lo hago para que se muestre "bonito" en la pantalla de la calcu
-            ListaOperaciones.text = "$porcent2 ".replace("/100","%")
+            val porcent2 = ListaOperaciones.text.toString()//esto lo hago para que se muestre "bonito" en la pantalla de la calcu
+            ListaOperaciones.text = porcent2.replace("/100","%")
         }
     }
 
 
 
-        private fun igual(str: String): Double {
+        private fun igual(): Double {
 
-            return object : Any() {
-                var pos = -1
-                var ch = 0
-                fun nextChar() {
-                    ch = if (++pos < str.length) str[pos].toInt() else -1
-                }
-
-                fun eat(charToEat: Int): Boolean {
-                    while (ch == ' '.toInt()) nextChar()
-                    if (ch == charToEat) {
-                        nextChar()
-                        return true
-                    }
-                    return false
-                }
-
-                fun parse(): Double {
-                    nextChar()
-                    val x = parseExpression()
-                    if (pos < str.length) throw RuntimeException("Unexpected: " + ch.toChar())
-                    return x
-                }
-
-                // Grammar:
-                // expression = term | expression `+` term | expression `-` term
-                // term = factor | term `*` factor | term `/` factor
-                // factor = `+` factor | `-` factor | `(` expression `)`
-                //        | number | functionName factor | factor `^` factor
-                fun parseExpression(): Double {
-                    var x = parseTerm()
-                    while (true) {
-                        if (eat('+'.toInt())) x += parseTerm() // addition
-                        else if (eat('-'.toInt())) x -= parseTerm() // subtraction
-                        else return x
-                    }
-                }
-
-                fun parseTerm(): Double {
-                    var x = parseFactor()
-                    while (true) {
-                        if (eat('*'.toInt())) x *= parseFactor() // multiplication
-                        else if (eat('/'.toInt())) x /= parseFactor() // division
-                        else return x
-                    }
-                }
-
-                fun parseFactor(): Double {
-                    if (eat('+'.toInt())) return parseFactor() // unary plus
-                    if (eat('-'.toInt())) return -parseFactor() // unary minus
-                    var x: Double
-                    val startPos = pos
-                    if (eat('('.toInt())) { // parentheses
-                        x = parseExpression()
-                        eat(')'.toInt())
-                    } else if (ch >= '0'.toInt() && ch <= '9'.toInt() || ch == '.'.toInt()) { // numbers
-                        while (ch >= '0'.toInt() && ch <= '9'.toInt() || ch == '.'.toInt()) nextChar()
-                        x = str.substring(startPos, pos).toDouble()
-                    } else if (ch >= 'a'.toInt() && ch <= 'z'.toInt()) { // functions
-                        while (ch >= 'a'.toInt() && ch <= 'z'.toInt()) nextChar()
-                        val func = str.substring(startPos, pos)
-                        x = parseFactor()
-                        x =
-                            if (func == "sqrt") Math.sqrt(x) else if (func == "sin") Math.sin(
-                                Math.toRadians(
-                                    x
-                                )
-                            ) else if (func == "cos") Math.cos(
-                                Math.toRadians(x)
-                            ) else if (func == "tan") Math.tan(Math.toRadians(x)) else throw RuntimeException(
-                                "Unknown function: $func"
-                            )
-                    } else {
-                        throw RuntimeException("Unexpected: " + ch.toChar())
-                    }
-                    if (eat('^'.toInt())) x = Math.pow(x, parseFactor()) // exponentiation
-                    return x
-                }
-            }.parse()
-
-
-
-            /*   lo que esta debajo era como lo haciamos sin tener en cuenta la prioridad
-            if(!muestro){
-                   var resultado = when (operacion) {
-                       SUMA -> num1 + num2
-                       RESTA -> num1 - num2
-                       MULTIPLICACION -> num1 * num2
-                       DIVISION -> num1 / num2
-                       else -> 0
-
-                   }
-                   num1=resultado.toString().toDouble()
-                   resultadosView.text = if("$resultado".endsWith(".0")){"$resultado".replace(".0","")}else{"%.2f".format(resultado)}
-
-               }else{
-                   var resultado = when (operacion) {
-                       SUMA -> num1 + num2
-                       RESTA -> num1 - num2
-                       MULTIPLICACION -> num1 * num2
-                       DIVISION -> num1 / num2
-                       else -> 0
-
-                   }
-                   resultadosView.text = if("$resultado".endsWith(".0")){"$resultado".replace(".0","")}else{"%.2f".format(resultado)}
-                   num1=resultado.toString().toDouble()
-                   num2=0.0
-               }
-
-
-               ListaOperaciones.text=if("$num1".endsWith(".0")){"$num1".replace(".0","")}else{"%.2f".format(num1)}
-       */
-
+            return logCalculadora.igual()
 
         }
-    /*
-        if(!muestro){
-            var resultado = when (operacion) {
-                SUMA -> num1 + num2
-                RESTA -> num1 - num2
-                MULTIPLICACION -> num1 * num2
-                DIVISION -> num1 / num2
-                else -> 0
-
-            }
-            num1=resultado.toString().toDouble()
-            resultadosView.text = if("$resultado".endsWith(".0")){"$resultado".replace(".0","")}else{"%.2f".format(resultado)}
-
-        }else{
-            var resultado = when (operacion) {
-                SUMA -> num1 + num2
-                RESTA -> num1 - num2
-                MULTIPLICACION -> num1 * num2
-                DIVISION -> num1 / num2
-                else -> 0
-
-            }
-            resultadosView.text = if("$resultado".endsWith(".0")){"$resultado".replace(".0","")}else{"%.2f".format(resultado)}
-            num1=resultado.toString().toDouble()
-            num2=0.0
-        }
-
-
-        ListaOperaciones.text=if("$num1".endsWith(".0")){"$num1".replace(".0","")}else{"%.2f".format(num1)}
-
-*/
 
 
 
     private fun numeroPresionado(digito:String) {
+
         if (resultadosView.text=="0" && digito != "."){
-            resultadosView.text="$digito"
-            ListaOperaciones.text="$digito"
+            resultadosView.text= digito
+            ListaOperaciones.text= digito
         }else{
             resultadosView.text="${resultadosView.text}$digito"
             ListaOperaciones.text="${ListaOperaciones.text}$digito"
         }
 
-        if(operacion ==SIN_OPERACION){
-            num1=resultadosView.text.toString().toDouble()
-        }else{
-                num2=resultadosView.text.toString().toDouble()
-        }
-    }
-
-    private fun operacionPresinado(operacion:Int) {
-
-        this.operacion=operacion
-        resultadosView.text=""
-
-        if (operacion==1){
-            var ope = "+"
-            ListaOperaciones.text="${ListaOperaciones.text}$ope"
-        }
-        if(operacion==2){
-            var ope = "-"
-            ListaOperaciones.text="${ListaOperaciones.text}$ope"
-
-        }
-        if(operacion==3){
-            var ope = "*"
-            ListaOperaciones.text="${ListaOperaciones.text}$ope"
-
-        }
-        if(operacion==4){
-            var ope = "/"
-            ListaOperaciones.text="${ListaOperaciones.text}$ope"
-        }
-
-        if(operacion==5){
-            var ope = "%"
-            ListaOperaciones.text="${ListaOperaciones.text}$ope"
-        }
+        logCalculadora.numeroPresionado(digito)
 
     }
 
-    companion object {
-        const val SUMA=1
-        const val RESTA = 2
-        const val MULTIPLICACION =3
-        const val DIVISION = 4
-        const val SIN_OPERACION=0
-        const val PORCENTAJE=5
+    private fun operacionPresinado(operacion: Operacion) {
+
+        if(logCalculadora.operacion != Operacion.SIN_OPERACION) {
+            logCalculadora.igual()
+        }
+        logCalculadora.operacion = operacion
+
+        resultadosView.text = ""
+        ListaOperaciones.text = "${ListaOperaciones.text}${operacion.toString()}"
 
     }
+
 }
