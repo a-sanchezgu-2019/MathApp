@@ -12,7 +12,6 @@ class calculadora:AppCompatActivity(){
     private var logCalculadora: LogicaCalculadora = LogicaCalculadora()
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        //lateinit var editText: EditText
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_calculadora)
 
@@ -51,7 +50,6 @@ class calculadora:AppCompatActivity(){
 
 
         cierreBoton.setOnClickListener {
-            //val salida = Intent(Intent.ACTION_MAIN)
             finishAffinity()
         }
 
@@ -104,7 +102,7 @@ class calculadora:AppCompatActivity(){
             val porcent = ListaOperaciones.text.toString()
             ListaOperaciones.text = porcent.replace("%","/100")
 
-            val resultado = igual(/*ListaOperaciones.text.toString()*/)
+            val resultado = igual()
             resultadosView.text = if("$resultado".endsWith(".0")){"$resultado".replace(".0","")}else{"%.2f".format(resultado)}
 
             val porcent2 = ListaOperaciones.text.toString()//esto lo hago para que se muestre "bonito" en la pantalla de la calcu
@@ -114,86 +112,7 @@ class calculadora:AppCompatActivity(){
 
 
 
-        private fun igual(/*str: String*/): Double {
-            // Original Block (Commented by Adri)
-            /*return object : Any() {
-                var pos = -1
-                var ch = 0
-                fun nextChar() {
-                    ch = if (++pos < str.length) str[pos].toInt() else -1
-                }
-
-                fun eat(charToEat: Int): Boolean {
-                    while (ch == ' '.toInt()) nextChar()
-                    if (ch == charToEat) {
-                        nextChar()
-                        return true
-                    }
-                    return false
-                }
-
-                fun parse(): Double {
-                    nextChar()
-                    val x = parseExpression()
-                    if (pos < str.length) throw RuntimeException("Unexpected: " + ch.toChar())
-                    return x
-                }
-
-                // Grammar:
-                // expression = term | expression `+` term | expression `-` term
-                // term = factor | term `*` factor | term `/` factor
-                // factor = `+` factor | `-` factor | `(` expression `)`
-                //        | number | functionName factor | factor `^` factor
-                fun parseExpression(): Double {
-                    var x = parseTerm()
-                    while (true) {
-                        if (eat('+'.toInt())) x += parseTerm() // addition
-                        else if (eat('-'.toInt())) x -= parseTerm() // subtraction
-                        else return x
-                    }
-                }
-
-                fun parseTerm(): Double {
-                    var x = parseFactor()
-                    while (true) {
-                        if (eat('*'.toInt())) x *= parseFactor() // multiplication
-                        else if (eat('/'.toInt())) x /= parseFactor() // division
-                        else return x
-                    }
-                }
-
-                fun parseFactor(): Double {
-                    if (eat('+'.toInt())) return parseFactor() // unary plus
-                    if (eat('-'.toInt())) return -parseFactor() // unary minus
-                    var x: Double
-                    val startPos = pos
-                    if (eat('('.toInt())) { // parentheses
-                        x = parseExpression()
-                        eat(')'.toInt())
-                    } else if (ch >= '0'.toInt() && ch <= '9'.toInt() || ch == '.'.toInt()) { // numbers
-                        while (ch >= '0'.toInt() && ch <= '9'.toInt() || ch == '.'.toInt()) nextChar()
-                        x = str.substring(startPos, pos).toDouble()
-                    } else if (ch >= 'a'.toInt() && ch <= 'z'.toInt()) { // functions
-                        while (ch >= 'a'.toInt() && ch <= 'z'.toInt()) nextChar()
-                        val func = str.substring(startPos, pos)
-                        x = parseFactor()
-                        x =
-                            if (func == "sqrt") Math.sqrt(x) else if (func == "sin") Math.sin(
-                                Math.toRadians(
-                                    x
-                                )
-                            ) else if (func == "cos") Math.cos(
-                                Math.toRadians(x)
-                            ) else if (func == "tan") Math.tan(Math.toRadians(x)) else throw RuntimeException(
-                                "Unknown function: $func"
-                            )
-                    } else {
-                        throw RuntimeException("Unexpected: " + ch.toChar())
-                    }
-                    if (eat('^'.toInt())) x = Math.pow(x, parseFactor()) // exponentiation
-                    return x
-                }
-            }.parse()*/
+        private fun igual(): Double {
 
             return logCalculadora.igual()
 
