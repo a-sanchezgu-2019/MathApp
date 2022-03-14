@@ -2,6 +2,7 @@ package com.example.ejemplo
 
 import android.app.PendingIntent
 import android.app.PendingIntent.getActivity
+import android.view.View
 import androidx.test.espresso.Espresso.onView
 import androidx.test.espresso.action.ViewActions.click
 import androidx.test.espresso.action.ViewActions.typeText
@@ -9,6 +10,8 @@ import androidx.test.espresso.assertion.ViewAssertions.matches
 import androidx.test.espresso.matcher.ViewMatchers.*
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
+import kotlinx.android.synthetic.main.activity_ecuaciones.*
+import kotlinx.android.synthetic.main.activity_ecuaciones2.*
 
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -36,5 +39,13 @@ fun test_escritura_campo ()  {
     onView(withId(R.id.ec_1_campo)).perform(typeText("2"))
     onView(withId(R.id.ec_1_campo)).check(matches(withText("2")))
 }
+@Test
+fun escritura_campo2 (){
+    onView(withId(R.id.ec_1_campo_1)).perform(click())
+    onView(withId(R.id.ec_1_campo_1)).perform(typeText("2"))
+    onView(withId(R.id.ec_1_campo_1)).check(matches(withText("2")))
+}
+
+
 
 }
