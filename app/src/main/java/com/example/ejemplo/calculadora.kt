@@ -214,71 +214,8 @@ class calculadora:AppCompatActivity(){
 
 
 
-            /*   lo que esta debajo era como lo haciamos sin tener en cuenta la prioridad
-            if(!muestro){
-                   var resultado = when (operacion) {
-                       SUMA -> num1 + num2
-                       RESTA -> num1 - num2
-                       MULTIPLICACION -> num1 * num2
-                       DIVISION -> num1 / num2
-                       else -> 0
-
-                   }
-                   num1=resultado.toString().toDouble()
-                   resultadosView.text = if("$resultado".endsWith(".0")){"$resultado".replace(".0","")}else{"%.2f".format(resultado)}
-
-               }else{
-                   var resultado = when (operacion) {
-                       SUMA -> num1 + num2
-                       RESTA -> num1 - num2
-                       MULTIPLICACION -> num1 * num2
-                       DIVISION -> num1 / num2
-                       else -> 0
-
-                   }
-                   resultadosView.text = if("$resultado".endsWith(".0")){"$resultado".replace(".0","")}else{"%.2f".format(resultado)}
-                   num1=resultado.toString().toDouble()
-                   num2=0.0
-               }
-
-
-               ListaOperaciones.text=if("$num1".endsWith(".0")){"$num1".replace(".0","")}else{"%.2f".format(num1)}
-       */
-
 
         }
-    /*
-        if(!muestro){
-            var resultado = when (operacion) {
-                SUMA -> num1 + num2
-                RESTA -> num1 - num2
-                MULTIPLICACION -> num1 * num2
-                DIVISION -> num1 / num2
-                else -> 0
-
-            }
-            num1=resultado.toString().toDouble()
-            resultadosView.text = if("$resultado".endsWith(".0")){"$resultado".replace(".0","")}else{"%.2f".format(resultado)}
-
-        }else{
-            var resultado = when (operacion) {
-                SUMA -> num1 + num2
-                RESTA -> num1 - num2
-                MULTIPLICACION -> num1 * num2
-                DIVISION -> num1 / num2
-                else -> 0
-
-            }
-            resultadosView.text = if("$resultado".endsWith(".0")){"$resultado".replace(".0","")}else{"%.2f".format(resultado)}
-            num1=resultado.toString().toDouble()
-            num2=0.0
-        }
-
-
-        ListaOperaciones.text=if("$num1".endsWith(".0")){"$num1".replace(".0","")}else{"%.2f".format(num1)}
-
-*/
-
 
 
     private fun numeroPresionado(digito:String) {
