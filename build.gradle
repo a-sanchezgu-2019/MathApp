@@ -27,11 +27,11 @@ sonarqube {
 }
 
 
-/*android {
+android {
       lintOptions {
           abortOnError false
       }
-}*/
+}
 
 allprojects {
     repositories {
