@@ -7,7 +7,7 @@ import kotlin.math.sqrt
 class logicaEcuaciones {
 
 
-    public  fun  operacion(elevado_2: Double, elevado_1: Double, elevado_0: Double): Double{
+    public  fun  operacion(elevado_2: Double, elevado_1: Double, elevado_0: Double): Map<Double, Double>{
         var resultado_1= "inf"
         var resultado_2= "inf"
         var resultado_parteReal= "inf"
