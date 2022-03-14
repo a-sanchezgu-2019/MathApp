@@ -10,7 +10,7 @@ import kotlinx.android.synthetic.main.activity_calculadora.*
 import kotlinx.android.synthetic.main.activity_calculadora_trigonometrica.*
 import kotlin.math.truncate
 
-class calculadora:AppCompatActivity(){
+class Calculadora:AppCompatActivity(){
     private var num1:Double=0.0
     private var num2 : Double = 0.0
     private var resultado : Double = 0.0

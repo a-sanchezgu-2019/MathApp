@@ -11,9 +11,9 @@
         android:theme="@style/AppTheme">
         <activity android:name=".ecuaciones2"></activity>
         <activity android:name=".ecuaciones" />
-        <activity android:name=".activity_ayuda" />
+        <activity android:name=".Activity_ayuda" />
         <activity android:name=".configuracion" />
-        <activity android:name=".calculadora" />
+        <activity android:name=".Calculadora" />
         <activity android:name=".menu" />
         <activity android:name=".calculadora_trigonometrica" />
         <activity android:name=".MainActivity" android:exported="true">
