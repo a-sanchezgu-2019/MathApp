@@ -1,0 +1,534 @@
+[
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_boton_ecuaciones_grado2.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\boton_ecuaciones_grado2.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_mas_noche.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\mas_noche.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ecuaciones_grado_1.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\ecuaciones_grado_1.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_on.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\on.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_img9.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\img9.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_fondo_resultadodia.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\fondo_resultadodia.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable__cero.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\_cero.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_modo_noche_eng.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\modo_noche_eng.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_fondomenudef.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\fondomenudef.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_endesarrollo_eng.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\endesarrollo_eng.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_configuracion.xml.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\layout\\activity_configuracion.xml"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_igual.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\igual.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_cincodia.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\cincodia.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_e.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\e.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_comadia.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\comadia.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_coseno.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\coseno.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_dosdia.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\dosdia.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_boton_ecuaciones_grado2_eng.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\boton_ecuaciones_grado2_eng.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_inverso.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\inverso.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_calculadora.xml.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\layout\\activity_calculadora.xml"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_x_noche.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\x_noche.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_img7.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\img7.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable__cinco.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\_cinco.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_inversodia.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\inversodia.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_seno.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\seno.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_tres.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\tres.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_dos.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\dos.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_pidia.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\pidia.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable__nueve.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\_nueve.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_cero_noche.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\cero_noche.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_spanish.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\spanish.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ochodia.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\ochodia.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_fondomenu.jpeg.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\fondomenu.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_potencia.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\potencia.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_botonmenu1.jpeg.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\botonmenu1.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_parentesis_izq.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\parentesis_izq.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_parentesis_dere.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\parentesis_dere.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ayuda.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\ayuda.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_ayuda.xml.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\layout\\activity_ayuda.xml"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_img6.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\img6.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable__ocho.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\_ocho.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_calculadora_trigo_1_2.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\calculadora_trigo_1_2.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_x_dia.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\x_dia.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_off.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\off.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_cuatrodia.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\cuatrodia.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_fondo_menu_dia.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\fondo_menu_dia.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_im1.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\im1.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_calculadora_trigonometrica.xml.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\layout\\activity_calculadora_trigonometrica.xml"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_mas.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\mas.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_fondo_ecuaciones_grado2_noche_2.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\fondo_ecuaciones_grado2_noche_2.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_mas_dia.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\mas_dia.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_whatsapp_image_2021_10_12_at_12_30_29.jpeg.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\whatsapp_image_2021_10_12_at_12_30_29.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_edia.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\edia.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable__seis.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\_seis.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_img5.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\img5.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_menu_1_2.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\menu_1_2.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_redondo.xml.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\redondo.xml"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_modo_noche_dia.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\modo_noche_dia.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_menos.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\menos.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable__4227.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\_4227.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_nuevedia.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\nuevedia.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_clear.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\clear.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_calculadora_cientifica.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\calculadora_cientifica.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_fondo_ecuaciones_grado2_dia_1.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\fondo_ecuaciones_grado2_dia_1.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_delete.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\delete.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_modo_noche_dia_eng.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\modo_noche_dia_eng.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_seisdia.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\seisdia.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_ecuaciones.xml.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\layout\\activity_ecuaciones.xml"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_calculadora_cientifica_eng.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\calculadora_cientifica_eng.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_pi.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\pi.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_sietedia.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\sietedia.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_uno.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\uno.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_igual_dia.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\igual_dia.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_fondo_resultado.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\fondo_resultado.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_botonendesarrollodef.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\botonendesarrollodef.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable__cuatro.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\_cuatro.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_porcentaje.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\porcentaje.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_idioma_eng.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\idioma_eng.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_cerodia.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\cerodia.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_tangente.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\tangente.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_fondo.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\fondo.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_unodia.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\unodia.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_tresdia.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\tresdia.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ecuaciones_grado_1_eng.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\ecuaciones_grado_1_eng.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ajustes_mini.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\ajustes_mini.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ajustes_1_2.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\ajustes_1_2.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_fondo_ecuaciones_grado2_dia_2.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\fondo_ecuaciones_grado2_dia_2.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_fondo_ecuaciones_grado2_noche_1.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\fondo_ecuaciones_grado2_noche_1.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_calculadora_eng.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\calculadora_eng.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_english.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\english.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_div.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\div.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_rad.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\rad.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_idioma_dia_eng.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\idioma_dia_eng.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_idioma.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\idioma.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_menu.xml.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\layout\\activity_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_modo_noche.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\modo_noche.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_deg.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\deg.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ajustes_eng.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\ajustes_eng.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_idioma_dia.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\idioma_dia.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_cero_dia.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\cero_dia.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ajustes.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\ajustes.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_coma.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\coma.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_raiz.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\raiz.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_img8.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\img8.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_calculadorabasicadef.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\calculadorabasicadef.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_ecuaciones2.xml.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\layout\\activity_ecuaciones2.xml"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ac.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\ac.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_fondo_calc_dia.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\fondo_calc_dia.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_x.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\x.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_igual_noche.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\igual_noche.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable_home.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\home.png"
+    },
+    {
+        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\merged_res\\debug\\drawable__siete.png.flat",
+        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\drawable\\_siete.png"
+    }
+]
