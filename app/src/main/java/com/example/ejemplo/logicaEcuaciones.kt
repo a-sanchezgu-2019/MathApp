@@ -14,16 +14,16 @@ class logicaEcuaciones {
         var resultado_parteImaginaria_1= "inf"
         var resultado_parteImaginaria_2= "inf"
 
-        if (numero == 0.0){
-            resultado = "inf"
-            resultado2 = "inf"
+        if (elevado_2 == 0.0){
+            resultado_1 = "inf"
+            resultado_2 = "inf"
             resultadosView2.setText(resultado)
             resultadosView4.setText(resultado2)
         }else {
-            var condicion = Math.pow(numero_1, 2.0) - 4 * numero * numero_2
+            var condicion = Math.pow(elevado_1, 2.0) - 4 * elevado_2 * elevado_0
             if (condicion >= 0.0) { // las raices son reales
-                resultado = ((-numero_1 + sqrt(condicion)) / (2 * numero)).toString()
-                resultado2 = ((-numero_1 - sqrt(condicion)) / (2 * numero)).toString()
+                resultado_1 = ((-elevado_1 + sqrt(condicion)) / (2 * elevado_2)).toString()
+                resultado_2 = ((-elevado_1 - sqrt(condicion)) / (2 * elevado_2)).toString()
 
                 //resultadosView2.setText(resultado)
                 //resultadosView4.setText(resultado2)
@@ -40,7 +40,7 @@ class logicaEcuaciones {
                 }
 
             } else { // las raices son complejos conjugadas
-                resultado_parteReal = ((-numero_1 / (2 * numero))).toString()
+                resultado_parteReal = ((-elevado_1 / (2 * elevado_2))).toString()
 
                 if("$resultado_parteReal".endsWith(".0")){
                     resultado_parteReal=("$resultado_parteReal".replace(".0",""))
@@ -50,14 +50,14 @@ class logicaEcuaciones {
 
 
 
-                resultado_parteImaginaria = ((sqrt(-condicion)) / (2 * numero)).toString()
+                resultado_parteImaginaria = ((sqrt(-condicion)) / (2 * elevado_2)).toString()
                 if("$resultado_parteImaginaria".endsWith(".0")){
                     resultado_parteImaginaria=("$resultado_parteImaginaria".replace(".0",""))
                 }else{
                     resultado_parteImaginaria="%.2f".format(resultado_parteImaginaria.toDouble())
                 }
 
-                resultado2_parteImaginaria = ((-sqrt(-condicion)) / (2 * numero)).toString()
+                resultado2_parteImaginaria = ((-sqrt(-condicion)) / (2 * elevado_2)).toString()
                 if("$resultado2_parteImaginaria".endsWith(".0")){
                     resultado2_parteImaginaria=("$resultado2_parteImaginaria".replace(".0",""))
                 }else{
