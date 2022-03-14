@@ -8,7 +8,7 @@
     android:addStatesFromChildren="false"
     android:background="@drawable/fondo"
     android:visibility="visible"
-    tools:context=".calculadora"
+    tools:context=".Calculadora"
     tools:visibility="visible">
 
 

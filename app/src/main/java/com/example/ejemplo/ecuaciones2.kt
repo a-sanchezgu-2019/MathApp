@@ -6,17 +6,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.EditText
 import android.widget.ImageButton
-import kotlinx.android.synthetic.main.activity_ecuaciones.*
 import kotlinx.android.synthetic.main.activity_ecuaciones.cerrar_Boton
 import kotlinx.android.synthetic.main.activity_ecuaciones.ec_1_campo_1
 import kotlinx.android.synthetic.main.activity_ecuaciones.ec_1_campo_2
-import kotlinx.android.synthetic.main.activity_ecuaciones.fondo_ecuaciones
-import kotlinx.android.synthetic.main.activity_ecuaciones.imageView11
-import kotlinx.android.synthetic.main.activity_ecuaciones.imageView12
-import kotlinx.android.synthetic.main.activity_ecuaciones.imageView13
-import kotlinx.android.synthetic.main.activity_ecuaciones.imageView4
-import kotlinx.android.synthetic.main.activity_ecuaciones.imageView6
-import kotlinx.android.synthetic.main.activity_ecuaciones.imageView7
 import kotlinx.android.synthetic.main.activity_ecuaciones.resultadosView2
 import kotlinx.android.synthetic.main.activity_ecuaciones2.*
 import kotlin.math.sqrt
@@ -52,6 +44,10 @@ class ecuaciones2 : AppCompatActivity() {
             val numero = texto.toDouble() // a
             val numero_1 = texto_1.toDouble() //b
             val numero_2 = texto_2.toDouble() // c
+
+            var logEcuaciones: logicaEcuaciones = logicaEcuaciones();
+            logEcuaciones.operacion(numero, numero_1, numero_2)
+
             var resultado= "inf"
             var resultado2= "inf"
             var resultado_parteReal= "inf"
@@ -118,9 +114,6 @@ class ecuaciones2 : AppCompatActivity() {
                         resultadosView2.setText(resultado)
                         resultadosView4.setText(resultado2)
                     }
-
-
-
                 }
             }
 
