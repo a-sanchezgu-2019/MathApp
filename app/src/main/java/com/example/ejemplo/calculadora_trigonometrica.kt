@@ -6,7 +6,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.EditText;
 import android.widget.ImageButton
-import kotlinx.android.synthetic.main.activity_calculadora.*
 import kotlinx.android.synthetic.main.activity_calculadora_trigonometrica.*
 import kotlin.math.truncate
 
@@ -27,7 +26,11 @@ class calculadora_trigonometrica:AppCompatActivity() {
 
         if (!Global.modo_noche) {
             parentesisiz.setBackgroundResource(R.drawable.fondo_calc_dia)
+<<<<<<< HEAD
             resultadosTrigo.setBackgroundResource(R.drawable.fondo_resultadodia)
+=======
+            resultadosTrig.setBackgroundResource(R.drawable.fondo_resultadodia)
+>>>>>>> 02d92de4f5a12ac4063d494dff135ad21d8e5493
             inversoBotonTrig.setBackgroundResource(R.drawable.inversodia)
             eBotonTrig.setBackgroundResource(R.drawable.edia)
             piBotonTrig.setBackgroundResource(R.drawable.pidia)
@@ -43,8 +46,13 @@ class calculadora_trigonometrica:AppCompatActivity() {
             ceroBotonTrig.setBackgroundResource(R.drawable.cerodia)
             comaBotonTrig.setBackgroundResource(R.drawable.comadia)
 
+<<<<<<< HEAD
             resultadosTrigo.setTextColor(Color.parseColor("#000000") )
             ListaOperacionesTrig.setTextColor(Color.parseColor("#080808") )
+=======
+            resultadosTrig.setTextColor(Color.parseColor("#000000") )
+            ListaOperaciones1.setTextColor(Color.parseColor("#080808") )
+>>>>>>> 02d92de4f5a12ac4063d494dff135ad21d8e5493
         }
 
         gradosRadianesBotonTrig.setBackgroundResource(R.drawable.deg)//inicializamos el fondo del boton porque si no no sale
@@ -57,7 +65,7 @@ class calculadora_trigonometrica:AppCompatActivity() {
         }
 
         // Boton "CONFIGURACIÓN"
-        val boton2 = findViewById<ImageButton>(R.id.boton_config_calc_trigo)
+        val boton2 = findViewById<ImageButton>(R.id.boton_config_calc_trig)
         boton2.setOnClickListener {
             val intento2 = Intent(this, configuracion::class.java)
             startActivity(intento2)
@@ -90,10 +98,10 @@ class calculadora_trigonometrica:AppCompatActivity() {
 
         borrarBotonTrig.setOnClickListener {
             var numeroBorrado:String
-            if(resultadosTrigo.length()>0 && operacion==0){
+            if(resultadosTrig.length()>0 && operacion==0){
 
-                numeroBorrado=resultadosTrigo.text.substring(0,resultadosTrigo.length()-1)
-                resultadosTrigo.text=numeroBorrado
+                numeroBorrado=resultadosTrig.text.substring(0,resultadosTrig.length()-1)
+                resultadosTrig.text=numeroBorrado
             }
 
             if(ListaOperacionesTrig.length()>0){
@@ -137,12 +145,13 @@ class calculadora_trigonometrica:AppCompatActivity() {
             num1 = 0.0
             num2 = 0.0
 
-            resultadosTrigo.text = ""
+            resultadosTrig.text = ""
             operacion = SIN_OPERACION
             ListaOperacionesTrig.text=""
         }
 
         igualBotonTrig.setOnClickListener {
+<<<<<<< HEAD
             var nuevapi = ListaOperacionesTrig.text.toString()//tengo que hacer esto para π ya que si no no se hacer que vaya
             ListaOperacionesTrig.text = "$nuevapi".replace("π","3.14159265358979323846")
             var nuevae=ListaOperacionesTrig.text.toString()
@@ -152,6 +161,17 @@ class calculadora_trigonometrica:AppCompatActivity() {
 
             resultado = igual(ListaOperacionesTrig.text.toString())
             resultadosTrigo.text = if("$resultado".endsWith(".0")){"$resultado".replace(".0","")}else{"%.2f".format(resultado)}
+=======
+            var nuevapi = ListaOperaciones1.text.toString()//tengo que hacer esto para π ya que si no no se hacer que vaya
+            ListaOperaciones1.text = "$nuevapi".replace("π","3.14159265358979323846")
+            var nuevae=ListaOperaciones1.text.toString()
+            ListaOperaciones1.text = "$nuevae".replace("e","2.71828182845904523536")
+            var nuevaporcent = ListaOperaciones1.text.toString()
+            ListaOperaciones1.text = "$nuevaporcent".replace("%","/100")
+
+            resultado = igual(ListaOperaciones1.text.toString())
+            resultadosTrig.text = if("$resultado".endsWith(".0")){"$resultado".replace(".0","")}else{"%.2f".format(resultado)}
+>>>>>>> 02d92de4f5a12ac4063d494dff135ad21d8e5493
 
             var nueva1pi = ListaOperacionesTrig.text.toString()//esto lo hago para que se muestre "bonito" en la pantalla de la calcu
             ListaOperacionesTrig.text = "$nueva1pi".replace("3.14159265358979323846","π")
@@ -256,35 +276,44 @@ class calculadora_trigonometrica:AppCompatActivity() {
 
 
     private fun numeroPresionado(digito:String) {
+<<<<<<< HEAD
         if (resultadosTrigo.text=="0" && digito != "."){
             resultadosTrigo.text="$digito"
             ListaOperacionesTrig.text="$digito"
         }else{
             resultadosTrigo.text="${resultadosTrigo.text}$digito"
             ListaOperacionesTrig.text="${ListaOperacionesTrig.text}$digito"
+=======
+        if (resultadosTrig.text=="0" && digito != "."){
+            resultadosTrig.text="$digito"
+            ListaOperaciones1.text="$digito"
+        }else{
+            resultadosTrig.text="${resultadosTrig.text}$digito"
+            ListaOperaciones1.text="${ListaOperaciones1.text}$digito"
+>>>>>>> 02d92de4f5a12ac4063d494dff135ad21d8e5493
         }
 
         if(operacion == SIN_OPERACION){
-            if(resultadosTrigo.text.toString()=="π"){
+            if(resultadosTrig.text.toString()=="π"){
                 num1=Math.PI
-            }else if(resultadosTrigo.text.toString()=="e"){
+            }else if(resultadosTrig.text.toString()=="e"){
                 num1=Math.E
             }else
-                num1=resultadosTrigo.text.toString().toDouble()
+                num1=resultadosTrig.text.toString().toDouble()
         }else{
-            if(resultadosTrigo.text.toString()=="π"){
+            if(resultadosTrig.text.toString()=="π"){
                 num1=Math.PI
-            }else if(resultadosTrigo.text.toString()=="e"){
+            }else if(resultadosTrig.text.toString()=="e"){
                 num1=Math.E
             }else
-                num2=resultadosTrigo.text.toString().toDouble()
+                num2=resultadosTrig.text.toString().toDouble()
         }
     }
 
     private fun operacionPresinado(operacion:Int) {
 
         this.operacion=operacion
-        resultadosTrigo.text=""
+        resultadosTrig.text=""
 
 
 

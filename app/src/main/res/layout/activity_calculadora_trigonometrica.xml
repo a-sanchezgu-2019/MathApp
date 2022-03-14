@@ -152,7 +152,7 @@
         android:padding="0dp"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/comaBoton1"
+        app:layout_constraintEnd_toStartOf="@+id/comaBotonTrig"
         app:layout_constraintHorizontal_bias="0.87"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline16"
@@ -170,7 +170,7 @@
         android:padding="0dp"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toTopOf="@+id/guideline15"
-        app:layout_constraintEnd_toStartOf="@+id/seisBoton1"
+        app:layout_constraintEnd_toStartOf="@+id/seisBotonTrig"
         app:layout_constraintHorizontal_bias="0.65"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline14"
@@ -186,7 +186,7 @@
         android:padding="0dp"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toTopOf="@+id/guideline15"
-        app:layout_constraintEnd_toStartOf="@+id/seisBoton1"
+        app:layout_constraintEnd_toStartOf="@+id/seisBotonTrig"
         app:layout_constraintHorizontal_bias="0.214"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline14" />
@@ -217,7 +217,7 @@
         android:padding="0dp"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toTopOf="@+id/guideline14"
-        app:layout_constraintEnd_toStartOf="@+id/nueveBoton1"
+        app:layout_constraintEnd_toStartOf="@+id/nueveBotonTrig"
         app:layout_constraintHorizontal_bias="0.875"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline12" />
@@ -250,7 +250,7 @@
         android:padding="0dp"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toTopOf="@+id/guideline14"
-        app:layout_constraintEnd_toStartOf="@+id/nueveBoton1"
+        app:layout_constraintEnd_toStartOf="@+id/nueveBotonTrig"
         app:layout_constraintHorizontal_bias="0.214"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline12"
@@ -266,7 +266,7 @@
         android:padding="0dp"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toTopOf="@+id/guideline16"
-        app:layout_constraintEnd_toStartOf="@+id/tresBoton1"
+        app:layout_constraintEnd_toStartOf="@+id/tresBotonTrig"
         app:layout_constraintHorizontal_bias="0.875"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline15" />
@@ -299,7 +299,7 @@
         android:padding="0dp"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toTopOf="@+id/guideline16"
-        app:layout_constraintEnd_toStartOf="@+id/tresBoton1"
+        app:layout_constraintEnd_toStartOf="@+id/tresBotonTrig"
         app:layout_constraintHorizontal_bias="0.214"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline15"
@@ -316,7 +316,7 @@
         android:padding="0dp"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/comaBoton1"
+        app:layout_constraintEnd_toStartOf="@+id/comaBotonTrig"
         app:layout_constraintHorizontal_bias="0.214"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline16"
@@ -350,7 +350,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.12"
-        app:layout_constraintStart_toEndOf="@+id/comaBoton1"
+        app:layout_constraintStart_toEndOf="@+id/comaBotonTrig"
         app:layout_constraintTop_toTopOf="@+id/guideline16"
         app:srcCompat="@drawable/mas" />
 
@@ -368,7 +368,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.958"
-        app:layout_constraintStart_toEndOf="@+id/comaBoton1"
+        app:layout_constraintStart_toEndOf="@+id/comaBotonTrig"
         app:layout_constraintTop_toTopOf="@+id/guideline16"
         app:layout_constraintVertical_bias="0.529"
         tools:srcCompat="@drawable/potencia" />
@@ -385,7 +385,7 @@
         app:layout_constraintBottom_toTopOf="@+id/guideline16"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.428"
-        app:layout_constraintStart_toEndOf="@+id/tresBoton1"
+        app:layout_constraintStart_toEndOf="@+id/tresBotonTrig"
         app:layout_constraintTop_toTopOf="@+id/guideline15"
         app:srcCompat="@drawable/menos" />
 
@@ -399,7 +399,7 @@
         app:layout_constraintBottom_toTopOf="@+id/guideline14"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.125"
-        app:layout_constraintStart_toEndOf="@+id/nueveBoton1"
+        app:layout_constraintStart_toEndOf="@+id/nueveBotonTrig"
         app:layout_constraintTop_toTopOf="@+id/guideline12"
         app:srcCompat="@drawable/div" />
 
@@ -413,7 +413,7 @@
         app:layout_constraintBottom_toTopOf="@+id/guideline15"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.125"
-        app:layout_constraintStart_toEndOf="@+id/seisBoton1"
+        app:layout_constraintStart_toEndOf="@+id/seisBotonTrig"
         app:layout_constraintTop_toTopOf="@+id/guideline14"
         app:srcCompat="@drawable/x" />
 
@@ -460,7 +460,7 @@
         android:padding="0dp"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toTopOf="@+id/guideline12"
-        app:layout_constraintEnd_toStartOf="@+id/eBoton1"
+        app:layout_constraintEnd_toStartOf="@+id/eBotonTrig"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline13"
         tools:srcCompat="@drawable/pi" />
@@ -476,7 +476,7 @@
         android:padding="0dp"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toTopOf="@+id/guideline12"
-        app:layout_constraintEnd_toStartOf="@+id/inversoBoton1"
+        app:layout_constraintEnd_toStartOf="@+id/inversoBotonTrig"
         app:layout_constraintHorizontal_bias="0.875"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline13"
@@ -496,7 +496,7 @@
         app:layout_constraintBottom_toTopOf="@+id/guideline15"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.958"
-        app:layout_constraintStart_toEndOf="@+id/seisBoton1"
+        app:layout_constraintStart_toEndOf="@+id/seisBotonTrig"
         app:layout_constraintTop_toTopOf="@+id/guideline14"
         app:layout_constraintVertical_bias="0.529"
         tools:srcCompat="@drawable/coseno" />
@@ -512,7 +512,7 @@
         app:layout_constraintBottom_toTopOf="@+id/guideline12"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.125"
-        app:layout_constraintStart_toEndOf="@+id/inversoBoton1"
+        app:layout_constraintStart_toEndOf="@+id/inversoBotonTrig"
         app:layout_constraintTop_toTopOf="@+id/guideline13"
         tools:srcCompat="@drawable/raiz" />
 
@@ -528,7 +528,7 @@
         app:layout_constraintBottom_toTopOf="@+id/guideline12"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.958"
-        app:layout_constraintStart_toEndOf="@+id/inversoBoton1"
+        app:layout_constraintStart_toEndOf="@+id/inversoBotonTrig"
         app:layout_constraintTop_toTopOf="@+id/guideline13"
         app:layout_constraintVertical_bias="0.47"
         tools:srcCompat="@drawable/deg" />
@@ -546,7 +546,7 @@
         app:layout_constraintBottom_toTopOf="@+id/guideline14"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.965"
-        app:layout_constraintStart_toEndOf="@+id/nueveBoton1"
+        app:layout_constraintStart_toEndOf="@+id/nueveBotonTrig"
         app:layout_constraintTop_toTopOf="@+id/guideline12"
         app:layout_constraintVertical_bias="0.529"
         tools:srcCompat="@drawable/seno" />
@@ -562,13 +562,13 @@
         app:layout_constraintBottom_toTopOf="@+id/guideline16"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.823"
-        app:layout_constraintStart_toEndOf="@+id/tresBoton1"
+        app:layout_constraintStart_toEndOf="@+id/tresBotonTrig"
         app:layout_constraintTop_toTopOf="@+id/guideline15"
         app:layout_constraintVertical_bias="0.521"
         tools:srcCompat="@drawable/tangente" />
 
     <TextView
-        android:id="@+id/resultadosTrigo"
+        android:id="@+id/resultadosTrig"
         android:layout_width="380dp"
         android:layout_height="139dp"
         android:background="@drawable/fondo_resultado"
@@ -582,7 +582,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline10" />
 
     <ImageButton
-        android:id="@+id/boton_config_calc_trigo"
+        android:id="@+id/boton_config_calc_trig"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginStart="319dp"
@@ -600,9 +600,9 @@
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline11"
-        app:layout_constraintEnd_toEndOf="@+id/resultadosTrigo"
+        app:layout_constraintEnd_toEndOf="@+id/resultadosTrig"
         app:layout_constraintHorizontal_bias="0.05"
-        app:layout_constraintStart_toStartOf="@+id/resultadosTrigo"
+        app:layout_constraintStart_toStartOf="@+id/resultadosTrig"
         app:layout_constraintTop_toTopOf="@+id/guideline10"
         app:layout_constraintVertical_bias="0.2" />
 

@@ -110,15 +110,12 @@ class calculadora:AppCompatActivity(){
         }
     }
 
-
-
         private fun igual(): Double {
 
             return logCalculadora.igual()
 
+
         }
-
-
 
     private fun numeroPresionado(digito:String) {
 
