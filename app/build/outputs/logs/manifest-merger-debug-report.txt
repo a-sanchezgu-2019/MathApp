@@ -1,203 +1,203 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml:2:1-28:12
-MERGED from [androidx.core:core-ktx:1.1.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/7a95c299bdd5b26860bc260d9d444c85/jetified-core-ktx-1.1.0/AndroidManifest.xml:2:1-9:12
-MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] /home/adrichu/.gradle/caches/transforms-2/files-2.1/d9cd77dc19810aff88e20ae330d81b52/jetified-library-1.4.2/AndroidManifest.xml:6:1-16:12
-MERGED from [androidx.appcompat:appcompat:1.1.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/93ea202bedc8748a02a18ead2b9aee7e/appcompat-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/adrichu/.gradle/caches/transforms-2/files-2.1/9e49c8dd1d3b07e827e90243128cad37/constraintlayout-1.1.3/AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.recyclerview:recyclerview:1.2.1] /home/adrichu/.gradle/caches/transforms-2/files-2.1/e1e5595a55d416f1c22ecac7efedf718/recyclerview-1.2.1/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.gridlayout:gridlayout:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/a47d327097f9e6d05ac09176c5744f1b/gridlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/3dbac3eadddaf4b0a370901ae2f2655e/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/ee16b3b5efcad0d2575d3ba4e991ef5c/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.fragment:fragment:1.1.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/101fe5047326e1e5da5cc58ba902d464/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/dd62b146907d325aef54ab67c43d20b3/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/ed933529e1cc358902101166acf37904/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/753600ec9b0fb7bd4efcd2b001148427/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/b6d19c7a8fc24b29bafe3bf5595ee104/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/2b00f6fb4ae0b0d9c0c1fbee1ca75c8c/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/40d3c2c84f431b38a3282fc55a2a71d5/customview-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/96578e03ac7ba360f80d3981399a065a/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/5c0fb4a12d6bd357af2fcd633cf0fc12/loader-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/ec22101e6c3d03b71c714d1ae1fd7b9c/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/f008174ec796271a997b3dc6741d32f7/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/16c3a7fc9a30921a2e3db8965e309396/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/17b9db328765722aed25553b2f688651/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/8cf22a1ebec2cad03cef8ecdde97c0bf/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.3.2] /home/adrichu/.gradle/caches/transforms-2/files-2.1/b33bb4aa65311168dc1e6f22a8763839/core-1.3.2/AndroidManifest.xml:17:1-26:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/6b370d6e188c756af8a0e40213069ba4/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/3d2b714264d5a45b96ab4473dafbf957/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/cb014fbdb18bf6244a0fbbf8ba4f2202/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/0e1bc4c09fcd8f4305ecb5c3ad0c2647/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/cc5a923faf4ba91f54c1ab5f43c88cdd/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/a9f3bc36571f06e83a7f04218e16bc2e/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/46fae251844228d42809f404fccf75b9/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/377329b9c03cd9180fa90997d45265eb/print-1.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/6d32f73ff7278fea3ea6f085e61aabad/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/63c4064e68c4602d6384f93bfbe1a00c/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/abdc7ec3a4c940484935c0ecfb6707ab/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml:2:1-28:12
-INJECTED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml:2:1-28:12
+ADDED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:2:1-28:12
+MERGED from [androidx.core:core-ktx:1.1.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\7a95c299bdd5b26860bc260d9d444c85\jetified-core-ktx-1.1.0\AndroidManifest.xml:2:1-9:12
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\fdfb0f96c76c37d1ec70829771c83b24\jetified-library-1.4.2\AndroidManifest.xml:6:1-16:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\93ea202bedc8748a02a18ead2b9aee7e\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\9e49c8dd1d3b07e827e90243128cad37\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\e1e5595a55d416f1c22ecac7efedf718\recyclerview-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\a47d327097f9e6d05ac09176c5744f1b\gridlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\3dbac3eadddaf4b0a370901ae2f2655e\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\ee16b3b5efcad0d2575d3ba4e991ef5c\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\101fe5047326e1e5da5cc58ba902d464\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\dd62b146907d325aef54ab67c43d20b3\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\ed933529e1cc358902101166acf37904\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\753600ec9b0fb7bd4efcd2b001148427\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\b6d19c7a8fc24b29bafe3bf5595ee104\coordinatorlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\2b00f6fb4ae0b0d9c0c1fbee1ca75c8c\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\40d3c2c84f431b38a3282fc55a2a71d5\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\96578e03ac7ba360f80d3981399a065a\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\5c0fb4a12d6bd357af2fcd633cf0fc12\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\ec22101e6c3d03b71c714d1ae1fd7b9c\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\f008174ec796271a997b3dc6741d32f7\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\16c3a7fc9a30921a2e3db8965e309396\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\17b9db328765722aed25553b2f688651\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\8cf22a1ebec2cad03cef8ecdde97c0bf\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.2] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\b33bb4aa65311168dc1e6f22a8763839\core-1.3.2\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\6b370d6e188c756af8a0e40213069ba4\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\3d2b714264d5a45b96ab4473dafbf957\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\cb014fbdb18bf6244a0fbbf8ba4f2202\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\0e1bc4c09fcd8f4305ecb5c3ad0c2647\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\cc5a923faf4ba91f54c1ab5f43c88cdd\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\a9f3bc36571f06e83a7f04218e16bc2e\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\46fae251844228d42809f404fccf75b9\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\377329b9c03cd9180fa90997d45265eb\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\6d32f73ff7278fea3ea6f085e61aabad\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\63c4064e68c4602d6384f93bfbe1a00c\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\abdc7ec3a4c940484935c0ecfb6707ab\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:2:1-28:12
 	package
-		ADDED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml:3:5-34
-		INJECTED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml
-		INJECTED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml
+		ADDED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:3:5-34
+		INJECTED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml
-		ADDED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml:2:1-28:12
-		INJECTED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml
-		ADDED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml:2:1-28:12
-		INJECTED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml:5:5-26:19
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/adrichu/.gradle/caches/transforms-2/files-2.1/9e49c8dd1d3b07e827e90243128cad37/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/adrichu/.gradle/caches/transforms-2/files-2.1/9e49c8dd1d3b07e827e90243128cad37/constraintlayout-1.1.3/AndroidManifest.xml:9:5-20
-MERGED from [androidx.core:core:1.3.2] /home/adrichu/.gradle/caches/transforms-2/files-2.1/b33bb4aa65311168dc1e6f22a8763839/core-1.3.2/AndroidManifest.xml:24:5-89
-MERGED from [androidx.core:core:1.3.2] /home/adrichu/.gradle/caches/transforms-2/files-2.1/b33bb4aa65311168dc1e6f22a8763839/core-1.3.2/AndroidManifest.xml:24:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/6b370d6e188c756af8a0e40213069ba4/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/6b370d6e188c756af8a0e40213069ba4/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+ADDED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:5:5-26:19
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\9e49c8dd1d3b07e827e90243128cad37\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\9e49c8dd1d3b07e827e90243128cad37\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.3.2] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\b33bb4aa65311168dc1e6f22a8763839\core-1.3.2\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.2] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\b33bb4aa65311168dc1e6f22a8763839\core-1.3.2\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\6b370d6e188c756af8a0e40213069ba4\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\6b370d6e188c756af8a0e40213069ba4\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.3.2] /home/adrichu/.gradle/caches/transforms-2/files-2.1/b33bb4aa65311168dc1e6f22a8763839/core-1.3.2/AndroidManifest.xml:24:18-86
+		ADDED from [androidx.core:core:1.3.2] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\b33bb4aa65311168dc1e6f22a8763839\core-1.3.2\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml:8:9-32
+		ADDED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:8:9-32
 	android:roundIcon
-		ADDED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml:11:9-40
+		ADDED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:11:9-40
 activity#com.example.ejemplo.ecuaciones2
-ADDED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml:12:9-58
+ADDED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:12:9-58
 	android:name
-		ADDED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml:12:19-46
+		ADDED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:12:19-46
 activity#com.example.ejemplo.ecuaciones
-ADDED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml:13:9-48
+ADDED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:13:9-48
 	android:name
-		ADDED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml:13:19-45
-activity#com.example.ejemplo.activity_ayuda
-ADDED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml:14:9-52
+		ADDED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:13:19-45
+activity#com.example.ejemplo.Activity_ayuda
+ADDED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:14:9-52
 	android:name
-		ADDED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml:14:19-49
+		ADDED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:14:19-49
 activity#com.example.ejemplo.configuracion
-ADDED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml:15:9-51
+ADDED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:15:9-51
 	android:name
-		ADDED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml:15:19-48
-activity#com.example.ejemplo.calculadora
-ADDED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml:16:9-49
+		ADDED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:15:19-48
+activity#com.example.ejemplo.Calculadora
+ADDED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:16:9-49
 	android:name
-		ADDED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml:16:19-46
+		ADDED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:16:19-46
 activity#com.example.ejemplo.menu
-ADDED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml:17:9-42
+ADDED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:17:9-42
 	android:name
-		ADDED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml:17:19-39
+		ADDED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:17:19-39
 activity#com.example.ejemplo.calculadora_trigonometrica
-ADDED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml:18:9-64
+ADDED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:18:9-64
 	android:name
-		ADDED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml:18:19-61
+		ADDED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:18:19-61
 activity#com.example.ejemplo.MainActivity
-ADDED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml:19:9-25:20
+ADDED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:19:9-25:20
 	android:name
-		ADDED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml:19:19-47
+		ADDED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:19:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml:20:13-24:29
+ADDED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml:21:17-69
+ADDED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml:21:25-66
+		ADDED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml:23:17-77
+ADDED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml:23:27-74
+		ADDED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:23:27-74
 uses-sdk
-INJECTED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml
-INJECTED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml
-MERGED from [androidx.core:core-ktx:1.1.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/7a95c299bdd5b26860bc260d9d444c85/jetified-core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.core:core-ktx:1.1.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/7a95c299bdd5b26860bc260d9d444c85/jetified-core-ktx-1.1.0/AndroidManifest.xml:5:5-7:41
-MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] /home/adrichu/.gradle/caches/transforms-2/files-2.1/d9cd77dc19810aff88e20ae330d81b52/jetified-library-1.4.2/AndroidManifest.xml:12:5-14:41
-MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] /home/adrichu/.gradle/caches/transforms-2/files-2.1/d9cd77dc19810aff88e20ae330d81b52/jetified-library-1.4.2/AndroidManifest.xml:12:5-14:41
-MERGED from [androidx.appcompat:appcompat:1.1.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/93ea202bedc8748a02a18ead2b9aee7e/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat:1.1.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/93ea202bedc8748a02a18ead2b9aee7e/appcompat-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/adrichu/.gradle/caches/transforms-2/files-2.1/9e49c8dd1d3b07e827e90243128cad37/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /home/adrichu/.gradle/caches/transforms-2/files-2.1/9e49c8dd1d3b07e827e90243128cad37/constraintlayout-1.1.3/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.recyclerview:recyclerview:1.2.1] /home/adrichu/.gradle/caches/transforms-2/files-2.1/e1e5595a55d416f1c22ecac7efedf718/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.2.1] /home/adrichu/.gradle/caches/transforms-2/files-2.1/e1e5595a55d416f1c22ecac7efedf718/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.gridlayout:gridlayout:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/a47d327097f9e6d05ac09176c5744f1b/gridlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.gridlayout:gridlayout:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/a47d327097f9e6d05ac09176c5744f1b/gridlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/3dbac3eadddaf4b0a370901ae2f2655e/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/3dbac3eadddaf4b0a370901ae2f2655e/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/ee16b3b5efcad0d2575d3ba4e991ef5c/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/ee16b3b5efcad0d2575d3ba4e991ef5c/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.1.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/101fe5047326e1e5da5cc58ba902d464/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.fragment:fragment:1.1.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/101fe5047326e1e5da5cc58ba902d464/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/dd62b146907d325aef54ab67c43d20b3/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.appcompat:appcompat-resources:1.1.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/dd62b146907d325aef54ab67c43d20b3/jetified-appcompat-resources-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/ed933529e1cc358902101166acf37904/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/ed933529e1cc358902101166acf37904/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/753600ec9b0fb7bd4efcd2b001148427/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/753600ec9b0fb7bd4efcd2b001148427/viewpager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/b6d19c7a8fc24b29bafe3bf5595ee104/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/b6d19c7a8fc24b29bafe3bf5595ee104/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/2b00f6fb4ae0b0d9c0c1fbee1ca75c8c/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/2b00f6fb4ae0b0d9c0c1fbee1ca75c8c/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/40d3c2c84f431b38a3282fc55a2a71d5/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/40d3c2c84f431b38a3282fc55a2a71d5/customview-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/96578e03ac7ba360f80d3981399a065a/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/96578e03ac7ba360f80d3981399a065a/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/5c0fb4a12d6bd357af2fcd633cf0fc12/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/5c0fb4a12d6bd357af2fcd633cf0fc12/loader-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/ec22101e6c3d03b71c714d1ae1fd7b9c/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/ec22101e6c3d03b71c714d1ae1fd7b9c/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/f008174ec796271a997b3dc6741d32f7/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/f008174ec796271a997b3dc6741d32f7/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/16c3a7fc9a30921a2e3db8965e309396/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/16c3a7fc9a30921a2e3db8965e309396/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/17b9db328765722aed25553b2f688651/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/17b9db328765722aed25553b2f688651/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/8cf22a1ebec2cad03cef8ecdde97c0bf/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/8cf22a1ebec2cad03cef8ecdde97c0bf/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.3.2] /home/adrichu/.gradle/caches/transforms-2/files-2.1/b33bb4aa65311168dc1e6f22a8763839/core-1.3.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.core:core:1.3.2] /home/adrichu/.gradle/caches/transforms-2/files-2.1/b33bb4aa65311168dc1e6f22a8763839/core-1.3.2/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/6b370d6e188c756af8a0e40213069ba4/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/6b370d6e188c756af8a0e40213069ba4/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/3d2b714264d5a45b96ab4473dafbf957/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/3d2b714264d5a45b96ab4473dafbf957/interpolator-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/cb014fbdb18bf6244a0fbbf8ba4f2202/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/cb014fbdb18bf6244a0fbbf8ba4f2202/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/0e1bc4c09fcd8f4305ecb5c3ad0c2647/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/0e1bc4c09fcd8f4305ecb5c3ad0c2647/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/cc5a923faf4ba91f54c1ab5f43c88cdd/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.savedstate:savedstate:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/cc5a923faf4ba91f54c1ab5f43c88cdd/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/a9f3bc36571f06e83a7f04218e16bc2e/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/a9f3bc36571f06e83a7f04218e16bc2e/documentfile-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/46fae251844228d42809f404fccf75b9/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/46fae251844228d42809f404fccf75b9/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/377329b9c03cd9180fa90997d45265eb/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/377329b9c03cd9180fa90997d45265eb/print-1.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/6d32f73ff7278fea3ea6f085e61aabad/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/6d32f73ff7278fea3ea6f085e61aabad/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/63c4064e68c4602d6384f93bfbe1a00c/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/63c4064e68c4602d6384f93bfbe1a00c/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/abdc7ec3a4c940484935c0ecfb6707ab/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/adrichu/.gradle/caches/transforms-2/files-2.1/abdc7ec3a4c940484935c0ecfb6707ab/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
-INJECTED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml
-INJECTED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml
+INJECTED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml
+MERGED from [androidx.core:core-ktx:1.1.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\7a95c299bdd5b26860bc260d9d444c85\jetified-core-ktx-1.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.1.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\7a95c299bdd5b26860bc260d9d444c85\jetified-core-ktx-1.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\fdfb0f96c76c37d1ec70829771c83b24\jetified-library-1.4.2\AndroidManifest.xml:12:5-14:41
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.4.2] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\fdfb0f96c76c37d1ec70829771c83b24\jetified-library-1.4.2\AndroidManifest.xml:12:5-14:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\93ea202bedc8748a02a18ead2b9aee7e\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\93ea202bedc8748a02a18ead2b9aee7e\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\9e49c8dd1d3b07e827e90243128cad37\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\9e49c8dd1d3b07e827e90243128cad37\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\e1e5595a55d416f1c22ecac7efedf718\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\e1e5595a55d416f1c22ecac7efedf718\recyclerview-1.2.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\a47d327097f9e6d05ac09176c5744f1b\gridlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.gridlayout:gridlayout:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\a47d327097f9e6d05ac09176c5744f1b\gridlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\3dbac3eadddaf4b0a370901ae2f2655e\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\3dbac3eadddaf4b0a370901ae2f2655e\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\ee16b3b5efcad0d2575d3ba4e991ef5c\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\ee16b3b5efcad0d2575d3ba4e991ef5c\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\101fe5047326e1e5da5cc58ba902d464\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\101fe5047326e1e5da5cc58ba902d464\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\dd62b146907d325aef54ab67c43d20b3\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\dd62b146907d325aef54ab67c43d20b3\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\ed933529e1cc358902101166acf37904\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\ed933529e1cc358902101166acf37904\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\753600ec9b0fb7bd4efcd2b001148427\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\753600ec9b0fb7bd4efcd2b001148427\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\b6d19c7a8fc24b29bafe3bf5595ee104\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\b6d19c7a8fc24b29bafe3bf5595ee104\coordinatorlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\2b00f6fb4ae0b0d9c0c1fbee1ca75c8c\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\2b00f6fb4ae0b0d9c0c1fbee1ca75c8c\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\40d3c2c84f431b38a3282fc55a2a71d5\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\40d3c2c84f431b38a3282fc55a2a71d5\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\96578e03ac7ba360f80d3981399a065a\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\96578e03ac7ba360f80d3981399a065a\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\5c0fb4a12d6bd357af2fcd633cf0fc12\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\5c0fb4a12d6bd357af2fcd633cf0fc12\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\ec22101e6c3d03b71c714d1ae1fd7b9c\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\ec22101e6c3d03b71c714d1ae1fd7b9c\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\f008174ec796271a997b3dc6741d32f7\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\f008174ec796271a997b3dc6741d32f7\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\16c3a7fc9a30921a2e3db8965e309396\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\16c3a7fc9a30921a2e3db8965e309396\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\17b9db328765722aed25553b2f688651\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\17b9db328765722aed25553b2f688651\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\8cf22a1ebec2cad03cef8ecdde97c0bf\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\8cf22a1ebec2cad03cef8ecdde97c0bf\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.2] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\b33bb4aa65311168dc1e6f22a8763839\core-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\b33bb4aa65311168dc1e6f22a8763839\core-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\6b370d6e188c756af8a0e40213069ba4\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\6b370d6e188c756af8a0e40213069ba4\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\3d2b714264d5a45b96ab4473dafbf957\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\3d2b714264d5a45b96ab4473dafbf957\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\cb014fbdb18bf6244a0fbbf8ba4f2202\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\cb014fbdb18bf6244a0fbbf8ba4f2202\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\0e1bc4c09fcd8f4305ecb5c3ad0c2647\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\0e1bc4c09fcd8f4305ecb5c3ad0c2647\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\cc5a923faf4ba91f54c1ab5f43c88cdd\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\cc5a923faf4ba91f54c1ab5f43c88cdd\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\a9f3bc36571f06e83a7f04218e16bc2e\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\a9f3bc36571f06e83a7f04218e16bc2e\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\46fae251844228d42809f404fccf75b9\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\46fae251844228d42809f404fccf75b9\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\377329b9c03cd9180fa90997d45265eb\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\377329b9c03cd9180fa90997d45265eb\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\6d32f73ff7278fea3ea6f085e61aabad\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\6d32f73ff7278fea3ea6f085e61aabad\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\63c4064e68c4602d6384f93bfbe1a00c\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\63c4064e68c4602d6384f93bfbe1a00c\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\abdc7ec3a4c940484935c0ecfb6707ab\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\eltio\.gradle\caches\transforms-2\files-2.1\abdc7ec3a4c940484935c0ecfb6707ab\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml
-		ADDED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml
-		INJECTED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml
-		ADDED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml
-		INJECTED from /home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml

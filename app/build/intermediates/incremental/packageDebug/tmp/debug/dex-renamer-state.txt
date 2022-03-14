@@ -1,4 +1,4 @@
-#Wed Feb 09 09:56:39 CET 2022
-base.0=/home/adrichu/AndroidStudioProjects/GIS-Procesos-Integran2-master/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
-path.0=classes.dex
+#Mon Mar 14 22:39:01 CET 2022
+base.0=C\:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
+path.0=classes.dex
