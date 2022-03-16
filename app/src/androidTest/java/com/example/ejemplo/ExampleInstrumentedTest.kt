@@ -39,6 +39,7 @@ fun test_escritura_campo ()  {
     onView(withId(R.id.ec_1_campo)).perform(typeText("2"))
     onView(withId(R.id.ec_1_campo)).check(matches(withText("2")))
 }
+    
 @Test
 fun escritura_campo2 (){
     onView(withId(R.id.ec_1_campo_1)).perform(click())
