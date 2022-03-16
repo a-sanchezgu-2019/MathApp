@@ -5,9 +5,12 @@
       <map>
         <entry key="..\:/Users/eltio/AndroidStudioProjects/MathApp/app/src/main/res/layout/activity_ayuda.xml" value="0.1" />
         <entry key="..\:/Users/eltio/AndroidStudioProjects/MathApp/app/src/main/res/layout/activity_calculadora.xml" value="0.15555555555555556" />
+        <entry key="..\:/Users/eltio/AndroidStudioProjects/MathApp/app/src/main/res/layout/activity_calculadora_trigonometrica.xml" value="0.18055555555555555" />
+        <entry key="..\:/Users/eltio/AndroidStudioProjects/MathApp/app/src/main/res/layout/activity_configuracion.xml" value="0.18055555555555555" />
         <entry key="..\:/Users/eltio/AndroidStudioProjects/MathApp/app/src/main/res/layout/activity_ecuaciones.xml" value="0.24270833333333333" />
         <entry key="..\:/Users/eltio/AndroidStudioProjects/MathApp/app/src/main/res/layout/activity_ecuaciones2.xml" value="0.24270833333333333" />
         <entry key="..\:/Users/eltio/AndroidStudioProjects/MathApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/eltio/AndroidStudioProjects/MathApp/app/src/main/res/layout/activity_menu.xml" value="0.18055555555555555" />
       </map>
     </option>
   </component>
