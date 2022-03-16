@@ -30,7 +30,7 @@ class menu : AppCompatActivity() {
         // Botón "CALCULADORA CLÁSICA"
         val boton1 = findViewById<Button>(R.id.boton_basica)
         boton1.setOnClickListener {
-            val intento1 = Intent(this, Calculadora::class.java)
+            val intento1 = Intent(this, calculadora::class.java)
             startActivity(intento1)
         }
 
