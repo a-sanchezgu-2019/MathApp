@@ -568,7 +568,7 @@
         tools:srcCompat="@drawable/tangente" />
 
     <TextView
-        android:id="@+id/resultadosTrig"
+        android:id="@+id/resultadosTrigo"
         android:layout_width="380dp"
         android:layout_height="139dp"
         android:background="@drawable/fondo_resultado"
