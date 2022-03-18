@@ -1,5 +1,10 @@
 package com.example.ejemplo
 
+import androidx.test.espresso.Espresso.onView
+import androidx.test.espresso.action.ViewActions.click
+import androidx.test.espresso.action.ViewActions.typeText
+import androidx.test.espresso.assertion.ViewAssertions.matches
+import androidx.test.espresso.matcher.ViewMatchers.*
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
 
@@ -18,7 +23,23 @@ class ExampleInstrumentedTest {
     @Test
     fun useAppContext() {
         // Context of the app under test.
+
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
         assertEquals("com.example.ejemplo", appContext.packageName)
+    }
+
+    @Test
+    fun test_escritura_campo() {
+
+        onView(withId(R.id.ec_1_campo)).perform(click())
+        onView(withId(R.id.ec_1_campo)).perform(typeText("2"))
+        onView(withId(R.id.ec_1_campo)).check(matches(withText("2")))
+    }
+
+    @Test
+    fun escritura_campo2() {
+        onView(withId(R.id.ec_1_campo_1)).perform(click())
+        onView(withId(R.id.ec_1_campo_1)).perform(typeText("2"))
+        onView(withId(R.id.ec_1_campo_1)).check(matches(withText("2")))
     }
 }

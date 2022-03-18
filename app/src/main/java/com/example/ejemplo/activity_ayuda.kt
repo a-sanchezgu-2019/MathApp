@@ -6,9 +6,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
 import kotlinx.android.synthetic.main.activity_ayuda.*
-import kotlinx.android.synthetic.main.activity_calculadora.*
 
-class activity_ayuda : AppCompatActivity() {
+class Activity_ayuda : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ayuda)
