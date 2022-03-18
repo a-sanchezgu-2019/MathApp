@@ -10,8 +10,13 @@ com/example/ejemplo/databinding/ActivityCalculadoraTrigonometricaBinding.java
  com.example.ejemplo.databinding.ActivityCalculadoraTrigonometricaBinding
 com/example/ejemplo/BuildConfig.java
  com.example.ejemplo.BuildConfig
+com/example/ejemplo/Operacion.java
+ com.example.ejemplo.Operacion
+ com.example.ejemplo.Operacion$1
 com/example/ejemplo/databinding/ActivityMainBinding.java
  com.example.ejemplo.databinding.ActivityMainBinding
+com/example/ejemplo/LogicaCalculadora.java
+ com.example.ejemplo.LogicaCalculadora
 com/example/ejemplo/databinding/ActivityMenuBinding.java
  com.example.ejemplo.databinding.ActivityMenuBinding
 com/example/ejemplo/databinding/ActivityAyudaBinding.java

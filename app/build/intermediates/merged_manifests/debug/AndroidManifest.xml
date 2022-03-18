@@ -16,12 +16,13 @@
         android:label="MathApp"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity android:name="com.example.ejemplo.ecuaciones2" />
         <activity android:name="com.example.ejemplo.ecuaciones" />
         <activity android:name="com.example.ejemplo.Activity_ayuda" />
         <activity android:name="com.example.ejemplo.configuracion" />
-        <activity android:name="com.example.ejemplo.Calculadora" />
+        <activity android:name="com.example.ejemplo.calculadora" />
         <activity android:name="com.example.ejemplo.menu" />
         <activity android:name="com.example.ejemplo.calculadora_trigonometrica" />
         <activity

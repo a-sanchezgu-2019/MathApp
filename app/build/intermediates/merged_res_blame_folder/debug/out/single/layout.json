@@ -1,34 +1,34 @@
 [
     {
-        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_ecuaciones.xml",
-        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\layout\\activity_ecuaciones.xml"
+        "merged": "C:\\Users\\eltio\\UNIVERSIDAD\\CS\\MathApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_ecuaciones2.xml",
+        "source": "C:\\Users\\eltio\\UNIVERSIDAD\\CS\\MathApp\\app\\src\\main\\res\\layout\\activity_ecuaciones2.xml"
     },
     {
-        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_configuracion.xml",
-        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\layout\\activity_configuracion.xml"
+        "merged": "C:\\Users\\eltio\\UNIVERSIDAD\\CS\\MathApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_ayuda.xml",
+        "source": "C:\\Users\\eltio\\UNIVERSIDAD\\CS\\MathApp\\app\\src\\main\\res\\layout\\activity_ayuda.xml"
     },
     {
-        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_calculadora_trigonometrica.xml",
-        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\layout\\activity_calculadora_trigonometrica.xml"
+        "merged": "C:\\Users\\eltio\\UNIVERSIDAD\\CS\\MathApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_calculadora_trigonometrica.xml",
+        "source": "C:\\Users\\eltio\\UNIVERSIDAD\\CS\\MathApp\\app\\src\\main\\res\\layout\\activity_calculadora_trigonometrica.xml"
     },
     {
-        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_ecuaciones2.xml",
-        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\layout\\activity_ecuaciones2.xml"
+        "merged": "C:\\Users\\eltio\\UNIVERSIDAD\\CS\\MathApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_configuracion.xml",
+        "source": "C:\\Users\\eltio\\UNIVERSIDAD\\CS\\MathApp\\app\\src\\main\\res\\layout\\activity_configuracion.xml"
     },
     {
-        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
-        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\eltio\\UNIVERSIDAD\\CS\\MathApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_calculadora.xml",
+        "source": "C:\\Users\\eltio\\UNIVERSIDAD\\CS\\MathApp\\app\\src\\main\\res\\layout\\activity_calculadora.xml"
     },
     {
-        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_menu.xml",
-        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\layout\\activity_menu.xml"
+        "merged": "C:\\Users\\eltio\\UNIVERSIDAD\\CS\\MathApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_menu.xml",
+        "source": "C:\\Users\\eltio\\UNIVERSIDAD\\CS\\MathApp\\app\\src\\main\\res\\layout\\activity_menu.xml"
     },
     {
-        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_ayuda.xml",
-        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\layout\\activity_ayuda.xml"
+        "merged": "C:\\Users\\eltio\\UNIVERSIDAD\\CS\\MathApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_ecuaciones.xml",
+        "source": "C:\\Users\\eltio\\UNIVERSIDAD\\CS\\MathApp\\app\\src\\main\\res\\layout\\activity_ecuaciones.xml"
     },
     {
-        "merged": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_calculadora.xml",
-        "source": "C:\\Users\\eltio\\AndroidStudioProjects\\MathApp\\app\\src\\main\\res\\layout\\activity_calculadora.xml"
+        "merged": "C:\\Users\\eltio\\UNIVERSIDAD\\CS\\MathApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\eltio\\UNIVERSIDAD\\CS\\MathApp\\app\\src\\main\\res\\layout\\activity_main.xml"
     }
 ]
