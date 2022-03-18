@@ -8,6 +8,11 @@ import android.widget.ImageButton
 import kotlinx.android.synthetic.main.activity_calculadora.*
 
 class calculadora:AppCompatActivity(){
+    private var num1:Double=0.0
+    private var num2 : Double = 0.0
+    private var resultado : Double = 0.0
+
+    private var operacion: Int = 0
 
     private var logCalculadora: LogicaCalculadora = LogicaCalculadora()
 

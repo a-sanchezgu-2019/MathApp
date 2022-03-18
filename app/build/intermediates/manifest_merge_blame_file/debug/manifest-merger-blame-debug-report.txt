@@ -6,87 +6,88 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="16"
-8-->C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml
+8-->C:\Users\eltio\UNIVERSIDAD\CS\MathApp\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="31" />
-9-->C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml
+9-->C:\Users\eltio\UNIVERSIDAD\CS\MathApp\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:5:5-26:19
+11-->C:\Users\eltio\UNIVERSIDAD\CS\MathApp\app\src\main\AndroidManifest.xml:5:5-26:19
 12        android:allowBackup="true"
-12-->C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:6:9-35
+12-->C:\Users\eltio\UNIVERSIDAD\CS\MathApp\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.7.0] C:\Users\eltio\.gradle\caches\transforms-3\65601fc2f4dac13f9fbcd96155a383b9\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.7.0] C:\Users\eltio\.gradle\caches\transforms-3\c075754b5e12c01188c3b5218836c03d\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
-15-->C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:7:9-43
+15-->C:\Users\eltio\UNIVERSIDAD\CS\MathApp\app\src\main\AndroidManifest.xml:7:9-43
 16        android:label="MathApp"
-16-->C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:8:9-32
+16-->C:\Users\eltio\UNIVERSIDAD\CS\MathApp\app\src\main\AndroidManifest.xml:8:9-32
 17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:9:9-54
+17-->C:\Users\eltio\UNIVERSIDAD\CS\MathApp\app\src\main\AndroidManifest.xml:9:9-54
 18        android:supportsRtl="true"
-18-->C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:10:9-35
-19        android:theme="@style/AppTheme" >
-19-->C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:11:9-40
-20        <activity android:name="com.example.ejemplo.ecuaciones2" />
-20-->C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:12:9-58
-20-->C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:12:19-46
-21        <activity android:name="com.example.ejemplo.ecuaciones" />
-21-->C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:13:9-48
-21-->C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:13:19-45
-22        <activity android:name="com.example.ejemplo.activity_ayuda" />
-22-->C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:14:9-52
-22-->C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:14:19-49
-23        <activity android:name="com.example.ejemplo.configuracion" />
-23-->C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:15:9-51
-23-->C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:15:19-48
-24        <activity android:name="com.example.ejemplo.calculadora" />
-24-->C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:16:9-49
-24-->C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:16:19-46
-25        <activity android:name="com.example.ejemplo.menu" />
-25-->C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:17:9-42
-25-->C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:17:19-39
-26        <activity android:name="com.example.ejemplo.calculadora_trigonometrica" />
-26-->C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:18:9-64
-26-->C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:18:19-61
-27        <activity
-27-->C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:19:9-25:20
-28            android:name="com.example.ejemplo.MainActivity"
-28-->C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:19:19-47
-29            android:exported="true" >
-29-->C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:19:48-71
-30            <intent-filter>
-30-->C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:20:13-24:29
-31                <action android:name="android.intent.action.MAIN" />
-31-->C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:21:17-69
-31-->C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:21:25-66
-32
-33                <category android:name="android.intent.category.LAUNCHER" />
-33-->C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:23:17-77
-33-->C:\Users\eltio\AndroidStudioProjects\MathApp\app\src\main\AndroidManifest.xml:23:27-74
-34            </intent-filter>
-35        </activity>
-36
-37        <provider
-37-->[androidx.emoji2:emoji2:1.0.0] C:\Users\eltio\.gradle\caches\transforms-3\5c8f4387f5f6f4afed4fac82f06761b0\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-38            android:name="androidx.startup.InitializationProvider"
-38-->[androidx.emoji2:emoji2:1.0.0] C:\Users\eltio\.gradle\caches\transforms-3\5c8f4387f5f6f4afed4fac82f06761b0\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
-39            android:authorities="com.example.ejemplo.androidx-startup"
-39-->[androidx.emoji2:emoji2:1.0.0] C:\Users\eltio\.gradle\caches\transforms-3\5c8f4387f5f6f4afed4fac82f06761b0\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
-40            android:exported="false" >
-40-->[androidx.emoji2:emoji2:1.0.0] C:\Users\eltio\.gradle\caches\transforms-3\5c8f4387f5f6f4afed4fac82f06761b0\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
-41            <meta-data
-41-->[androidx.emoji2:emoji2:1.0.0] C:\Users\eltio\.gradle\caches\transforms-3\5c8f4387f5f6f4afed4fac82f06761b0\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-42                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-42-->[androidx.emoji2:emoji2:1.0.0] C:\Users\eltio\.gradle\caches\transforms-3\5c8f4387f5f6f4afed4fac82f06761b0\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
-43                android:value="androidx.startup" />
-43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\eltio\.gradle\caches\transforms-3\5c8f4387f5f6f4afed4fac82f06761b0\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
-44            <meta-data
-44-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\eltio\.gradle\caches\transforms-3\5918fc8073473e8fb9318beda3d68439\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-45                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-45-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\eltio\.gradle\caches\transforms-3\5918fc8073473e8fb9318beda3d68439\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-46                android:value="androidx.startup" />
-46-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\eltio\.gradle\caches\transforms-3\5918fc8073473e8fb9318beda3d68439\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-47        </provider>
-48    </application>
-49
-50</manifest>
+18-->C:\Users\eltio\UNIVERSIDAD\CS\MathApp\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->C:\Users\eltio\UNIVERSIDAD\CS\MathApp\app\src\main\AndroidManifest.xml:11:9-40
+21        <activity android:name="com.example.ejemplo.ecuaciones2" />
+21-->C:\Users\eltio\UNIVERSIDAD\CS\MathApp\app\src\main\AndroidManifest.xml:12:9-58
+21-->C:\Users\eltio\UNIVERSIDAD\CS\MathApp\app\src\main\AndroidManifest.xml:12:19-46
+22        <activity android:name="com.example.ejemplo.ecuaciones" />
+22-->C:\Users\eltio\UNIVERSIDAD\CS\MathApp\app\src\main\AndroidManifest.xml:13:9-48
+22-->C:\Users\eltio\UNIVERSIDAD\CS\MathApp\app\src\main\AndroidManifest.xml:13:19-45
+23        <activity android:name="com.example.ejemplo.Activity_ayuda" />
+23-->C:\Users\eltio\UNIVERSIDAD\CS\MathApp\app\src\main\AndroidManifest.xml:14:9-52
+23-->C:\Users\eltio\UNIVERSIDAD\CS\MathApp\app\src\main\AndroidManifest.xml:14:19-49
+24        <activity android:name="com.example.ejemplo.configuracion" />
+24-->C:\Users\eltio\UNIVERSIDAD\CS\MathApp\app\src\main\AndroidManifest.xml:15:9-51
+24-->C:\Users\eltio\UNIVERSIDAD\CS\MathApp\app\src\main\AndroidManifest.xml:15:19-48
+25        <activity android:name="com.example.ejemplo.calculadora" />
+25-->C:\Users\eltio\UNIVERSIDAD\CS\MathApp\app\src\main\AndroidManifest.xml:16:9-49
+25-->C:\Users\eltio\UNIVERSIDAD\CS\MathApp\app\src\main\AndroidManifest.xml:16:19-46
+26        <activity android:name="com.example.ejemplo.menu" />
+26-->C:\Users\eltio\UNIVERSIDAD\CS\MathApp\app\src\main\AndroidManifest.xml:17:9-42
+26-->C:\Users\eltio\UNIVERSIDAD\CS\MathApp\app\src\main\AndroidManifest.xml:17:19-39
+27        <activity android:name="com.example.ejemplo.calculadora_trigonometrica" />
+27-->C:\Users\eltio\UNIVERSIDAD\CS\MathApp\app\src\main\AndroidManifest.xml:18:9-64
+27-->C:\Users\eltio\UNIVERSIDAD\CS\MathApp\app\src\main\AndroidManifest.xml:18:19-61
+28        <activity
+28-->C:\Users\eltio\UNIVERSIDAD\CS\MathApp\app\src\main\AndroidManifest.xml:19:9-25:20
+29            android:name="com.example.ejemplo.MainActivity"
+29-->C:\Users\eltio\UNIVERSIDAD\CS\MathApp\app\src\main\AndroidManifest.xml:19:19-47
+30            android:exported="true" >
+30-->C:\Users\eltio\UNIVERSIDAD\CS\MathApp\app\src\main\AndroidManifest.xml:19:48-71
+31            <intent-filter>
+31-->C:\Users\eltio\UNIVERSIDAD\CS\MathApp\app\src\main\AndroidManifest.xml:20:13-24:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->C:\Users\eltio\UNIVERSIDAD\CS\MathApp\app\src\main\AndroidManifest.xml:21:17-69
+32-->C:\Users\eltio\UNIVERSIDAD\CS\MathApp\app\src\main\AndroidManifest.xml:21:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->C:\Users\eltio\UNIVERSIDAD\CS\MathApp\app\src\main\AndroidManifest.xml:23:17-77
+34-->C:\Users\eltio\UNIVERSIDAD\CS\MathApp\app\src\main\AndroidManifest.xml:23:27-74
+35            </intent-filter>
+36        </activity>
+37
+38        <provider
+38-->[androidx.emoji2:emoji2:1.0.0] C:\Users\eltio\.gradle\caches\transforms-3\35cffb139510d268d88223482df203e7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+39            android:name="androidx.startup.InitializationProvider"
+39-->[androidx.emoji2:emoji2:1.0.0] C:\Users\eltio\.gradle\caches\transforms-3\35cffb139510d268d88223482df203e7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+40            android:authorities="com.example.ejemplo.androidx-startup"
+40-->[androidx.emoji2:emoji2:1.0.0] C:\Users\eltio\.gradle\caches\transforms-3\35cffb139510d268d88223482df203e7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+41            android:exported="false" >
+41-->[androidx.emoji2:emoji2:1.0.0] C:\Users\eltio\.gradle\caches\transforms-3\35cffb139510d268d88223482df203e7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+42            <meta-data
+42-->[androidx.emoji2:emoji2:1.0.0] C:\Users\eltio\.gradle\caches\transforms-3\35cffb139510d268d88223482df203e7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+43                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\eltio\.gradle\caches\transforms-3\35cffb139510d268d88223482df203e7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+44                android:value="androidx.startup" />
+44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\eltio\.gradle\caches\transforms-3\35cffb139510d268d88223482df203e7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+45            <meta-data
+45-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\eltio\.gradle\caches\transforms-3\70508a7e3b66edcaf119685159c64eff\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+46                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+46-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\eltio\.gradle\caches\transforms-3\70508a7e3b66edcaf119685159c64eff\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+47                android:value="androidx.startup" />
+47-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\eltio\.gradle\caches\transforms-3\70508a7e3b66edcaf119685159c64eff\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+48        </provider>
+49    </application>
+50
+51</manifest>

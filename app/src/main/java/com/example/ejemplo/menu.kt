@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
-import kotlinx.android.synthetic.main.activity_calculadora.*
 import kotlinx.android.synthetic.main.activity_menu.*
 
 class menu : AppCompatActivity() {
@@ -45,7 +44,7 @@ class menu : AppCompatActivity() {
         // Botón "AYUDA"
         val botonAyuda = findViewById<Button>(R.id.boton_ayuda)
         botonAyuda.setOnClickListener {
-            val intentoAyuda = Intent(this, activity_ayuda::class.java)
+            val intentoAyuda = Intent(this, Activity_ayuda::class.java)
             startActivity(intentoAyuda)
         }
 

@@ -23,49 +23,49 @@ public final class ActivityCalculadoraTrigonometricaBinding implements ViewBindi
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final TextView ListaOperaciones1;
+  public final TextView ListaOperacionesTrig;
 
   @NonNull
-  public final ImageButton borrarBoton1;
+  public final ImageButton borrarBotonTrig;
 
   @NonNull
-  public final ImageButton botonConfigCalcTrigo;
+  public final ImageButton botonConfigCalcTrig;
 
   @NonNull
   public final ImageButton botonDecalculadoraTrigoAmenu;
 
   @NonNull
-  public final ImageButton ceroBoton1;
+  public final ImageButton ceroBotonTrig;
 
   @NonNull
   public final ImageView cierraAppCalTrigo;
 
   @NonNull
-  public final ImageButton cincoBoton1;
+  public final ImageButton cincoBotonTrig;
 
   @NonNull
-  public final ImageButton clearBoton1;
+  public final ImageButton clearBotonTrig;
 
   @NonNull
-  public final ImageButton comaBoton1;
+  public final ImageButton comaBotonTrig;
 
   @NonNull
-  public final ImageButton cosenoBoton1;
+  public final ImageButton cosenoBotonTrig;
 
   @NonNull
-  public final ImageButton cuatroBoton1;
+  public final ImageButton cuatroBotonTrig;
 
   @NonNull
-  public final ImageButton divBoton1;
+  public final ImageButton divBotonTrig;
 
   @NonNull
-  public final ImageButton dosBoton1;
+  public final ImageButton dosBotonTrig;
 
   @NonNull
-  public final ImageButton eBoton1;
+  public final ImageButton eBotonTrig;
 
   @NonNull
-  public final ImageButton gradosRadianesBoton1;
+  public final ImageButton gradosRadianesBotonTrig;
 
   @NonNull
   public final Guideline guideline10;
@@ -89,19 +89,19 @@ public final class ActivityCalculadoraTrigonometricaBinding implements ViewBindi
   public final Guideline guideline16;
 
   @NonNull
-  public final ImageButton igualBoton1;
+  public final ImageButton igualBotonTrig;
 
   @NonNull
-  public final ImageButton inversoBoton1;
+  public final ImageButton inversoBotonTrig;
 
   @NonNull
-  public final ImageButton multboton1;
+  public final ImageButton multbotonTrig;
 
   @NonNull
-  public final ImageButton nueveBoton1;
+  public final ImageButton nueveBotonTrig;
 
   @NonNull
-  public final ImageButton ochoBoton1;
+  public final ImageButton ochoBotonTrig;
 
   @NonNull
   public final ImageView parentesisDer;
@@ -113,83 +113,83 @@ public final class ActivityCalculadoraTrigonometricaBinding implements ViewBindi
   public final ImageView parentesisiz;
 
   @NonNull
-  public final ImageButton piBoton1;
+  public final ImageButton piBotonTrig;
 
   @NonNull
-  public final ImageButton porcentajeBoton1;
+  public final ImageButton porcentajeBotonTrig;
 
   @NonNull
-  public final ImageButton potenciaBoton1;
+  public final ImageButton potenciaBotonTrig;
 
   @NonNull
-  public final ImageButton raizBoton1;
+  public final ImageButton raizBotonTrig;
 
   @NonNull
-  public final ImageButton restaBoton1;
+  public final ImageButton restaBotonTrig;
 
   @NonNull
   public final TextView resultadosTrigo;
 
   @NonNull
-  public final ImageButton seisBoton1;
+  public final ImageButton seisBotonTrig;
 
   @NonNull
-  public final ImageButton senoBoton1;
+  public final ImageButton senoBotonTrig;
 
   @NonNull
-  public final ImageButton sieteBoton1;
+  public final ImageButton sieteBotonTrig;
 
   @NonNull
-  public final ImageButton sumaBoton1;
+  public final ImageButton sumaBotonTrig;
 
   @NonNull
-  public final ImageButton tangenteBoton1;
+  public final ImageButton tangenteBotonTrig;
 
   @NonNull
-  public final ImageButton tresBoton1;
+  public final ImageButton tresBotonTrig;
 
   @NonNull
-  public final ImageButton unoBoton1;
+  public final ImageButton unoBotonTrig;
 
   private ActivityCalculadoraTrigonometricaBinding(@NonNull ConstraintLayout rootView,
-      @NonNull TextView ListaOperaciones1, @NonNull ImageButton borrarBoton1,
-      @NonNull ImageButton botonConfigCalcTrigo, @NonNull ImageButton botonDecalculadoraTrigoAmenu,
-      @NonNull ImageButton ceroBoton1, @NonNull ImageView cierraAppCalTrigo,
-      @NonNull ImageButton cincoBoton1, @NonNull ImageButton clearBoton1,
-      @NonNull ImageButton comaBoton1, @NonNull ImageButton cosenoBoton1,
-      @NonNull ImageButton cuatroBoton1, @NonNull ImageButton divBoton1,
-      @NonNull ImageButton dosBoton1, @NonNull ImageButton eBoton1,
-      @NonNull ImageButton gradosRadianesBoton1, @NonNull Guideline guideline10,
+      @NonNull TextView ListaOperacionesTrig, @NonNull ImageButton borrarBotonTrig,
+      @NonNull ImageButton botonConfigCalcTrig, @NonNull ImageButton botonDecalculadoraTrigoAmenu,
+      @NonNull ImageButton ceroBotonTrig, @NonNull ImageView cierraAppCalTrigo,
+      @NonNull ImageButton cincoBotonTrig, @NonNull ImageButton clearBotonTrig,
+      @NonNull ImageButton comaBotonTrig, @NonNull ImageButton cosenoBotonTrig,
+      @NonNull ImageButton cuatroBotonTrig, @NonNull ImageButton divBotonTrig,
+      @NonNull ImageButton dosBotonTrig, @NonNull ImageButton eBotonTrig,
+      @NonNull ImageButton gradosRadianesBotonTrig, @NonNull Guideline guideline10,
       @NonNull Guideline guideline11, @NonNull Guideline guideline12,
       @NonNull Guideline guideline13, @NonNull Guideline guideline14,
       @NonNull Guideline guideline15, @NonNull Guideline guideline16,
-      @NonNull ImageButton igualBoton1, @NonNull ImageButton inversoBoton1,
-      @NonNull ImageButton multboton1, @NonNull ImageButton nueveBoton1,
-      @NonNull ImageButton ochoBoton1, @NonNull ImageView parentesisDer,
+      @NonNull ImageButton igualBotonTrig, @NonNull ImageButton inversoBotonTrig,
+      @NonNull ImageButton multbotonTrig, @NonNull ImageButton nueveBotonTrig,
+      @NonNull ImageButton ochoBotonTrig, @NonNull ImageView parentesisDer,
       @NonNull ImageView parentesisIz, @NonNull ImageView parentesisiz,
-      @NonNull ImageButton piBoton1, @NonNull ImageButton porcentajeBoton1,
-      @NonNull ImageButton potenciaBoton1, @NonNull ImageButton raizBoton1,
-      @NonNull ImageButton restaBoton1, @NonNull TextView resultadosTrigo,
-      @NonNull ImageButton seisBoton1, @NonNull ImageButton senoBoton1,
-      @NonNull ImageButton sieteBoton1, @NonNull ImageButton sumaBoton1,
-      @NonNull ImageButton tangenteBoton1, @NonNull ImageButton tresBoton1,
-      @NonNull ImageButton unoBoton1) {
+      @NonNull ImageButton piBotonTrig, @NonNull ImageButton porcentajeBotonTrig,
+      @NonNull ImageButton potenciaBotonTrig, @NonNull ImageButton raizBotonTrig,
+      @NonNull ImageButton restaBotonTrig, @NonNull TextView resultadosTrigo,
+      @NonNull ImageButton seisBotonTrig, @NonNull ImageButton senoBotonTrig,
+      @NonNull ImageButton sieteBotonTrig, @NonNull ImageButton sumaBotonTrig,
+      @NonNull ImageButton tangenteBotonTrig, @NonNull ImageButton tresBotonTrig,
+      @NonNull ImageButton unoBotonTrig) {
     this.rootView = rootView;
-    this.ListaOperaciones1 = ListaOperaciones1;
-    this.borrarBoton1 = borrarBoton1;
-    this.botonConfigCalcTrigo = botonConfigCalcTrigo;
+    this.ListaOperacionesTrig = ListaOperacionesTrig;
+    this.borrarBotonTrig = borrarBotonTrig;
+    this.botonConfigCalcTrig = botonConfigCalcTrig;
     this.botonDecalculadoraTrigoAmenu = botonDecalculadoraTrigoAmenu;
-    this.ceroBoton1 = ceroBoton1;
+    this.ceroBotonTrig = ceroBotonTrig;
     this.cierraAppCalTrigo = cierraAppCalTrigo;
-    this.cincoBoton1 = cincoBoton1;
-    this.clearBoton1 = clearBoton1;
-    this.comaBoton1 = comaBoton1;
-    this.cosenoBoton1 = cosenoBoton1;
-    this.cuatroBoton1 = cuatroBoton1;
-    this.divBoton1 = divBoton1;
-    this.dosBoton1 = dosBoton1;
-    this.eBoton1 = eBoton1;
-    this.gradosRadianesBoton1 = gradosRadianesBoton1;
+    this.cincoBotonTrig = cincoBotonTrig;
+    this.clearBotonTrig = clearBotonTrig;
+    this.comaBotonTrig = comaBotonTrig;
+    this.cosenoBotonTrig = cosenoBotonTrig;
+    this.cuatroBotonTrig = cuatroBotonTrig;
+    this.divBotonTrig = divBotonTrig;
+    this.dosBotonTrig = dosBotonTrig;
+    this.eBotonTrig = eBotonTrig;
+    this.gradosRadianesBotonTrig = gradosRadianesBotonTrig;
     this.guideline10 = guideline10;
     this.guideline11 = guideline11;
     this.guideline12 = guideline12;
@@ -197,27 +197,27 @@ public final class ActivityCalculadoraTrigonometricaBinding implements ViewBindi
     this.guideline14 = guideline14;
     this.guideline15 = guideline15;
     this.guideline16 = guideline16;
-    this.igualBoton1 = igualBoton1;
-    this.inversoBoton1 = inversoBoton1;
-    this.multboton1 = multboton1;
-    this.nueveBoton1 = nueveBoton1;
-    this.ochoBoton1 = ochoBoton1;
+    this.igualBotonTrig = igualBotonTrig;
+    this.inversoBotonTrig = inversoBotonTrig;
+    this.multbotonTrig = multbotonTrig;
+    this.nueveBotonTrig = nueveBotonTrig;
+    this.ochoBotonTrig = ochoBotonTrig;
     this.parentesisDer = parentesisDer;
     this.parentesisIz = parentesisIz;
     this.parentesisiz = parentesisiz;
-    this.piBoton1 = piBoton1;
-    this.porcentajeBoton1 = porcentajeBoton1;
-    this.potenciaBoton1 = potenciaBoton1;
-    this.raizBoton1 = raizBoton1;
-    this.restaBoton1 = restaBoton1;
+    this.piBotonTrig = piBotonTrig;
+    this.porcentajeBotonTrig = porcentajeBotonTrig;
+    this.potenciaBotonTrig = potenciaBotonTrig;
+    this.raizBotonTrig = raizBotonTrig;
+    this.restaBotonTrig = restaBotonTrig;
     this.resultadosTrigo = resultadosTrigo;
-    this.seisBoton1 = seisBoton1;
-    this.senoBoton1 = senoBoton1;
-    this.sieteBoton1 = sieteBoton1;
-    this.sumaBoton1 = sumaBoton1;
-    this.tangenteBoton1 = tangenteBoton1;
-    this.tresBoton1 = tresBoton1;
-    this.unoBoton1 = unoBoton1;
+    this.seisBotonTrig = seisBotonTrig;
+    this.senoBotonTrig = senoBotonTrig;
+    this.sieteBotonTrig = sieteBotonTrig;
+    this.sumaBotonTrig = sumaBotonTrig;
+    this.tangenteBotonTrig = tangenteBotonTrig;
+    this.tresBotonTrig = tresBotonTrig;
+    this.unoBotonTrig = unoBotonTrig;
   }
 
   @Override
@@ -247,21 +247,21 @@ public final class ActivityCalculadoraTrigonometricaBinding implements ViewBindi
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.ListaOperaciones1;
-      TextView ListaOperaciones1 = ViewBindings.findChildViewById(rootView, id);
-      if (ListaOperaciones1 == null) {
+      id = R.id.ListaOperacionesTrig;
+      TextView ListaOperacionesTrig = ViewBindings.findChildViewById(rootView, id);
+      if (ListaOperacionesTrig == null) {
         break missingId;
       }
 
-      id = R.id.borrarBoton1;
-      ImageButton borrarBoton1 = ViewBindings.findChildViewById(rootView, id);
-      if (borrarBoton1 == null) {
+      id = R.id.borrarBotonTrig;
+      ImageButton borrarBotonTrig = ViewBindings.findChildViewById(rootView, id);
+      if (borrarBotonTrig == null) {
         break missingId;
       }
 
-      id = R.id.boton_config_calc_trigo;
-      ImageButton botonConfigCalcTrigo = ViewBindings.findChildViewById(rootView, id);
-      if (botonConfigCalcTrigo == null) {
+      id = R.id.boton_config_calc_trig;
+      ImageButton botonConfigCalcTrig = ViewBindings.findChildViewById(rootView, id);
+      if (botonConfigCalcTrig == null) {
         break missingId;
       }
 
@@ -271,9 +271,9 @@ public final class ActivityCalculadoraTrigonometricaBinding implements ViewBindi
         break missingId;
       }
 
-      id = R.id.ceroBoton1;
-      ImageButton ceroBoton1 = ViewBindings.findChildViewById(rootView, id);
-      if (ceroBoton1 == null) {
+      id = R.id.ceroBotonTrig;
+      ImageButton ceroBotonTrig = ViewBindings.findChildViewById(rootView, id);
+      if (ceroBotonTrig == null) {
         break missingId;
       }
 
@@ -283,57 +283,57 @@ public final class ActivityCalculadoraTrigonometricaBinding implements ViewBindi
         break missingId;
       }
 
-      id = R.id.cincoBoton1;
-      ImageButton cincoBoton1 = ViewBindings.findChildViewById(rootView, id);
-      if (cincoBoton1 == null) {
+      id = R.id.cincoBotonTrig;
+      ImageButton cincoBotonTrig = ViewBindings.findChildViewById(rootView, id);
+      if (cincoBotonTrig == null) {
         break missingId;
       }
 
-      id = R.id.clearBoton1;
-      ImageButton clearBoton1 = ViewBindings.findChildViewById(rootView, id);
-      if (clearBoton1 == null) {
+      id = R.id.clearBotonTrig;
+      ImageButton clearBotonTrig = ViewBindings.findChildViewById(rootView, id);
+      if (clearBotonTrig == null) {
         break missingId;
       }
 
-      id = R.id.comaBoton1;
-      ImageButton comaBoton1 = ViewBindings.findChildViewById(rootView, id);
-      if (comaBoton1 == null) {
+      id = R.id.comaBotonTrig;
+      ImageButton comaBotonTrig = ViewBindings.findChildViewById(rootView, id);
+      if (comaBotonTrig == null) {
         break missingId;
       }
 
-      id = R.id.cosenoBoton1;
-      ImageButton cosenoBoton1 = ViewBindings.findChildViewById(rootView, id);
-      if (cosenoBoton1 == null) {
+      id = R.id.cosenoBotonTrig;
+      ImageButton cosenoBotonTrig = ViewBindings.findChildViewById(rootView, id);
+      if (cosenoBotonTrig == null) {
         break missingId;
       }
 
-      id = R.id.cuatroBoton1;
-      ImageButton cuatroBoton1 = ViewBindings.findChildViewById(rootView, id);
-      if (cuatroBoton1 == null) {
+      id = R.id.cuatroBotonTrig;
+      ImageButton cuatroBotonTrig = ViewBindings.findChildViewById(rootView, id);
+      if (cuatroBotonTrig == null) {
         break missingId;
       }
 
-      id = R.id.divBoton1;
-      ImageButton divBoton1 = ViewBindings.findChildViewById(rootView, id);
-      if (divBoton1 == null) {
+      id = R.id.divBotonTrig;
+      ImageButton divBotonTrig = ViewBindings.findChildViewById(rootView, id);
+      if (divBotonTrig == null) {
         break missingId;
       }
 
-      id = R.id.dosBoton1;
-      ImageButton dosBoton1 = ViewBindings.findChildViewById(rootView, id);
-      if (dosBoton1 == null) {
+      id = R.id.dosBotonTrig;
+      ImageButton dosBotonTrig = ViewBindings.findChildViewById(rootView, id);
+      if (dosBotonTrig == null) {
         break missingId;
       }
 
-      id = R.id.eBoton1;
-      ImageButton eBoton1 = ViewBindings.findChildViewById(rootView, id);
-      if (eBoton1 == null) {
+      id = R.id.eBotonTrig;
+      ImageButton eBotonTrig = ViewBindings.findChildViewById(rootView, id);
+      if (eBotonTrig == null) {
         break missingId;
       }
 
-      id = R.id.gradosRadianesBoton1;
-      ImageButton gradosRadianesBoton1 = ViewBindings.findChildViewById(rootView, id);
-      if (gradosRadianesBoton1 == null) {
+      id = R.id.gradosRadianesBotonTrig;
+      ImageButton gradosRadianesBotonTrig = ViewBindings.findChildViewById(rootView, id);
+      if (gradosRadianesBotonTrig == null) {
         break missingId;
       }
 
@@ -379,33 +379,33 @@ public final class ActivityCalculadoraTrigonometricaBinding implements ViewBindi
         break missingId;
       }
 
-      id = R.id.igualBoton1;
-      ImageButton igualBoton1 = ViewBindings.findChildViewById(rootView, id);
-      if (igualBoton1 == null) {
+      id = R.id.igualBotonTrig;
+      ImageButton igualBotonTrig = ViewBindings.findChildViewById(rootView, id);
+      if (igualBotonTrig == null) {
         break missingId;
       }
 
-      id = R.id.inversoBoton1;
-      ImageButton inversoBoton1 = ViewBindings.findChildViewById(rootView, id);
-      if (inversoBoton1 == null) {
+      id = R.id.inversoBotonTrig;
+      ImageButton inversoBotonTrig = ViewBindings.findChildViewById(rootView, id);
+      if (inversoBotonTrig == null) {
         break missingId;
       }
 
-      id = R.id.multboton1;
-      ImageButton multboton1 = ViewBindings.findChildViewById(rootView, id);
-      if (multboton1 == null) {
+      id = R.id.multbotonTrig;
+      ImageButton multbotonTrig = ViewBindings.findChildViewById(rootView, id);
+      if (multbotonTrig == null) {
         break missingId;
       }
 
-      id = R.id.nueveBoton1;
-      ImageButton nueveBoton1 = ViewBindings.findChildViewById(rootView, id);
-      if (nueveBoton1 == null) {
+      id = R.id.nueveBotonTrig;
+      ImageButton nueveBotonTrig = ViewBindings.findChildViewById(rootView, id);
+      if (nueveBotonTrig == null) {
         break missingId;
       }
 
-      id = R.id.ochoBoton1;
-      ImageButton ochoBoton1 = ViewBindings.findChildViewById(rootView, id);
-      if (ochoBoton1 == null) {
+      id = R.id.ochoBotonTrig;
+      ImageButton ochoBotonTrig = ViewBindings.findChildViewById(rootView, id);
+      if (ochoBotonTrig == null) {
         break missingId;
       }
 
@@ -427,33 +427,33 @@ public final class ActivityCalculadoraTrigonometricaBinding implements ViewBindi
         break missingId;
       }
 
-      id = R.id.piBoton1;
-      ImageButton piBoton1 = ViewBindings.findChildViewById(rootView, id);
-      if (piBoton1 == null) {
+      id = R.id.piBotonTrig;
+      ImageButton piBotonTrig = ViewBindings.findChildViewById(rootView, id);
+      if (piBotonTrig == null) {
         break missingId;
       }
 
-      id = R.id.porcentajeBoton1;
-      ImageButton porcentajeBoton1 = ViewBindings.findChildViewById(rootView, id);
-      if (porcentajeBoton1 == null) {
+      id = R.id.porcentajeBotonTrig;
+      ImageButton porcentajeBotonTrig = ViewBindings.findChildViewById(rootView, id);
+      if (porcentajeBotonTrig == null) {
         break missingId;
       }
 
-      id = R.id.potenciaBoton1;
-      ImageButton potenciaBoton1 = ViewBindings.findChildViewById(rootView, id);
-      if (potenciaBoton1 == null) {
+      id = R.id.potenciaBotonTrig;
+      ImageButton potenciaBotonTrig = ViewBindings.findChildViewById(rootView, id);
+      if (potenciaBotonTrig == null) {
         break missingId;
       }
 
-      id = R.id.raizBoton1;
-      ImageButton raizBoton1 = ViewBindings.findChildViewById(rootView, id);
-      if (raizBoton1 == null) {
+      id = R.id.raizBotonTrig;
+      ImageButton raizBotonTrig = ViewBindings.findChildViewById(rootView, id);
+      if (raizBotonTrig == null) {
         break missingId;
       }
 
-      id = R.id.restaBoton1;
-      ImageButton restaBoton1 = ViewBindings.findChildViewById(rootView, id);
-      if (restaBoton1 == null) {
+      id = R.id.restaBotonTrig;
+      ImageButton restaBotonTrig = ViewBindings.findChildViewById(rootView, id);
+      if (restaBotonTrig == null) {
         break missingId;
       }
 
@@ -463,57 +463,58 @@ public final class ActivityCalculadoraTrigonometricaBinding implements ViewBindi
         break missingId;
       }
 
-      id = R.id.seisBoton1;
-      ImageButton seisBoton1 = ViewBindings.findChildViewById(rootView, id);
-      if (seisBoton1 == null) {
+      id = R.id.seisBotonTrig;
+      ImageButton seisBotonTrig = ViewBindings.findChildViewById(rootView, id);
+      if (seisBotonTrig == null) {
         break missingId;
       }
 
-      id = R.id.senoBoton1;
-      ImageButton senoBoton1 = ViewBindings.findChildViewById(rootView, id);
-      if (senoBoton1 == null) {
+      id = R.id.senoBotonTrig;
+      ImageButton senoBotonTrig = ViewBindings.findChildViewById(rootView, id);
+      if (senoBotonTrig == null) {
         break missingId;
       }
 
-      id = R.id.sieteBoton1;
-      ImageButton sieteBoton1 = ViewBindings.findChildViewById(rootView, id);
-      if (sieteBoton1 == null) {
+      id = R.id.sieteBotonTrig;
+      ImageButton sieteBotonTrig = ViewBindings.findChildViewById(rootView, id);
+      if (sieteBotonTrig == null) {
         break missingId;
       }
 
-      id = R.id.sumaBoton1;
-      ImageButton sumaBoton1 = ViewBindings.findChildViewById(rootView, id);
-      if (sumaBoton1 == null) {
+      id = R.id.sumaBotonTrig;
+      ImageButton sumaBotonTrig = ViewBindings.findChildViewById(rootView, id);
+      if (sumaBotonTrig == null) {
         break missingId;
       }
 
-      id = R.id.tangenteBoton1;
-      ImageButton tangenteBoton1 = ViewBindings.findChildViewById(rootView, id);
-      if (tangenteBoton1 == null) {
+      id = R.id.tangenteBotonTrig;
+      ImageButton tangenteBotonTrig = ViewBindings.findChildViewById(rootView, id);
+      if (tangenteBotonTrig == null) {
         break missingId;
       }
 
-      id = R.id.tresBoton1;
-      ImageButton tresBoton1 = ViewBindings.findChildViewById(rootView, id);
-      if (tresBoton1 == null) {
+      id = R.id.tresBotonTrig;
+      ImageButton tresBotonTrig = ViewBindings.findChildViewById(rootView, id);
+      if (tresBotonTrig == null) {
         break missingId;
       }
 
-      id = R.id.unoBoton1;
-      ImageButton unoBoton1 = ViewBindings.findChildViewById(rootView, id);
-      if (unoBoton1 == null) {
+      id = R.id.unoBotonTrig;
+      ImageButton unoBotonTrig = ViewBindings.findChildViewById(rootView, id);
+      if (unoBotonTrig == null) {
         break missingId;
       }
 
       return new ActivityCalculadoraTrigonometricaBinding((ConstraintLayout) rootView,
-          ListaOperaciones1, borrarBoton1, botonConfigCalcTrigo, botonDecalculadoraTrigoAmenu,
-          ceroBoton1, cierraAppCalTrigo, cincoBoton1, clearBoton1, comaBoton1, cosenoBoton1,
-          cuatroBoton1, divBoton1, dosBoton1, eBoton1, gradosRadianesBoton1, guideline10,
-          guideline11, guideline12, guideline13, guideline14, guideline15, guideline16, igualBoton1,
-          inversoBoton1, multboton1, nueveBoton1, ochoBoton1, parentesisDer, parentesisIz,
-          parentesisiz, piBoton1, porcentajeBoton1, potenciaBoton1, raizBoton1, restaBoton1,
-          resultadosTrigo, seisBoton1, senoBoton1, sieteBoton1, sumaBoton1, tangenteBoton1,
-          tresBoton1, unoBoton1);
+          ListaOperacionesTrig, borrarBotonTrig, botonConfigCalcTrig, botonDecalculadoraTrigoAmenu,
+          ceroBotonTrig, cierraAppCalTrigo, cincoBotonTrig, clearBotonTrig, comaBotonTrig,
+          cosenoBotonTrig, cuatroBotonTrig, divBotonTrig, dosBotonTrig, eBotonTrig,
+          gradosRadianesBotonTrig, guideline10, guideline11, guideline12, guideline13, guideline14,
+          guideline15, guideline16, igualBotonTrig, inversoBotonTrig, multbotonTrig, nueveBotonTrig,
+          ochoBotonTrig, parentesisDer, parentesisIz, parentesisiz, piBotonTrig,
+          porcentajeBotonTrig, potenciaBotonTrig, raizBotonTrig, restaBotonTrig, resultadosTrigo,
+          seisBotonTrig, senoBotonTrig, sieteBotonTrig, sumaBotonTrig, tangenteBotonTrig,
+          tresBotonTrig, unoBotonTrig);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
