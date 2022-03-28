@@ -14,7 +14,7 @@ class Ecuaciones2Test {
     private val logicaEcuaciones: LogicaEcuaciones = LogicaEcuaciones()
 
     @Test
-    fun addition_isCorrect() {
+    fun ecuacionResultadoImaginarios() {
         var (result_1, result_2) =
             logicaEcuaciones.operacion(1.0, -2.0, 5.0)
         assertEquals("1 + 2i", result_1)
@@ -22,7 +22,7 @@ class Ecuaciones2Test {
     }
 
     @Test
-    fun ecuacionesconReales(){
+    fun ecuacionResultadoReales(){
 
         var  (resultado_1,resultado_2) = logicaEcuaciones.operacion(1.0,Math.sqrt(2.0),-3.0)
 
@@ -32,7 +32,7 @@ class Ecuaciones2Test {
     }
 
     @Test
-    fun ecuacionesconNegativos(){
+    fun ecuacionEntradaNegativos(){
 
         var  (resultado_1,resultado_2) = logicaEcuaciones.operacion(-1.0,-4.0,-1.0)
 
@@ -41,7 +41,7 @@ class Ecuaciones2Test {
     }
 
     @Test
-    fun ecuacionesconPositivos(){
+    fun ecuacionEntradaPositivos(){
 
         var  (resultado_1,resultado_2) = logicaEcuaciones.operacion(3.0,6.0,2.0)
 
@@ -50,7 +50,7 @@ class Ecuaciones2Test {
     }
 
     @Test
-    fun ecuacionesSolo0(){
+    fun ecuacionVacia(){
 
         var  (resultado_1,resultado_2) = logicaEcuaciones.operacion(0.0,0.0,0.0)
 
