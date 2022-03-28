@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondo_ecuaciones_grado2_noche_2"
-    tools:context=".ecuaciones2">
+    tools:context=".Ecuaciones2">
 
     <EditText
         android:id="@+id/ec_1_campo"

@@ -4,9 +4,17 @@ import kotlinx.android.synthetic.main.activity_ecuaciones.*
 import kotlinx.android.synthetic.main.activity_ecuaciones2.*
 import kotlin.math.sqrt
 
-class logicaEcuaciones {
+class LogicaEcuaciones {
 
-
+    /**
+     * Ejecuta una ecuación de segundo grado.
+     *
+     * La estructura de la operación sería a*x^2 + b*x + c = 0 y daría dos resultados.
+     * @param[elevado_2] parámetro 'a' de la operación.
+     * @param[elevado_1] parámetro 'b' de la operación.
+     * @param[elevado_0] parámetro 'c' de la operación
+     * @return
+     */
     public fun operacion( elevado_2: Double, elevado_1: Double, elevado_0: Double):
             Pair<String, String> {
         var resultado_1 = "inf"

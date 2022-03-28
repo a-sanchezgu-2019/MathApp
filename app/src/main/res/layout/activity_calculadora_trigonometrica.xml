@@ -567,7 +567,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline10" />
 
     <ImageButton
-        android:id="@+id/boton_config_calc_trig"
+        android:id="@+id/boton_config_calc_trigo"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:layout_marginStart="344dp"
