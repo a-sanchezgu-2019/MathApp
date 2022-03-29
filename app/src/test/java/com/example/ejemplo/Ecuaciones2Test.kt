@@ -85,4 +85,33 @@ class Ecuaciones2Test {
         assertEquals("Es una igualdad falsa" ,resultado_2)
     }
 
+    @Test
+    fun primerparametro0() {
+
+        var (resultado_1, resultado_2) = logicaEcuaciones.operacion(0.0, 2.0, 3.0)
+
+        assertEquals("-1.5", resultado_1)
+        assertEquals("-1.5", resultado_2)
+    }
+
+    @Test
+    fun segundoparametro0(){
+
+        var  (resultado_1,resultado_2) = logicaEcuaciones.operacion(1.0,0.0,-4.0)
+
+        assertEquals("2" ,resultado_1)
+        assertEquals("-2" ,resultado_2)
+    }
+
+    @Test
+    fun tercerparametro0(){
+
+        var  (resultado_1,resultado_2) = logicaEcuaciones.operacion(6.0,-5.0,0.0)
+
+        assertEquals("0" ,resultado_1)
+        assertEquals("0.8333333333333334" ,resultado_2)
+    }
+
+
+
 }
