@@ -114,4 +114,13 @@ class Ecuaciones2Test {
 
 
 
+    @Test
+    fun numerosMuyGrandes() {
+
+        var (resultado_1, resultado_2) = logicaEcuaciones.operacion(1000.0, 2000.0, 3000.0)
+
+        assertEquals("−1 + 1.41421i", resultado_1)
+        assertEquals("−1 - 1.41421i", resultado_2)
+    }
+
 }
