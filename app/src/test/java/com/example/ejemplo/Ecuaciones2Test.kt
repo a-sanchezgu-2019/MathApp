@@ -18,7 +18,7 @@ class Ecuaciones2Test {
         var (result_1, result_2) =
             logicaEcuaciones.operacion(1.0, -2.0, 5.0)
         assertEquals("1 + 2i", result_1)
-        assertEquals("1 - 2i", result_2)
+        assertEquals("1  -2i", result_2)
     }
 
     @Test
@@ -54,8 +54,8 @@ class Ecuaciones2Test {
 
         var  (resultado_1,resultado_2) = logicaEcuaciones.operacion(0.0,0.0,0.0)
 
-        assertEquals("0" ,resultado_1)
-        assertEquals("0" ,resultado_2)
+        assertEquals("inf" ,resultado_1)
+        assertEquals("inf" ,resultado_2)
     }
 
     @Test
@@ -108,8 +108,8 @@ class Ecuaciones2Test {
 
         var  (resultado_1,resultado_2) = logicaEcuaciones.operacion(6.0,-5.0,0.0)
 
-        assertEquals("0" ,resultado_1)
-        assertEquals("0.8333333333333334" ,resultado_2)
+        assertEquals("0,0000" ,resultado_1)
+        assertEquals("0,8333333333333334" ,resultado_2)
     }
 
 
@@ -119,8 +119,8 @@ class Ecuaciones2Test {
 
         var (resultado_1, resultado_2) = logicaEcuaciones.operacion(1000.0, 2000.0, 3000.0)
 
-        assertEquals("−1 + 1.41421i", resultado_1)
-        assertEquals("−1 - 1.41421i", resultado_2)
+        assertEquals("-1 + 1,41i", resultado_1)
+        assertEquals("-1  -1,41i", resultado_2)
     }
 
 }
