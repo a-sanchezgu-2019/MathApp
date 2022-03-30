@@ -23,9 +23,13 @@ class LogicaEcuaciones {
         var resultado_parteImaginaria_1 = "inf"
         var resultado_parteImaginaria_2 = "inf"
 
-        if (elevado_2 == 0.0) {
+        if (elevado_2 == 0.0 && elevado_1 == 0.0 && elevado_0 == 0.0){
+            resultado_1 = "Not defined"
+            resultado_2 = "Not defined"
             return resultado_1 to resultado_2
-        } else {
+        }else if (elevado_2 == 0.0) {
+            return resultado_1 to resultado_2
+        }else {
             var condicion = Math.pow(elevado_1, 2.0) - 4 * elevado_2 * elevado_0
             if (condicion >= 0.0) { // las raices son reales
                 resultado_1 = ((-elevado_1 + sqrt(condicion)) / (2 * elevado_2)).toString()
@@ -34,7 +38,7 @@ class LogicaEcuaciones {
                 if ("$resultado_1".endsWith(".0")) {
                     resultado_1 = "$resultado_1".replace(".0", "")
                 } else {
-                    resultado_1 = "%.4f".format(resultado_2.toDouble());
+                    resultado_1 = "%.4f".format(resultado_1.toDouble());
                 }
 
                 if ("$resultado_2".endsWith(".0")) {

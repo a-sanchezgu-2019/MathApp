@@ -54,8 +54,8 @@ class Ecuaciones2Test {
 
         var  (resultado_1,resultado_2) = logicaEcuaciones.operacion(0.0,0.0,0.0)
 
-        assertEquals("inf" ,resultado_1)
-        assertEquals("inf" ,resultado_2)
+        assertEquals("Not defined" ,resultado_1)
+        assertEquals("Not defined" ,resultado_2)
     }
 
     @Test
