@@ -36,8 +36,8 @@ class Ecuaciones2Test {
 
         var  (resultado_1,resultado_2) = logicaEcuaciones.operacion(-1.0,-4.0,-1.0)
 
-        assertEquals("-3.7320" ,resultado_1)
-        assertEquals("-0.2679" ,resultado_2)
+        assertEquals("-3,7321" ,resultado_1)
+        assertEquals("-0,2679" ,resultado_2)
     }
 
     @Test
@@ -120,7 +120,7 @@ class Ecuaciones2Test {
         var (resultado_1, resultado_2) = logicaEcuaciones.operacion(1000.0, 2000.0, 3000.0)
 
         assertEquals("-1 + 1,41i", resultado_1)
-        assertEquals("-1  -1,41i", resultado_2)
+        assertEquals("-1 - 1,41i", resultado_2)
     }
 
 }

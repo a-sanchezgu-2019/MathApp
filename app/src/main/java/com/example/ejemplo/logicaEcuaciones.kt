@@ -85,9 +85,15 @@ class LogicaEcuaciones {
                 } else {
                     resultado_1 = resultado_parteReal + " + " + resultado_parteImaginaria_1 + "i"
                     resultado_2 = resultado_parteReal + "  " + resultado_parteImaginaria_2 + "i"
+                    formatonegativos(resultado_2)
                     return resultado_1 to resultado_2
                 }
             }
         }
     }
+    //public fun formatonegativos(resultado: String): String{
+    //  resultado.split("-")
+    //  for (i in resultado):
+    //    resultadoreformateado = resultadoreformateado + i + " "
+    //}
 }
