@@ -12,7 +12,7 @@
         android:layout_height="789dp"
         android:background="@drawable/fondo"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/cierraApp_calTrigo"
@@ -27,17 +27,17 @@
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.641"
+        app:layout_constraintHorizontal_bias="0.725"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.013"
+        app:layout_constraintVertical_bias="0.021"
         app:srcCompat="@drawable/x" />
 
     <ImageButton
         android:id="@+id/boton_decalculadoraTrigo_amenu"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="16dp"
 
         android:adjustViewBounds="true"
         android:background="#0000"
@@ -45,10 +45,11 @@
         android:padding="0dp"
         android:scaleType="fitXY"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.387"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/home" />
+        app:srcCompat="@drawable/home"
+        tools:ignore="DuplicateSpeakableTextCheck" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline10"
@@ -152,7 +153,7 @@
         android:padding="0dp"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/comaBoton1"
+        app:layout_constraintEnd_toStartOf="@+id/comaBotonTrig"
         app:layout_constraintHorizontal_bias="0.87"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline16"
@@ -170,7 +171,7 @@
         android:padding="0dp"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toTopOf="@+id/guideline15"
-        app:layout_constraintEnd_toStartOf="@+id/seisBoton1"
+        app:layout_constraintEnd_toStartOf="@+id/seisBotonTrig"
         app:layout_constraintHorizontal_bias="0.65"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline14"
@@ -186,8 +187,8 @@
         android:padding="0dp"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toTopOf="@+id/guideline15"
-        app:layout_constraintEnd_toStartOf="@+id/seisBoton1"
-        app:layout_constraintHorizontal_bias="0.214"
+        app:layout_constraintEnd_toStartOf="@+id/seisBotonTrig"
+        app:layout_constraintHorizontal_bias="0.269"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline14" />
 
@@ -217,7 +218,7 @@
         android:padding="0dp"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toTopOf="@+id/guideline14"
-        app:layout_constraintEnd_toStartOf="@+id/nueveBoton1"
+        app:layout_constraintEnd_toStartOf="@+id/nueveBotonTrig"
         app:layout_constraintHorizontal_bias="0.875"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline12" />
@@ -243,18 +244,16 @@
         android:layout_width="56dp"
         android:layout_height="56dp"
 
-        android:layout_marginStart="92dp"
-        android:layout_marginLeft="92dp"
-        android:background="@drawable/_seis"
+        android:background="@drawable/_siete"
         android:contentDescription="siete boton"
         android:padding="0dp"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toTopOf="@+id/guideline14"
-        app:layout_constraintEnd_toStartOf="@+id/nueveBoton1"
-        app:layout_constraintHorizontal_bias="0.214"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.095"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline12"
-        app:layout_constraintVertical_bias="0.529" />
+        app:layout_constraintVertical_bias="0.521" />
 
     <ImageButton
         android:id="@+id/dosBotonTrig"
@@ -266,7 +265,7 @@
         android:padding="0dp"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toTopOf="@+id/guideline16"
-        app:layout_constraintEnd_toStartOf="@+id/tresBoton1"
+        app:layout_constraintEnd_toStartOf="@+id/tresBotonTrig"
         app:layout_constraintHorizontal_bias="0.875"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline15" />
@@ -292,35 +291,31 @@
         android:layout_width="56dp"
         android:layout_height="56dp"
 
-        android:layout_marginStart="92dp"
-        android:layout_marginLeft="92dp"
         android:background="@drawable/uno"
         android:contentDescription="uno boton"
         android:padding="0dp"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toTopOf="@+id/guideline16"
-        app:layout_constraintEnd_toStartOf="@+id/tresBoton1"
-        app:layout_constraintHorizontal_bias="0.214"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.095"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline15"
-        app:layout_constraintVertical_bias="0.529" />
+        app:layout_constraintVertical_bias="0.521" />
 
     <ImageButton
         android:id="@+id/igualBotonTrig"
         android:layout_width="56dp"
         android:layout_height="56dp"
 
-        android:layout_marginStart="92dp"
-        android:layout_marginLeft="92dp"
         android:contentDescription="igual boton"
         android:padding="0dp"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/comaBoton1"
-        app:layout_constraintHorizontal_bias="0.214"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.095"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline16"
-        app:layout_constraintVertical_bias="0.529"
+        app:layout_constraintVertical_bias="0.521"
         app:srcCompat="@drawable/igual" />
 
     <ImageButton
@@ -349,9 +344,10 @@
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.12"
-        app:layout_constraintStart_toEndOf="@+id/comaBoton1"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toEndOf="@+id/comaBotonTrig"
         app:layout_constraintTop_toTopOf="@+id/guideline16"
+        app:layout_constraintVertical_bias="0.521"
         app:srcCompat="@drawable/mas" />
 
     <ImageButton
@@ -359,18 +355,16 @@
         android:layout_width="56dp"
         android:layout_height="56dp"
 
-        android:layout_marginEnd="84dp"
-        android:layout_marginRight="84dp"
         android:contentDescription="potenciaBoton"
         android:padding="0dp"
         android:scaleType="centerInside"
         android:src="@drawable/potencia"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.958"
-        app:layout_constraintStart_toEndOf="@+id/comaBoton1"
+        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline16"
-        app:layout_constraintVertical_bias="0.529"
+        app:layout_constraintVertical_bias="0.521"
         tools:srcCompat="@drawable/potencia" />
 
     <ImageButton
@@ -385,7 +379,7 @@
         app:layout_constraintBottom_toTopOf="@+id/guideline16"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.428"
-        app:layout_constraintStart_toEndOf="@+id/tresBoton1"
+        app:layout_constraintStart_toEndOf="@+id/tresBotonTrig"
         app:layout_constraintTop_toTopOf="@+id/guideline15"
         app:srcCompat="@drawable/menos" />
 
@@ -399,7 +393,7 @@
         app:layout_constraintBottom_toTopOf="@+id/guideline14"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.125"
-        app:layout_constraintStart_toEndOf="@+id/nueveBoton1"
+        app:layout_constraintStart_toEndOf="@+id/nueveBotonTrig"
         app:layout_constraintTop_toTopOf="@+id/guideline12"
         app:srcCompat="@drawable/div" />
 
@@ -413,7 +407,7 @@
         app:layout_constraintBottom_toTopOf="@+id/guideline15"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.125"
-        app:layout_constraintStart_toEndOf="@+id/seisBoton1"
+        app:layout_constraintStart_toEndOf="@+id/seisBotonTrig"
         app:layout_constraintTop_toTopOf="@+id/guideline14"
         app:srcCompat="@drawable/x" />
 
@@ -460,7 +454,7 @@
         android:padding="0dp"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toTopOf="@+id/guideline12"
-        app:layout_constraintEnd_toStartOf="@+id/eBoton1"
+        app:layout_constraintEnd_toStartOf="@+id/eBotonTrig"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline13"
         tools:srcCompat="@drawable/pi" />
@@ -469,36 +463,31 @@
         android:id="@+id/eBotonTrig"
         android:layout_width="56dp"
         android:layout_height="56dp"
-        android:layout_marginStart="92dp"
-        android:layout_marginLeft="92dp"
         android:background="@drawable/e"
         android:contentDescription="e boton"
         android:padding="0dp"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toTopOf="@+id/guideline12"
-        app:layout_constraintEnd_toStartOf="@+id/inversoBoton1"
-        app:layout_constraintHorizontal_bias="0.875"
+        app:layout_constraintEnd_toStartOf="@+id/inversoBotonTrig"
+        app:layout_constraintHorizontal_bias="0.856"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline13"
-        app:layout_constraintVertical_bias="0.47"
+        app:layout_constraintVertical_bias="0.478"
         tools:srcCompat="@drawable/e" />
 
     <ImageButton
         android:id="@+id/cosenoBotonTrig"
         android:layout_width="56dp"
         android:layout_height="56dp"
-        android:layout_marginEnd="84dp"
-        android:layout_marginRight="84dp"
         android:contentDescription="coseno"
         android:padding="0dp"
         android:scaleType="centerInside"
         android:src="@drawable/coseno"
         app:layout_constraintBottom_toTopOf="@+id/guideline15"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.958"
-        app:layout_constraintStart_toEndOf="@+id/seisBoton1"
+        app:layout_constraintHorizontal_bias="0.841"
+        app:layout_constraintStart_toEndOf="@+id/seisBotonTrig"
         app:layout_constraintTop_toTopOf="@+id/guideline14"
-        app:layout_constraintVertical_bias="0.529"
         tools:srcCompat="@drawable/coseno" />
 
     <ImageButton
@@ -512,7 +501,7 @@
         app:layout_constraintBottom_toTopOf="@+id/guideline12"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.125"
-        app:layout_constraintStart_toEndOf="@+id/inversoBoton1"
+        app:layout_constraintStart_toEndOf="@+id/inversoBotonTrig"
         app:layout_constraintTop_toTopOf="@+id/guideline13"
         tools:srcCompat="@drawable/raiz" />
 
@@ -520,35 +509,31 @@
         android:id="@+id/gradosRadianesBotonTrig"
         android:layout_width="56dp"
         android:layout_height="56dp"
-        android:layout_marginEnd="84dp"
-        android:layout_marginRight="84dp"
         android:contentDescription="grados a radianes"
         android:padding="0dp"
         android:scaleType="centerInside"
         app:layout_constraintBottom_toTopOf="@+id/guideline12"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.958"
-        app:layout_constraintStart_toEndOf="@+id/inversoBoton1"
+        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline13"
-        app:layout_constraintVertical_bias="0.47"
+        app:layout_constraintVertical_bias="0.478"
         tools:srcCompat="@drawable/deg" />
 
     <ImageButton
         android:id="@+id/senoBotonTrig"
         android:layout_width="56dp"
         android:layout_height="56dp"
-        android:layout_marginEnd="84dp"
-        android:layout_marginRight="84dp"
         android:contentDescription="seno"
         android:padding="0dp"
         android:scaleType="centerInside"
         android:src="@drawable/seno"
         app:layout_constraintBottom_toTopOf="@+id/guideline14"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.965"
-        app:layout_constraintStart_toEndOf="@+id/nueveBoton1"
+        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline12"
-        app:layout_constraintVertical_bias="0.529"
+        app:layout_constraintVertical_bias="0.521"
         tools:srcCompat="@drawable/seno" />
 
     <ImageButton
@@ -562,7 +547,7 @@
         app:layout_constraintBottom_toTopOf="@+id/guideline16"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.823"
-        app:layout_constraintStart_toEndOf="@+id/tresBoton1"
+        app:layout_constraintStart_toEndOf="@+id/tresBotonTrig"
         app:layout_constraintTop_toTopOf="@+id/guideline15"
         app:layout_constraintVertical_bias="0.521"
         tools:srcCompat="@drawable/tangente" />
@@ -582,16 +567,17 @@
         app:layout_constraintTop_toTopOf="@+id/guideline10" />
 
     <ImageButton
-        android:id="@+id/boton_config_calc_trigo"
+        android:id="@+id/boton_config_calc_trig"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:layout_marginStart="319dp"
-        android:layout_marginLeft="319dp"
+        android:layout_marginStart="344dp"
+        android:layout_marginLeft="344dp"
         android:background="@drawable/ajustes_mini"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.013" />
+        app:layout_constraintVertical_bias="0.021"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/ListaOperacionesTrig"
@@ -600,9 +586,9 @@
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline11"
-        app:layout_constraintEnd_toEndOf="@+id/resultadosTrigo"
+        app:layout_constraintEnd_toEndOf="@+id/resultadosTrig"
         app:layout_constraintHorizontal_bias="0.05"
-        app:layout_constraintStart_toStartOf="@+id/resultadosTrigo"
+        app:layout_constraintStart_toStartOf="@+id/resultadosTrig"
         app:layout_constraintTop_toTopOf="@+id/guideline10"
         app:layout_constraintVertical_bias="0.2" />
 
@@ -618,7 +604,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline11"
         app:layout_constraintVertical_bias="0.055"
-        app:srcCompat="@drawable/parentesis_dere" />
+        app:srcCompat="@drawable/parentesis_dere"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ImageView
         android:id="@+id/parentesis_iz"
@@ -632,6 +619,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline11"
         app:layout_constraintVertical_bias="0.055"
-        app:srcCompat="@drawable/parentesis_izq" />
+        app:srcCompat="@drawable/parentesis_izq"
+        tools:ignore="SpeakableTextPresentCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
