@@ -97,7 +97,7 @@ class Ecuaciones2Test {
     @Test
     fun segundoparametro0(){
 
-        var  (resultado_1,resultado_2) = logicaEcuaciones.operacion(1.0,0.0,-4.0)
+        val  (resultado_1,resultado_2) = logicaEcuaciones.operacion(1.0,0.0,-4.0)
 
         assertEquals("2" ,resultado_1)
         assertEquals("-2" ,resultado_2)
@@ -106,7 +106,7 @@ class Ecuaciones2Test {
     @Test
     fun tercerparametro0(){
 
-        var  (resultado_1,resultado_2) = logicaEcuaciones.operacion(6.0,-5.0,0.0)
+        val  (resultado_1,resultado_2) = logicaEcuaciones.operacion(6.0,-5.0,0.0)
 
         assertEquals("0,0000" ,resultado_1)
         assertEquals("0,8333333333333334" ,resultado_2)
@@ -117,10 +117,17 @@ class Ecuaciones2Test {
     @Test
     fun numerosMuyGrandes() {
 
-        var (resultado_1, resultado_2) = logicaEcuaciones.operacion(1000.0, 2000.0, 3000.0)
+        val (resultado_1, resultado_2) = logicaEcuaciones.operacion(1000.0, 2000.0, 3000.0)
 
         assertEquals("-1 + 1,41i", resultado_1)
         assertEquals("-1 - 1,41i", resultado_2)
     }
 
+    @Test
+    fun testFormatoResta() {
+
+        val resultado = "2 - 4i"
+
+        assertEquals("-1 - 4i", logicaEcuaciones.formatoResta("-1", "-4"))
+    }
 }

@@ -19,7 +19,9 @@ class LogicaEcuaciones {
             Pair<String, String> {
         var resultado_1 = "inf"
         var resultado_2 = "inf"
+
         var resultado_parteReal = "inf"
+
         var resultado_parteImaginaria_1 = "inf"
         var resultado_parteImaginaria_2 = "inf"
 
@@ -27,8 +29,11 @@ class LogicaEcuaciones {
             resultado_1 = "Not defined"
             resultado_2 = "Not defined"
             return resultado_1 to resultado_2
+
         }else if (elevado_2 == 0.0) {
+
             return resultado_1 to resultado_2
+
         }else {
             var condicion = Math.pow(elevado_1, 2.0) - 4 * elevado_2 * elevado_0
             if (condicion >= 0.0) { // las raices son reales
@@ -84,16 +89,22 @@ class LogicaEcuaciones {
 
                 } else {
                     resultado_1 = resultado_parteReal + " + " + resultado_parteImaginaria_1 + "i"
-                    resultado_2 = resultado_parteReal + "  " + resultado_parteImaginaria_2 + "i"
-                    formatonegativos(resultado_2)
+                    resultado_2 = formatoResta(resultado_parteReal, resultado_parteImaginaria_2)
                     return resultado_1 to resultado_2
                 }
             }
         }
     }
-    //public fun formatonegativos(resultado: String): String{
-    //  resultado.split("-")
-    //  for (i in resultado):
-    //    resultadoreformateado = resultadoreformateado + i + " "
-    //}
+
+    // public fun formatonegativos(resultado: String): String{
+    //   resultado.split("-")
+    //   for (i in resultado):
+    //     resultadoreformateado = resultadoreformateado + i + " "
+    // }
+
+    public fun formatoResta(real: String, imaginario: String): String{
+
+        val imaginarioSinMenos = imaginario.replace("-", "")
+        return real + " - " + imaginarioSinMenos + "i"
+    }
 }
