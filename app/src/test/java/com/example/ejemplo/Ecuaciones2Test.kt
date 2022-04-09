@@ -112,8 +112,6 @@ class Ecuaciones2Test {
         assertEquals("0,8333333333333334" ,resultado_2)
     }
 
-
-
     @Test
     fun numerosMuyGrandes() {
 
