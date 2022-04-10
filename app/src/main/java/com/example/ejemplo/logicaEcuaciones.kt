@@ -28,26 +28,11 @@ class LogicaEcuaciones {
         }else {
             val condicion = Math.pow(elevado_1, 2.0) - 4 * elevado_2 * elevado_0
             if (condicion >= 0.0) { // las raices son reales
-                resultado_1 = ((-elevado_1 + sqrt(condicion)) / (2 * elevado_2)).toString()
-                resultado_2 = ((-elevado_1 - sqrt(condicion)) / (2 * elevado_2)).toString()
-
-                if ("resultado_1".endsWith(".0")) {
-                    resultado_1 = "resultado_1".replace(".0", "")
-                } else {
-                    resultado_1 = "%.4f".format(resultado_1.toDouble());
-                }
-
-                if ("resultado_2".endsWith(".0")) {
-                    resultado_2 = "resultado_2".replace(".0", "")
-                } else {
-                    resultado_2 = "%.4f".format(resultado_2.toDouble())
-                }
-
-                return resultado_1 to resultado_2
+                val resultadoEcuacionGrado2real =  ecuacionGrado2real( elevado_1, elevado_0, elevado_2, resultado_1, resultado_2, condicion)
+                return formatoEcuacion(resultadoEcuacionGrado2real)
 
             } else {
                 var resultado_parteReal = ((-elevado_1 / (2 * elevado_2))).toString()
-
                 if ("resultado_parteReal".endsWith(".0")) {
                     resultado_parteReal =
                         ("resultado_parteReal".replace(".0", ""))
@@ -85,6 +70,14 @@ class LogicaEcuaciones {
                 }
             }
         }
+    }
+
+    private fun formatoEcuacion(resultadoEcuacionGrado2real: Any): Pair<String, String> {
+
+    }
+
+    private fun ecuacionGrado2real(elevado1: Double, elevado0: Double, elevado2: Double, resultado1: String, resultado2: String, condicion: Double): Any {
+
     }
 
     public fun FormatoEcuacionGrado1(resultadoEcuacionGrado1: Double): Pair<String, String> {
