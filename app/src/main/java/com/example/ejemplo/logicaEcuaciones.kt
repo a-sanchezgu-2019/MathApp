@@ -16,11 +16,11 @@ class LogicaEcuaciones {
 
     public fun operacion( elevado_2: Double, elevado_1: Double, elevado_0: Double):
             Pair<String, String> {
-        var  resultado_1 = "inf"
+        var resultado_1 = "inf"
         var resultado_2 = "inf"
-        if (elevado_2 == 0.0 && elevado_1 == 0.0 && elevado_0 == 0.0){
-            resultado_1 = "Not defined"
-            resultado_2 = "Not defined"
+        if (elevado_2 == 0.0 && elevado_1 == 0.0){
+            resultado_1 = "Es una igualdad falsa"
+            resultado_2 = "Es una igualdad falsa"
             return resultado_1 to resultado_2
 
         }else if (elevado_2 == 0.0) {
@@ -101,7 +101,9 @@ class LogicaEcuaciones {
         var resultado_2= resul_2
         resultado_1 = ((-elevado1 + sqrt(condicion)) / (2 * elevado2)).toString()
         resultado_2=( ((-elevado1 - sqrt(condicion)) / (2 * elevado2)).toString())
-
+        if (resultado_2 == "-0.0") {
+            resultado_2 = "0.0"
+        }
         if ("$resultado_1".endsWith(".0")) {
             resultado_1 =( "$resultado_1".replace(".0", ""))
         } else {
@@ -128,19 +130,19 @@ class LogicaEcuaciones {
     }
 
     private fun FormatoEcuacionGrado1(elevado_1: Double): Pair<String, String> {
-        val resultado_1 =elevado_1.toString()
-        val resultado_2 = "inf"
-
-
-
+        var resultado_1 =elevado_1.toString()
+        val resultado_2 = "No hay segundo resultado"
+        if (resultado_1 == "0.0"){
+            resultado_1 = "0"
+        }
         return resultado_1 to resultado_2
 
     }
 
     fun EcuacionGrado1(elevado_1: Double, elevado_0: Double): Double {
-
-        return  -elevado_0 / elevado_1
-
+        if (elevado_0 == 0.0){
+            return  elevado_0 / elevado_1}
+        return -elevado_0 / elevado_1
 
     }
 

@@ -18,7 +18,7 @@ class Ecuaciones2Test {
         val (result_1, result_2) =
             logicaEcuaciones.operacion(1.0, -2.0, 5.0)
         assertEquals("1 + 2i", result_1)
-        assertEquals("1  -2i", result_2)
+        assertEquals("1 - 2i", result_2)
     }
 
     @Test
@@ -26,8 +26,8 @@ class Ecuaciones2Test {
 
         val  (resultado_1,resultado_2) = logicaEcuaciones.operacion(1.0,Math.sqrt(2.0),-3.0)
 
-        assertEquals( "1.16372",resultado_1)
-        assertEquals("-2.57793",resultado_2)
+        assertEquals( "1,1637",resultado_1)
+        assertEquals("-2,5779",resultado_2)
 
     }
 
@@ -45,8 +45,8 @@ class Ecuaciones2Test {
 
         val  (resultado_1,resultado_2) = logicaEcuaciones.operacion(3.0,6.0,2.0)
 
-        assertEquals("-0.42265" ,resultado_1)
-        assertEquals("-1.57735" ,resultado_2)
+        assertEquals("-0,4226" ,resultado_1)
+        assertEquals("-1,5774" ,resultado_2)
     }
 
     @Test
@@ -54,8 +54,8 @@ class Ecuaciones2Test {
 
         val  (resultado_1,resultado_2) = logicaEcuaciones.operacion(0.0,0.0,0.0)
 
-        assertEquals("Not defined" ,resultado_1)
-        assertEquals("Not defined" ,resultado_2)
+        assertEquals("Es una igualdad falsa" ,resultado_1)
+        assertEquals("Es una igualdad falsa" ,resultado_2)
     }
 
     @Test
@@ -63,8 +63,8 @@ class Ecuaciones2Test {
 
         val  (resultado_1,resultado_2) = logicaEcuaciones.operacion(2.0,0.0,0.0)
 
-        assertEquals("Not defined" ,resultado_1)
-        assertEquals("Not defined" ,resultado_2)
+        assertEquals("0" ,resultado_1)
+        assertEquals("0" ,resultado_2)
     }
 
     @Test
@@ -73,7 +73,7 @@ class Ecuaciones2Test {
         val  (resultado_1,resultado_2) = logicaEcuaciones.operacion(0.0,1.0,0.0)
 
         assertEquals("0" ,resultado_1)
-        assertEquals("0" ,resultado_2)
+        assertEquals("No hay segundo resultado" ,resultado_2)
     }
 
     @Test
@@ -91,7 +91,7 @@ class Ecuaciones2Test {
         val (resultado_1, resultado_2) = logicaEcuaciones.operacion(0.0, 2.0, 3.0)
 
         assertEquals("-1.5", resultado_1)
-        assertEquals("-1.5", resultado_2)
+        assertEquals("No hay segundo resultado", resultado_2)
     }
 
     @Test
@@ -109,8 +109,8 @@ class Ecuaciones2Test {
         val  (resultado_1,resultado_2) =
             logicaEcuaciones.operacion(6.0,-5.0,0.0)
 
-        assertEquals("0,0000" ,resultado_1)
-        assertEquals("0,8333333333333334" ,resultado_2)
+        assertEquals("0,8333" ,resultado_1)
+        assertEquals("0" ,resultado_2)
     }
 
     // NO son números muy grandes. Y para estos test se debería provocar una excepción o pensar
