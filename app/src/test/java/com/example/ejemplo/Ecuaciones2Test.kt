@@ -134,25 +134,25 @@ class Ecuaciones2Test {
         var elevado_0 = -2.0
         var resultado = 1.0
 
-        assertEquals(resultado, logicaEcuaciones.ecuacionGrado1(elevado_1, elevado_0), 0.0001)
+        assertEquals(resultado, logicaEcuaciones.EcuacionGrado1(elevado_1, elevado_0), 0.0001)
 
         elevado_1 = -2.0
         elevado_0 = 2.0
         resultado = 1.0
 
-        assertEquals(resultado, logicaEcuaciones.ecuacionGrado1(elevado_1, elevado_0), 0.0001)
+        assertEquals(resultado, logicaEcuaciones.EcuacionGrado1(elevado_1, elevado_0), 0.0001)
 
         elevado_1 = 1.0
         elevado_0 = 0.0
         resultado = 0.0
 
-        assertEquals(resultado, logicaEcuaciones.ecuacionGrado1(elevado_1, elevado_0),0.0001)
+        assertEquals(resultado, logicaEcuaciones.EcuacionGrado1(elevado_1, elevado_0),0.0001)
 
         elevado_1 = -1.0
         elevado_0 = -2.0
         resultado = -2.0
 
-        assertEquals(resultado, logicaEcuaciones.ecuacionGrado1(elevado_1, elevado_0), 0.0001)
+        assertEquals(resultado, logicaEcuaciones.EcuacionGrado1(elevado_1, elevado_0), 0.0001)
     }
 
     @Test
