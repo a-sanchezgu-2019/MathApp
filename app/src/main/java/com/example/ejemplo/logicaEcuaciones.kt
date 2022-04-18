@@ -131,6 +131,10 @@ class LogicaEcuaciones {
 
     private fun FormatoEcuacionGrado1(elevado_1: Double): Pair<String, String> {
         var resultado_1 =elevado_1.toString()
+        if ("$resultado_1".endsWith(".0")) {
+            resultado_1 =( "$resultado_1".replace(".0", ""))
+        } else
+            resultado_1=(  "%.4f".format(resultado_1.toDouble()))
         val resultado_2 = "No hay segundo resultado"
         if (resultado_1 == "0.0"){
             resultado_1 = "0"

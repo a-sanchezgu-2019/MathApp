@@ -90,7 +90,7 @@ class Ecuaciones2Test {
 
         val (resultado_1, resultado_2) = logicaEcuaciones.operacion(0.0, 2.0, 3.0)
 
-        assertEquals("-1.5", resultado_1)
+        assertEquals("-1,5000", resultado_1)
         assertEquals("No hay segundo resultado", resultado_2)
     }
 
@@ -132,27 +132,40 @@ class Ecuaciones2Test {
     fun ecuacionGrado1() {
         var elevado_1 = 2.0
         var elevado_0 = -2.0
-        var resultado = 1.0
+        var (resultado, resultado_2) = logicaEcuaciones.operacion(0.0, elevado_1, elevado_0)
+        assertEquals("1", resultado)
+        assertEquals("No hay segundo resultado", resultado_2)
+    }
+    @Test
+    fun ecuacionGrado1XNegativa() {
+        var elevado_1 = -2.0
+        var elevado_0 = 2.0
+        //resultado = "1.0"
 
-        assertEquals(resultado, logicaEcuaciones.EcuacionGrado1(elevado_1, elevado_0), 0.0001)
+        var (resultado, resultado_2) = logicaEcuaciones.operacion(0.0, elevado_1, elevado_0)
+        assertEquals("1", resultado)
+        assertEquals("No hay segundo resultado", resultado_2)
+    }
+    @Test
+    fun ecuacionGrado1XIgual0() {
+        var elevado_1 = 1.0
+        var elevado_0 = 0.0
+        //resultado = "0.0"
 
-        elevado_1 = -2.0
-        elevado_0 = 2.0
-        resultado = 1.0
+        var (resultado, resultado_2) = logicaEcuaciones.operacion(0.0, elevado_1, elevado_0)
+        assertEquals("0", resultado)
+        assertEquals("No hay segundo resultado", resultado_2)
+    }
+    @Test
+    fun ecuacionGrado1ParametrosNegativos(){
+        var elevado_1 = -1.0
+        var elevado_0 = -2.0
+        //resultado = "-2.0"
 
-        assertEquals(resultado, logicaEcuaciones.EcuacionGrado1(elevado_1, elevado_0), 0.0001)
+        var (resultado,resultado_2) = logicaEcuaciones.operacion(0.0, elevado_1, elevado_0)
+        assertEquals("-2", resultado )
+        assertEquals("No hay segundo resultado",resultado_2)
 
-        elevado_1 = 1.0
-        elevado_0 = 0.0
-        resultado = 0.0
-
-        assertEquals(resultado, logicaEcuaciones.EcuacionGrado1(elevado_1, elevado_0),0.0001)
-
-        elevado_1 = -1.0
-        elevado_0 = -2.0
-        resultado = -2.0
-
-        assertEquals(resultado, logicaEcuaciones.EcuacionGrado1(elevado_1, elevado_0), 0.0001)
     }
 
     @Test
