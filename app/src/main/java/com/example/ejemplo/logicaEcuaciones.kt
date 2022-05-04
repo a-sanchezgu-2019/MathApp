@@ -107,13 +107,13 @@ class LogicaEcuaciones {
         if ("$resultado_1".endsWith(".0")) {
             resultado_1 =( "$resultado_1".replace(".0", ""))
         } else {
-            resultado_1=(  "%.4f".format(resultado_1.toDouble()))
+            resultado_1=(  "%.4e".format(resultado_1.toDouble()))
         }
 
         if ("$resultado_2".endsWith(".0")) {
             resultado_2=("$resultado_2".replace(".0", ""))
         } else {
-            resultado_2= ( "%.4f".format(resultado_2.toDouble()))
+            resultado_2= ( "%.4e".format(resultado_2.toDouble()))
         }
 
         return resultado_1 to resultado_2
