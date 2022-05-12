@@ -1,0 +1,56 @@
+{
+  "tiempo": {
+    "unidad": "segundos",
+    "conversion": {
+      "nanosegundos": "0.000000001",
+      "microsegundos": "0.000001",
+      "milisegundos": "0.001",
+      "minutos": "60",
+      "horas": "3600",
+      "dias": "86400",
+      "semanas": "604800"
+    }
+  },
+  "espacio": {
+    "unidad": "metros",
+    "conversion": {
+      "milimetros": "0.001",
+      "centimetros": "0.01",
+      "decimetros": "0.1",
+      "decametros": "10",
+      "hectometros": "100",
+      "kilometros": "1000"
+    }
+  },
+  "volumen": {
+    "unidad": "litros",
+    "conversion": {
+      "milimetros cubicos": "0.000001",
+      "metros cubicos": "1",
+      "mililitros": "0.001",
+      "kilolitros": "1000"
+    }
+  },
+  "masa": {
+    "unidad": "kilogramos",
+    "conversion": {
+      "miligramos": "0.000001",
+      "gramos": "0.001",
+      "tonelada": "1000"
+    }
+  },
+  "temperatura": {
+    "unidad": "celsius",
+    "conversion": {
+      "farenheit": "a*9/5+32",
+      "kelvin": "a+274.15"
+    }
+  },
+  "angulos": {
+    "unidad": "Grado Sexagesimal",
+    "conversion": {
+      "Radian": "0.0174533",
+      "Centesimal": "1.11111"
+    }
+  }
+}
