@@ -8,12 +8,13 @@ import com.example.ejemplo.conversion.conversion_strategies.ConversionContext
 import com.fasterxml.jackson.module.kotlin.*
 
 import com.example.ejemplo.util.UnitConversionData
+import com.example.ejemplo.util.UnitType
 import java.io.File
 
 
 class ConversionActivity : AppCompatActivity() {
 
-    private var conversionData: Map<String, UnitConversionData>? = null;
+    private var conversionData: Map<UnitType, UnitConversionData>? = null;
 
     /*
         - tiempo
@@ -28,8 +29,8 @@ class ConversionActivity : AppCompatActivity() {
             super.onCreate(savedInstanceState)
 
             initConversionData();
-            val conversionContext: ConversionContext =
-                ConversionContext(null)
+            val conversion: Conversion =
+                Conversion(conversionData.orEmpty());
 
             setContentView(com.example.ejemplo.R.layout.conversion)
 

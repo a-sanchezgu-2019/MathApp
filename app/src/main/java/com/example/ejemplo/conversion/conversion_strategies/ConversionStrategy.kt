@@ -3,13 +3,13 @@ package com.example.ejemplo.conversion.conversion_strategies
 import com.example.ejemplo.util.UnitConversionData
 import com.example.ejemplo.util.UnitType
 
-abstract class ConversionStrategy(val conversionData: Map<String, UnitConversionData>) {
+interface ConversionStrategy {
 
-    abstract var initialUnit: UnitType;
+    var conversionToStandar: String;
 
-    abstract var resultUnit: UnitType;
+    var conversionToResult: String;
 
-    abstract var input: Double;
+    var input: Double;
 
-    abstract fun doOperation(): Double
+    fun doOperation(): Double
 }

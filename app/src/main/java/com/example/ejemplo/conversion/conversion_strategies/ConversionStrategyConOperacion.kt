@@ -4,11 +4,10 @@ import com.example.ejemplo.util.UnitConversionData
 import com.example.ejemplo.util.UnitType
 
 class ConversionStrategyConOperacion(
-    conversionData: Map<String, UnitConversionData>,
-    override var initialUnit: UnitType,
-    override var resultUnit: UnitType,
+    override var conversionToStandar: String,
+    override var conversionToResult: String,
     override var input: Double
-) : ConversionStrategy(conversionData) {
+) : ConversionStrategy {
 
     override fun doOperation(): Double {
         TODO("Not yet implemented")
