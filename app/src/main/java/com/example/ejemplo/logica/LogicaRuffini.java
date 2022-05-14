@@ -12,7 +12,11 @@ public class LogicaRuffini {
     private int resto;
 
     public Polinomio calcular() {
-        // TODO: realizar operación
+        cociente = new Polinomio();
+        cociente.set(dividendo.grado() - 1, dividendo.get(dividendo.grado()));
+        for(int grado = dividendo.grado() - 2; grado >= 0; grado--){
+            cociente.set(grado, dividendo.get(grado + 1) - divisor.getTerminoIndependiente() * cociente.get(grado + 1));
+        }
         return cociente;
     }
 
