@@ -15,6 +15,7 @@
         <activity android:name=".configuracion" />
         <activity android:name=".calculadora" />
         <activity android:name=".menu" />
+        <activity android:name=".conversion.ConversionActivity" />
         <activity android:name=".calculadora_trigonometrica" />
         <activity android:name=".MainActivity" android:exported="true">
             <intent-filter>

@@ -1,4 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+
 
     <!-- Main strings -->
     <string name="app_name">ejemplo</string>
@@ -21,5 +23,18 @@
     <!-- Development strings -->
     <string name="todo">TODO</string>
     <string name="en_desarrollo">EN DESARROLLO</string>
+
+    <!-- Menu desplegable -->
+    <string name="InicioMedidas">Medidas</string>
+
+    <string-array name="lMedidas">
+        <item>Tiempo</item>
+        <item>Espacio</item>
+        <item>Volumen</item>
+        <item>Masa</item>
+        <item>Angulos</item>
+        <item>Temperatura</item>
+    </string-array>
+
 
 </resources>

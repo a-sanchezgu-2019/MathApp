@@ -120,7 +120,7 @@
 
 
     <Button
-        android:id="@+id/boton_ecuacion22"
+        android:id="@+id/boton_conversion"
         android:layout_width="157dp"
         android:layout_height="78dp"
         android:layout_marginBottom="31dp"
