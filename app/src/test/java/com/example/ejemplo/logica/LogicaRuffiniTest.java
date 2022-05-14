@@ -1,6 +1,6 @@
 package com.example.ejemplo.logica;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import com.example.ejemplo.util.MonomioRuffini;
 import com.example.ejemplo.util.Polinomio;
@@ -34,8 +34,8 @@ public class LogicaRuffiniTest {
         LogicaRuffini ruff = new LogicaRuffini();
         ruff.setOperadores(dividendo, divisor);
 
-        assertEquals(resultadoEsperado, ruff.calcular());
-        assertEquals(restoEsperado, ruff.getResto());
+        assertEquals("El cociente de x²-2x+1 : x-1 no resulta x-1", resultadoEsperado, ruff.calcular());
+        assertEquals("El resto de x²-2x+1 : x-1 no resulta 0", restoEsperado, ruff.getResto());
 
     }
 
