@@ -3,8 +3,8 @@ package com.example.ejemplo.conversion
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import kotlinx.android.synthetic.main.conversion.*
-import android.R
 import android.widget.ArrayAdapter;
+import com.example.ejemplo.conversion.conversion_strategies.ConversionContext
 import com.fasterxml.jackson.module.kotlin.*
 
 import com.example.ejemplo.util.UnitConversionData
@@ -13,7 +13,7 @@ import java.io.File
 
 class ConversionActivity : AppCompatActivity() {
 
-    var conversionData: List<UnitConversionData>? = null;
+    private var conversionData: Map<String, UnitConversionData>? = null;
 
     /*
         - tiempo
@@ -28,7 +28,8 @@ class ConversionActivity : AppCompatActivity() {
             super.onCreate(savedInstanceState)
 
             initConversionData();
-            val conversionLogic: Conversion = Conversion(conversionData.orEmpty())
+            val conversionContext: ConversionContext =
+                ConversionContext(null)
 
             setContentView(com.example.ejemplo.R.layout.conversion)
 
