@@ -17,6 +17,7 @@ public class LogicaRuffini {
         for(int grado = dividendo.grado() - 2; grado >= 0; grado--){
             cociente.set(grado, dividendo.get(grado + 1) - divisor.getTerminoIndependiente() * cociente.get(grado + 1));
         }
+        resto = dividendo.get(0) - divisor.getTerminoIndependiente() * cociente.get(0);
         return cociente;
     }
 
