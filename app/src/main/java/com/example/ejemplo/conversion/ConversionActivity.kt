@@ -5,16 +5,20 @@ import android.os.Bundle;
 import kotlinx.android.synthetic.main.conversion.*
 import android.R
 import android.widget.ArrayAdapter;
+import android.widget.Spinner
 import com.fasterxml.jackson.module.kotlin.*
 
 import com.example.ejemplo.util.UnitConversionData
-import java.io.File
+import org.json.JSONObject
+
+
+
 
 
 class ConversionActivity : AppCompatActivity() {
 
     var conversionData: List<UnitConversionData>? = null;
-
+    var listaMedidas = arrayListOf<String>()
     /*
         - tiempo
         - espacio
@@ -25,30 +29,58 @@ class ConversionActivity : AppCompatActivity() {
      */
     override fun onCreate(savedInstanceState: Bundle?) {
 
-            super.onCreate(savedInstanceState)
+        super.onCreate(savedInstanceState)
+        setContentView(com.example.ejemplo.R.layout.conversion)
 
-            initConversionData();
-            val conversionLogic: Conversion = Conversion(conversionData.orEmpty())
+        initConversionData();
+        val conversionLogic: Conversion = Conversion(conversionData.orEmpty())
 
-            setContentView(com.example.ejemplo.R.layout.conversion)
+        listaMedidas.toTypedArray()
+        val adapter = ArrayAdapter(
+            this,
+            R.layout.simple_dropdown_item_1line, listaMedidas
+        )
 
-            val adapter =
-                ArrayAdapter.createFromResource(this, com.example.ejemplo.R.array.lMedidas,
-                    com.example.ejemplo.R.layout.support_simple_spinner_dropdown_item)
+        val textView =
+            findViewById<Spinner>(com.example.ejemplo.R.id.medidas)
 
-            adapter.setDropDownViewResource(com.example.ejemplo.R.layout
-                .support_simple_spinner_dropdown_item)
+        textView.setAdapter(adapter)
+//            val adapter =
+//                ArrayAdapter.createFromResource(this, com.example.ejemplo.R.array.lMedidas,
+//                    com.example.ejemplo.R.layout.support_simple_spinner_dropdown_item)
+//
+//            adapter.setDropDownViewResource(com.example.ejemplo.R.layout
+//                .support_simple_spinner_dropdown_item)
+//
+//            medidas.setAdapter(adapter);
 
-            medidas.setAdapter(adapter);
-
-        }
-
-        fun initConversionData () {
-
-            val jsonString: String = File("src/main/assets/unit-conversion.json")
-                .readText(Charsets.UTF_8)
-
-            val mapper = jacksonObjectMapper()
-            conversionData = mapper.readValue(jsonString)
-        }
     }
+
+        fun initConversionData () : ArrayList<String> {
+
+            val file_name = "unit-conversion.json"
+            val jsonString = application.assets.open(file_name).bufferedReader().use{
+                it.readText()
+            }
+
+            val ob = JSONObject(jsonString)
+
+            var  keys = ob.keys();
+            while(keys.hasNext()) {
+            // loop to get the dynamic key
+            var  medida =  keys.next();
+            // con esto te quedas con todas las claves del jsnon y se las añades
+            // a lo que luego pondrás como desplegable
+            listaMedidas.add(medida)
+            }
+
+            application.assets.close()
+
+            //conversionData = mapper.readValue(jsonString)
+            return listaMedidas
+        }
+
+
+
+    }
+

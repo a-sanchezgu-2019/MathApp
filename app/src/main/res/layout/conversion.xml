@@ -23,13 +23,13 @@
         app:layout_constraintHorizontal_bias="0.409"
         app:layout_constraintStart_toStartOf="parent" />
 
-<!--    <ImageView-->
-<!--        android:id="@+id/parentesisiz"-->
-<!--        android:layout_width="500dp"-->
-<!--        android:layout_height="962dp"-->
-<!--        android:background="@drawable/fondo"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent" />-->
+    <!--    <ImageView-->
+    <!--        android:id="@+id/parentesisiz"-->
+    <!--        android:layout_width="500dp"-->
+    <!--        android:layout_height="962dp"-->
+    <!--        android:background="@drawable/fondo"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent" />-->
 
     <ImageButton
         android:id="@+id/boton_menu_ecuaciones"
