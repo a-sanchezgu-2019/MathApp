@@ -4,18 +4,21 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import kotlinx.android.synthetic.main.conversion.*
 import android.widget.ArrayAdapter;
+import android.widget.Spinner
+import com.example.ejemplo.R
 import com.example.ejemplo.conversion.conversion_strategies.ConversionContext
 import com.fasterxml.jackson.module.kotlin.*
 
 import com.example.ejemplo.util.UnitConversionData
 import com.example.ejemplo.util.UnitType
+import org.json.JSONObject
 import java.io.File
 
 
 class ConversionActivity : AppCompatActivity() {
 
     private var conversionData: Map<UnitType, UnitConversionData>? = null;
-
+    val listaMedidas = ArrayList<String>()
     /*
         - tiempo
         - espacio
@@ -32,25 +35,44 @@ class ConversionActivity : AppCompatActivity() {
             val conversion: Conversion =
                 Conversion(conversionData.orEmpty());
 
-            setContentView(com.example.ejemplo.R.layout.conversion)
+            setContentView(R.layout.conversion)
 
-            val adapter =
-                ArrayAdapter.createFromResource(this, com.example.ejemplo.R.array.lMedidas,
-                    com.example.ejemplo.R.layout.support_simple_spinner_dropdown_item)
+        listaMedidas.toTypedArray()
+        val adapter = ArrayAdapter(
+            this,
+            R.layout.support_simple_spinner_dropdown_item, listaMedidas
+        )
 
-            adapter.setDropDownViewResource(com.example.ejemplo.R.layout
-                .support_simple_spinner_dropdown_item)
+        val textView =
+            findViewById<Spinner>(R.id.medidas)
 
-            medidas.setAdapter(adapter);
+        textView.setAdapter(adapter)
 
-        }
 
-        fun initConversionData () {
-
-            val jsonString: String = File("src/main/assets/unit-conversion.json")
-                .readText(Charsets.UTF_8)
-
-            val mapper = jacksonObjectMapper()
-            conversionData = mapper.readValue(jsonString)
-        }
     }
+
+    fun initConversionData () : ArrayList<String> {
+
+        val file_name = "unit-conversion.json"
+        val jsonString = application.assets.open(file_name).bufferedReader().use{
+            it.readText()
+        }
+
+        val ob = JSONObject(jsonString)
+
+        var  keys = ob.keys();
+        while(keys.hasNext()) {
+            // loop to get the dynamic key
+            var  medida =  keys.next();
+            // con esto te quedas con todas las claves del jsnon y se las añades
+            // a lo que luego pondrás como desplegable
+            listaMedidas.add(medida)
+        }
+
+        application.assets.close()
+
+        //conversionData = mapper.readValue(jsonString)
+        return listaMedidas
+    }
+
+}
