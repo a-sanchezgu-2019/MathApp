@@ -57,7 +57,7 @@ class calculadora_trigonometrica:AppCompatActivity() {
         }
 
         // Boton "CONFIGURACIÓN"
-        val boton2 = findViewById<ImageButton>(R.id.boton_config_calc_trigo)
+        val boton2 = findViewById<ImageButton>(R.id.boton_config_calc_trig)
         boton2.setOnClickListener {
             val intento2 = Intent(this, configuracion::class.java)
             startActivity(intento2)

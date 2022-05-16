@@ -11,6 +11,7 @@ class ConversionStrategySinOperacion(
 
     override fun doOperation(): Double {
 
+
         return 0.0
     }
 }
