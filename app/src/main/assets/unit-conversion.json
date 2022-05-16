@@ -49,7 +49,7 @@
   "angulos": {
     "unidad": "Grado Sexagesimal",
     "conversion": {
-      "Radian": "a* 'pi'/180",
+      "Radian": "a*pi/180",
       "Centesimal": "a*200/180"
     }
   }

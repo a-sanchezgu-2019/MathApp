@@ -2,7 +2,7 @@ package com.example.ejemplo.util
 
 /**
  * This class resolves only equations that match with this regex:
- * '(?<!\S)a+(?:[-+/^*]+\d+(?:\.\d+)?)+(?!\S)'
+ * '(?<!\S)a+(?:[-+/^*]+(\d+(?:\.\d+)?|pi))+(?!\S)'
  */
 class EquationResolverBasic: EquationResolver {
 
@@ -30,14 +30,14 @@ class EquationResolverBasic: EquationResolver {
 
     /**
      * This class consider an equation all Strings which match with this regex:
-     * '(?<!\S)a+(?:[-+/^*]+\d+(?:\.\d+)?)+(?!\S)'
+     * '(?<!\S)a+(?:[-+/^*]+(\d+(?:\.\d+)?|pi))+(?!\S)'
      *
      * @param equation A String which represent or not an equation.
      * @return Returm true or false based in if it matches with an equation Structure.
      */
     override fun isEquation(equation: String): Boolean {
 
-        val regex: Regex = Regex("(?<!\\S)a+(?:[-+/^*]+\\d+(?:\\.\\d+)?)+(?!\\S)")
+        val regex: Regex = Regex("(?<!\\S)a+(?:[-+/^*]+(\\d+(?:\\.\\d+)?|pi))+(?!\\S)")
         return equation.matches(regex);
     }
 
@@ -52,6 +52,7 @@ class EquationResolverBasic: EquationResolver {
         for (token in equation) {
 
             token.replace("a", replace.toString())
+            token.replace("pi", Math.PI.toString())
         }
     }
 
