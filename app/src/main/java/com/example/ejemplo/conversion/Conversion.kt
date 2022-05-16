@@ -1,9 +1,7 @@
 package com.example.ejemplo.conversion
 
-import com.example.ejemplo.conversion.conversion_strategies.ConversionContext
-import com.example.ejemplo.conversion.conversion_strategies.ConversionStrategy
-import com.example.ejemplo.conversion.conversion_strategies.ConversionStrategyConOperacion
-import com.example.ejemplo.conversion.conversion_strategies.ConversionStrategySinOperacion
+import com.example.ejemplo.util.EquationResolver
+import com.example.ejemplo.util.EquationResolverBasic
 import com.example.ejemplo.util.UnitConversionData
 import com.example.ejemplo.util.UnitType
 
@@ -14,50 +12,33 @@ class Conversion(val conversionData: Map<UnitType, UnitConversionData>) {
     var resultUnit: String? = null
     var input: Double? = null
 
-    fun doOperation(): String? {
+    fun doOperation(): Double? {
+
+        var resultConversion: Double? = null;
 
         if (magnitude != null && initialUnit != null && resultUnit != null && input != null) {
 
-            val context: ConversionContext = ConversionContext();
-            val strategy: ConversionStrategy? = selectStrategy()
+            val magnitudeConversion = conversionData[magnitude]!!.conversion;
 
-        }
+            val equationInitialUnit: String = magnitudeConversion[initialUnit]!!
+            val equationResultUnit: String = magnitudeConversion[resultUnit]!!
+            val equationResolver: EquationResolver = EquationResolverBasic()
 
-        return null;
-    }
+            // Convert from initial unit to base unit (ex: minutes to seconds)
+            val resultConversionToBaseUnit: Double? =
+                equationResolver.resolve(arrayOf(input!!.toDouble()), equationInitialUnit);
 
-    private fun selectStrategy(): ConversionStrategy? {
+            // Convert from base unit to result unit (ex: seconds to weeks)
+            if (resultConversionToBaseUnit != null) {
 
-        var conversionStrategy: ConversionStrategy? = null;
-        val operatorInitialUnit: String? = conversionData[magnitude]?.conversion?.get(initialUnit)
-        val operatorResultUnit: String? = conversionData[magnitude]?.conversion?.get(resultUnit)
-
-        if (operatorInitialUnit != null && operatorResultUnit != null) {
-
-
-            if (isEquation(operatorInitialUnit.orEmpty())) {
-
-                conversionStrategy = ConversionStrategyConOperacion(
-                    operatorInitialUnit,
-                    operatorResultUnit,
-                    input!!)
-            } else {
-
-                conversionStrategy = ConversionStrategySinOperacion(
-                    operatorInitialUnit,
-                    operatorResultUnit,
-                    input!!)
+                resultConversion =
+                    equationResolver.resolve(
+                        arrayOf(resultConversionToBaseUnit),
+                        equationResultUnit
+                    );
             }
         }
 
-        return conversionStrategy;
-    }
-
-    private fun isEquation(operator: String): Boolean {
-
-        val equationCharacters: Regex = Regex("[+*]")
-
-        val isEquation = operator.contains(equationCharacters)
-        return isEquation;
+        return resultConversion
     }
 }

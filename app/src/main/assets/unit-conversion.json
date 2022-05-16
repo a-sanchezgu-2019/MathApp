@@ -26,7 +26,7 @@
     "unidad": "litros",
     "conversion": {
       "milimetros cubicos": "a/0.000001",
-      "metros cubicos": "a/0.001",
+      "metros cubicos": "a/1000",
       "mililitros": "a/0.001",
       "kilolitros": "a/1000"
     }

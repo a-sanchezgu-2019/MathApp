@@ -1,5 +1,9 @@
 package com.example.ejemplo.util
 
+/**
+ * This class resolves only equations that match with this regex:
+ * '(?<!\S)a+(?:[-+/^*]+\d+(?:\.\d+)?)+(?!\S)'
+ */
 class EquationResolverBasic: EquationResolver {
 
     override fun resolve(args: Array<Double>, equation: String): Double? {
