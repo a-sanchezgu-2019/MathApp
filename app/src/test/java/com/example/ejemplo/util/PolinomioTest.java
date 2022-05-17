@@ -14,7 +14,15 @@ public class PolinomioTest {
         polinomio.set(0,1);
         polinomio.set(1,-2);
         polinomio.set(2,1);
-        assertEquals(polinomio.toString(), "x^2-2x+1");
+        assertEquals("x^2-2x+1",polinomio.toString());
+    }
+
+    @Test
+    public void polinomioTermIndNegToString() {
+        polinomio = new Polinomio();
+        polinomio.set(0,-1);
+        polinomio.set(1,1);
+        assertEquals("x-1", polinomio.toString());
     }
 
 }
