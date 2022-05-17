@@ -67,5 +67,11 @@ class menu : AppCompatActivity() {
             startActivity(intento6)
         }
 
+        val botonRuffini = findViewById<Button>(R.id.boton_ruff)
+        botonRuffini.setOnClickListener {
+            val intentoRuffini = Intent(this, ruffini::class.java)
+            startActivity(intentoRuffini)
+        }
+
     }
 }
