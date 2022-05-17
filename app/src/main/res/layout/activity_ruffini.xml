@@ -187,6 +187,15 @@
         app:srcCompat="@drawable/x_noche" />
 
     <ImageView
+        android:id="@+id/imageExp5"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:layout_constraintTop_toTopOf="@id/imageX5"
+        app:layout_constraintStart_toEndOf="@id/imageX5"
+        app:layout_constraintEnd_toEndOf="@id/imageX5"
+        app:srcCompat="@drawable/_cinco"/>
+
+    <ImageView
         android:id="@+id/imageMas5"
         android:layout_width="50dp"
         android:layout_height="50dp"
@@ -205,6 +214,15 @@
         app:layout_constraintTop_toBottomOf="@id/guideline9"
         android:layout_marginTop="30dp"
         app:srcCompat="@drawable/x_noche" />
+
+    <ImageView
+        android:id="@+id/imageExp4"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:layout_constraintTop_toTopOf="@id/imageX4"
+        app:layout_constraintStart_toEndOf="@id/imageX4"
+        app:layout_constraintEnd_toEndOf="@id/imageX4"
+        app:srcCompat="@drawable/_cuatro"/>
 
     <ImageView
         android:id="@+id/imageMas4"
@@ -227,6 +245,15 @@
         app:srcCompat="@drawable/x_noche" />
 
     <ImageView
+        android:id="@+id/imageExp3"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:layout_constraintTop_toTopOf="@id/imageX3"
+        app:layout_constraintStart_toEndOf="@id/imageX3"
+        app:layout_constraintEnd_toEndOf="@id/imageX3"
+        app:srcCompat="@drawable/tres"/>
+
+    <ImageView
         android:id="@+id/imageMas3"
         android:layout_width="50dp"
         android:layout_height="50dp"
@@ -245,6 +272,15 @@
         app:layout_constraintTop_toBottomOf="@id/imageX4"
         android:layout_marginTop="20dp"
         app:srcCompat="@drawable/x_noche" />
+
+    <ImageView
+        android:id="@+id/imageExp2"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        app:layout_constraintTop_toTopOf="@id/imageX2"
+        app:layout_constraintStart_toEndOf="@id/imageX2"
+        app:layout_constraintEnd_toEndOf="@id/imageX2"
+        app:srcCompat="@drawable/dos"/>
 
     <ImageView
         android:id="@+id/imageMas2"
