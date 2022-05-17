@@ -51,7 +51,7 @@ public class Polinomio {
             if(grado < grado() && coef > 0)
                 resultado.append("+");
 
-            if(coef == -1) {
+            if(coef == -1  && grado != 0) {
                 resultado.append("-");
             } else if(coef != 1 || grado == 0) {
                 resultado.append(String.valueOf(coef));
