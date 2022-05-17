@@ -16,6 +16,7 @@
     <!--        app:layout_constraintStart_toStartOf="parent"-->
     <!--        app:layout_constraintTop_toTopOf="parent" />-->
 
+
     <Spinner
         android:id="@+id/medidas"
         android:layout_width="wrap_content"
@@ -23,29 +24,32 @@
         android:background="@android:color/background_light"
         android:entries="@array/lMedidas"
         android:hint="@string/InicioMedidas"
+        android:minWidth="300dp"
         android:minHeight="48dp"
         android:spinnerMode="dropdown"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintHorizontal_bias="0.315"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.206" />
+        app:layout_constraintVertical_bias="0.237" />
 
     <Spinner
         android:id="@+id/unidadInicial"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@android:color/background_light"
+        android:gravity="fill_horizontal"
         android:hint="@string/InicioMedidas"
+        android:minWidth="300dp"
         android:minHeight="48dp"
         android:spinnerMode="dropdown"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintHorizontal_bias="0.288"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.385" />
+        app:layout_constraintVertical_bias="0.386" />
 
     <Spinner
         android:id="@+id/unidadFinal"
@@ -53,14 +57,15 @@
         android:layout_height="wrap_content"
         android:background="@android:color/background_light"
         android:hint="@string/InicioMedidas"
+        android:minWidth="300dp"
         android:minHeight="48dp"
         android:spinnerMode="dropdown"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.856"
+        app:layout_constraintHorizontal_bias="0.288"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.374" />
+        app:layout_constraintVertical_bias="0.528" />
 
     <ImageButton
         android:id="@+id/boton_menu_ecuaciones"
@@ -74,10 +79,10 @@
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.236"
+        app:layout_constraintHorizontal_bias="0.233"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023"
+        app:layout_constraintVertical_bias="0.043"
         app:srcCompat="@drawable/home" />
 
     <ImageButton
@@ -92,10 +97,10 @@
         android:scaleType="fitXY"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.74"
+        app:layout_constraintHorizontal_bias="0.749"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023"
+        app:layout_constraintVertical_bias="0.043"
         app:srcCompat="@drawable/ajustes_mini" />
 
     <ImageButton
@@ -113,14 +118,13 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023"
+        app:layout_constraintVertical_bias="0.043"
         app:srcCompat="@drawable/x" />
-
 
     <EditText
         android:id="@+id/ec_1_campo_1"
-        android:layout_width="214dp"
-        android:layout_height="58dp"
+        android:layout_width="231dp"
+        android:layout_height="56dp"
         android:background="@android:color/background_light"
         android:drawableBottom="@android:color/background_light"
         android:ems="10"
@@ -131,7 +135,7 @@
         app:layout_constraintHorizontal_bias="0.177"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.591" />
+        app:layout_constraintVertical_bias="0.68" />
 
     <TextView
         android:id="@+id/resultadosView2"
@@ -144,24 +148,24 @@
         android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.408"
+        app:layout_constraintHorizontal_bias="0.458"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.817" />
+        app:layout_constraintVertical_bias="0.916" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="52dp"
-        android:layout_marginLeft="52dp"
+        android:layout_width="93dp"
+        android:layout_height="59dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
         android:text="Aceptar"
         app:layout_constraintBottom_toBottomOf="@+id/ec_1_campo_1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.74"
         app:layout_constraintStart_toEndOf="@+id/ec_1_campo_1"
         app:layout_constraintTop_toBottomOf="@+id/unidadFinal"
-        app:layout_constraintVertical_bias="0.896"
+        app:layout_constraintVertical_bias="0.994"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -172,10 +176,10 @@
         android:text="Elegir Medida"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.406"
+        app:layout_constraintHorizontal_bias="0.107"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.137"
+        app:layout_constraintVertical_bias="0.191"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -187,10 +191,10 @@
         android:text="Unidad Inicial"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintHorizontal_bias="0.097"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.323"
+        app:layout_constraintVertical_bias="0.341"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -202,10 +206,10 @@
         android:text="Unidad Final"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.727"
+        app:layout_constraintHorizontal_bias="0.095"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.323"
+        app:layout_constraintVertical_bias="0.481"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -216,10 +220,10 @@
         android:text="Valor Entrada"
         app:layout_constraintBottom_toTopOf="@+id/ec_1_campo_1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.334"
+        app:layout_constraintHorizontal_bias="0.098"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.939"
+        app:layout_constraintVertical_bias="0.991"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -231,10 +235,10 @@
         android:text="Valor Salida"
         app:layout_constraintBottom_toTopOf="@+id/resultadosView2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.425"
+        app:layout_constraintHorizontal_bias="0.476"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ec_1_campo_1"
-        app:layout_constraintVertical_bias="0.435"
+        app:layout_constraintVertical_bias="0.849"
         tools:ignore="MissingConstraints" />
 
 
