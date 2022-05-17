@@ -82,7 +82,6 @@ class ruffini : AppCompatActivity() {
         val resultado: Polinomio = ruff.calcular()
         restoView.text = ruff.resto.toString()
         resultadoView.text = resultado.toString()
-        if(resultadoView.text.toString().equals("")) resultadoView.text = "0"
     }
 
 }

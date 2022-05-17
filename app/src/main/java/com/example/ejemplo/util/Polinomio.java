@@ -42,6 +42,43 @@ public class Polinomio {
         return coeficientes;
     }
 
+    private String extraerMonomio(int grado) {
+        StringBuilder resultado = new StringBuilder("");
+        int coef = coeficientes.get(grado);
+
+        if(coef != 0) {
+
+            if(grado < grado() && coef > 0)
+                resultado.append("+");
+
+            if(coef == -1) {
+                resultado.append("-");
+            } else if(coef != 1 || grado == 0) {
+                resultado.append(String.valueOf(coef));
+            }
+
+            if(grado > 0)
+                resultado.append("x");
+
+            if(grado > 1)
+                resultado.append("^").append(String.valueOf(grado));
+        }
+
+        return resultado.toString();
+
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder resultado = new StringBuilder("");
+        for(int index=grado(); index>=0; index--) {
+            resultado.append(extraerMonomio(index));
+        }
+        if(resultado.toString().equals(""))
+            resultado.append("0");
+        return resultado.toString();
+    }
+
     @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     @Override
     public boolean equals(Object o) {

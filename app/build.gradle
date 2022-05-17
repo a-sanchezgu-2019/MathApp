@@ -37,7 +37,8 @@ dependencies {
     implementation 'androidx.recyclerview:recyclerview:1.2.1'
     implementation 'androidx.gridlayout:gridlayout:1.0.0'
 
-    implementation 'me.zhanghai.android.materialprogressbar:library:1.4.2' //Para la progressBar
+    implementation 'me.zhanghai.android.materialprogressbar:library:1.4.2'
+    implementation 'com.google.android.material:material:1.5.0'//Para la progressBar
 
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
