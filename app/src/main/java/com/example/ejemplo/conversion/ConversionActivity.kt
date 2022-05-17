@@ -1,19 +1,21 @@
 package com.example.ejemplo.conversion
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View
-import android.widget.AdapterView
-import android.widget.ArrayAdapter;
-import android.widget.Spinner
-import android.widget.Toast
+import android.widget.*
 import com.example.ejemplo.MainActivity
 import com.example.ejemplo.R
+import com.example.ejemplo.configuracion
+import com.example.ejemplo.menu
 
 import com.example.ejemplo.util.UnitConversionData
 import com.example.ejemplo.util.UnitType
+import kotlinx.android.synthetic.main.activity_ecuaciones.*
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.conversion.*
+import kotlinx.android.synthetic.main.conversion.cerrar_Boton
 import org.json.JSONObject
 
 
@@ -113,6 +115,27 @@ class ConversionActivity : AppCompatActivity() {
         medidaInicial.toArray()
         unidadInicial.adapter = array2
         unidadFinal.adapter= array2
+
+        // Botón "Casita"
+        val boton1 = findViewById<ImageButton>(R.id.boton_menu_ecuaciones)
+        boton1.setOnClickListener {
+            val intento1 = Intent(this, menu::class.java)
+            startActivity(intento1)
+        }
+
+        // Boton "CONFIGURACIÓN"
+        val boton2 = findViewById<ImageButton>(R.id.ajuste_ec1)
+        boton2.setOnClickListener {
+            val intento2 = Intent(this, configuracion::class.java)
+            startActivity(intento2)
+        }
+
+        //BOTON CERRAR APP
+        cerrar_Boton.setOnClickListener {
+            val salida = Intent(Intent.ACTION_MAIN)
+            finishAffinity()
+        }
+
 
     }
 

@@ -125,10 +125,10 @@
         android:textColor="#1B1919"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintHorizontal_bias="0.177"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.523" />
+        app:layout_constraintVertical_bias="0.563" />
 
     <TextView
         android:id="@+id/resultadosView2"
@@ -145,6 +145,59 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.817" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aceptar"
+        tools:layout_editor_absoluteX="273dp"
+        tools:layout_editor_absoluteY="389dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:text="Elegir Medida"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="145dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:text="Unidad Inicial"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="222dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:text="Unidad Final"
+        tools:layout_editor_absoluteX="320dp"
+        tools:layout_editor_absoluteY="231dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:text="Valor Entrada"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="340dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:text="Valor Salida"
+        tools:layout_editor_absoluteX="128dp"
+        tools:layout_editor_absoluteY="496dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
