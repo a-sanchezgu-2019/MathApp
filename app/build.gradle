@@ -2,6 +2,8 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
+
+
 android {
     compileSdkVersion 31
     buildToolsVersion "30.0.2"
@@ -29,6 +31,35 @@ android {
     }
 }
 
+
+sourceSets {
+    main { }
+    test { }
+}
+
+configurations {
+    cucumberRuntime {
+        extendsFrom testImplementation
+    }
+}
+
+task cucumber() {
+    dependsOn assemble, testClasses
+    doLast {
+        javaexec {
+            main = "io.cucumber.core.cli.Main"
+            classpath = configurations.cucumberRuntime + sourceSets.main.output + sourceSets.test.output
+            args = [
+                    '--plugin',
+                    'pretty',
+                    '--glue',
+                    'hellocucumber',
+                    'src/androidTest/java/com/example/ejemplo/features'
+            ]
+        }
+    }
+}
+
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
@@ -49,7 +80,6 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     testImplementation "androidx.test:core:1.4.0"
     testImplementation "org.mockito:mockito-core:4.4.0"
-    testImplementation "org.mockito:mockito-kotlin:4.0.0"
     testImplementation "io.mockk:mockk:1.12.3"
 
     testImplementation 'io.cucumber:cucumber-java:7.0.0'

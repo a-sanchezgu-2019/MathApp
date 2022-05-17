@@ -586,9 +586,9 @@
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline11"
-        app:layout_constraintEnd_toEndOf="@+id/resultadosTrig"
+        app:layout_constraintEnd_toEndOf="@+id/resultadosTrigo"
         app:layout_constraintHorizontal_bias="0.05"
-        app:layout_constraintStart_toStartOf="@+id/resultadosTrig"
+        app:layout_constraintStart_toStartOf="@+id/resultadosTrigo"
         app:layout_constraintTop_toTopOf="@+id/guideline10"
         app:layout_constraintVertical_bias="0.2" />
 
