@@ -26,8 +26,8 @@ class Ecuaciones2Test {
 
         val  (resultado_1,resultado_2) = logicaEcuaciones.operacion(1.0,Math.sqrt(2.0),-3.0)
 
-        assertEquals( "1,1637",resultado_1)
-        assertEquals("-2,5779",resultado_2)
+        assertEquals( "1.1637e+00",resultado_1)
+        assertEquals("-2.5779e+00",resultado_2)
 
     }
 
@@ -36,8 +36,8 @@ class Ecuaciones2Test {
 
         val  (resultado_1,resultado_2) = logicaEcuaciones.operacion(-1.0,-4.0,-1.0)
 
-        assertEquals("-3,7321" ,resultado_1)
-        assertEquals("-0,2679" ,resultado_2)
+        assertEquals("-3.7321e+00" ,resultado_1)
+        assertEquals("-2.6795e-01" ,resultado_2)
     }
 
     @Test
@@ -45,8 +45,8 @@ class Ecuaciones2Test {
 
         val  (resultado_1,resultado_2) = logicaEcuaciones.operacion(3.0,6.0,2.0)
 
-        assertEquals("-0,4226" ,resultado_1)
-        assertEquals("-1,5774" ,resultado_2)
+        assertEquals("-4.2265e-01" ,resultado_1)
+        assertEquals("-1.5774e+00" ,resultado_2)
     }
 
     @Test
@@ -90,7 +90,7 @@ class Ecuaciones2Test {
 
         val (resultado_1, resultado_2) = logicaEcuaciones.operacion(0.0, 2.0, 3.0)
 
-        assertEquals("-1,5000", resultado_1)
+        assertEquals("-1.5000", resultado_1)
         assertEquals("No hay segundo resultado", resultado_2)
     }
 
@@ -109,7 +109,7 @@ class Ecuaciones2Test {
         val  (resultado_1,resultado_2) =
             logicaEcuaciones.operacion(6.0,-5.0,0.0)
 
-        assertEquals("0,8333" ,resultado_1)
+        assertEquals("8.3333e-01" ,resultado_1)
         assertEquals("0" ,resultado_2)
     }
 
@@ -122,8 +122,8 @@ class Ecuaciones2Test {
         val (resultado_1, resultado_2) =
             logicaEcuaciones.operacion(1000.0, 2000.0, 3000.0)
 
-        assertEquals("-1 + 1,41i", resultado_1)
-        assertEquals("-1 - 1,41i", resultado_2)
+        assertEquals("-1 + 1.41i", resultado_1)
+        assertEquals("-1 - 1.41i", resultado_2)
     }
 
 

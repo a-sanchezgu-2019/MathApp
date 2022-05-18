@@ -45,7 +45,7 @@ class ecuaciones2 : AppCompatActivity() {
             val numero_1 = texto_1.toDouble() //b
             val numero_2 = texto_2.toDouble() // c
 
-            val logEcuaciones = logicaEcuaciones();
+            val logEcuaciones = LogicaEcuaciones();
             val (resultado_1, resultado_2) = logEcuaciones.operacion(numero, numero_1, numero_2)
 
             resultadosView2.setText(resultado_1)
