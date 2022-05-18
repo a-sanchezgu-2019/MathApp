@@ -2,6 +2,7 @@
   "tiempo": {
     "unidad": "segundos",
     "conversion": {
+      "segundos" : "a*1",
       "nanosegundos": "a/0.000000001",
       "microsegundos": "a/0.000001",
       "milisegundos": "a/0.001",
@@ -14,6 +15,7 @@
   "espacio": {
     "unidad": "metros",
     "conversion": {
+      "metros" : "a*1",
       "milimetros": "a/0.001",
       "centimetros": "a/0.01",
       "decimetros": "a/0.1",
@@ -25,6 +27,7 @@
   "volumen": {
     "unidad": "litros",
     "conversion": {
+      "litros" : "a*1",
       "milimetros cubicos": "a/0.000001",
       "metros cubicos": "a/1000",
       "mililitros": "a/0.001",
@@ -34,21 +37,26 @@
   "masa": {
     "unidad": "kilogramos",
     "conversion": {
+      "kilogramos" : "a*1",
       "miligramos": "a/0.000001",
       "gramos": "a/0.001",
       "tonelada": "a/1000"
     }
   },
   "temperatura": {
+
     "unidad": "celsius",
     "conversion": {
+      "celsius" : "a*1",
       "farenheit": "a*9/5+32",
       "kelvin": "a+273.15"
     }
   },
   "angulos": {
+
     "unidad": "Grado Sexagesimal",
     "conversion": {
+      "Grado Sexagesimal" : "a*1",
       "Radian": "a*pi/180",
       "Centesimal": "a*200/180"
     }

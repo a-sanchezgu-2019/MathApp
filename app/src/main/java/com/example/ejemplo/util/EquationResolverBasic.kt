@@ -1,4 +1,5 @@
 package com.example.ejemplo.util
+import com.example.ejemplo.conversion.Conversion
 
 /**
  * This class resolves only equations that match with this regex:
@@ -21,7 +22,9 @@ class EquationResolverBasic: EquationResolver {
                 resolveOperand(dividedEquation, basicOperands[index])
                 index ++
             }
-
+            if (equation.equals("a=a")){
+                return args[0]
+            }
             return dividedEquation[0].toDoubleOrNull()
         }
 
@@ -36,8 +39,10 @@ class EquationResolverBasic: EquationResolver {
      * @return Returm true or false based in if it matches with an equation Structure.
      */
     override fun isEquation(equation: String): Boolean {
-
-        val regex: Regex = Regex("(?<!\\S)a+(?:[-+/^*]+(\\d+(?:\\.\\d+)?|pi))+(?!\\S)")
+        if (equation.equals("a=a")) {
+            return true
+        }
+        val regex: Regex = Regex("(?<!\\S)a+(?:[-+/^*]+(|\\d+(?:\\.\\d+)?|pi))+(?!\\S)")
         return equation.matches(regex);
     }
 
