@@ -45,16 +45,20 @@ class ecuaciones2 : AppCompatActivity() {
             val numero_1 = texto_1.toDouble() //b
             val numero_2 = texto_2.toDouble() // c
 
-            val logEcuaciones = logicaEcuaciones();
+            val logEcuaciones = LogicaEcuaciones();
             val (resultado_1, resultado_2) = logEcuaciones.operacion(numero, numero_1, numero_2)
 
             resultadosView2.setText(resultado_1)
             resultadosView4.setText(resultado_2)
 
         }
-
+        if (Global.fondo_cambiado) {
+            fondo_ecuaciones_grado2.setBackgroundResource(R.drawable.fondo_ecuaciones_grado2_fondo_cambiado)
+        }
         if (!Global.modo_noche) {
-            fondo_ecuaciones_grado2.setBackgroundResource(R.drawable.fondo_ecuaciones_grado2_dia_1)
+            if (!Global.fondo_cambiado) {
+                fondo_ecuaciones_grado2.setBackgroundResource(R.drawable.fondo_ecuaciones_grado2_dia_1)
+            }
             resultadosView2.setBackgroundColor(Color.parseColor(negro))
             resultadosView2.setTextColor(Color.parseColor(blanco))
             resultadosView4.setBackgroundColor(Color.parseColor(negro))

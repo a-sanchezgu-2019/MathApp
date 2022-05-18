@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
+import com.example.ejemplo.conversion.ConversionActivity
 import kotlinx.android.synthetic.main.activity_menu.*
 
 class menu : AppCompatActivity() {
@@ -12,7 +13,9 @@ class menu : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu)
 
-        if (!Global.modo_noche) {
+        if (Global.fondo_cambiado) {
+            fondoMenu.setBackgroundResource(R.drawable.fondo_menu_azul)
+        } else if (!Global.modo_noche) {
             fondoMenu.setBackgroundResource(R.drawable.fondo_menu_dia)
         }
 
@@ -48,6 +51,7 @@ class menu : AppCompatActivity() {
             startActivity(intentoAyuda)
         }
 
+
         val boton4 = findViewById<Button>(R.id.boton_ecuacion)
         boton4.setOnClickListener {
             val intento4 = Intent(this, ecuaciones::class.java)
@@ -67,5 +71,16 @@ class menu : AppCompatActivity() {
             startActivity(intento6)
         }
 
+        val botonRuffini = findViewById<Button>(R.id.boton_ruff)
+        botonRuffini.setOnClickListener {
+            val intentoRuffini = Intent(this, ruffini::class.java)
+            startActivity(intentoRuffini)
+        }
+
+        val boton7 = findViewById<Button>(R.id.boton_conversion)
+        boton7.setOnClickListener {
+            val intento7 = Intent(this, ConversionActivity::class.java)
+            startActivity(intento7)
+        }
     }
 }

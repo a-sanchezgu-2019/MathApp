@@ -29,6 +29,8 @@
 
 
 
+
+
     ]]>
 
     <Button
@@ -38,10 +40,9 @@
         android:background="@drawable/ayuda"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.544"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@id/boton_ajustes"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.737" />
+        app:layout_constraintVertical_bias="0.73" />
 
     <ImageButton
         android:id="@+id/boton_calculadoracientifica"
@@ -82,10 +83,10 @@
         android:scaleType="centerInside"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.562"
+        app:layout_constraintHorizontal_bias="0.181"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.6" />
+        app:layout_constraintVertical_bias="0.733" />
 
     <Button
         android:id="@+id/boton_ecuacion"
@@ -103,6 +104,21 @@
         app:layout_constraintVertical_bias="0.456" />
 
     <Button
+        android:id="@+id/boton_ruff"
+        android:layout_width="157dp"
+        android:layout_height="78dp"
+        android:textSize="20sp"
+        android:padding="0dp"
+        android:scaleType="centerInside"
+        android:background="@drawable/boton_ruffini"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.925"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.585" />
+
+    <Button
         android:id="@+id/boton_ecuacion2"
         android:layout_width="157dp"
         android:layout_height="78dp"
@@ -117,4 +133,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.456" />
 
+
+    <Button
+        android:id="@+id/boton_conversion"
+        android:layout_width="157dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="31dp"
+        android:background="@drawable/calidad2"
+        android:text="boton_ecuacion2"
+        android:textSize="0sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.181"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.615" />
 </androidx.constraintlayout.widget.ConstraintLayout>

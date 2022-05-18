@@ -1,4 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+
 
     <!-- Main strings -->
     <string name="app_name">ejemplo</string>
@@ -21,5 +23,73 @@
     <!-- Development strings -->
     <string name="todo">TODO</string>
     <string name="en_desarrollo">EN DESARROLLO</string>
+
+    <!-- Menu desplegable -->
+    <string name="InicioMedidas">Medidas</string>
+
+    <string-array name="lMedidas">
+        <item>Tiempo</item>
+        <item>Espacio</item>
+        <item>Volumen</item>
+        <item>Masa</item>
+        <item>Angulos</item>
+        <item>Temperatura</item>
+    </string-array>
+
+    <!-- Menu desplegable que sale si pulsas tiempo -->
+    <string-array name="medidasTiempo">
+        <item>milisegundos</item>
+        <item>segundos</item>
+        <item>minutos</item>
+        <item>horas</item>
+        <item>dias</item>
+        <item>meses</item>
+        <item>años</item>
+    </string-array>
+
+    <!-- Menu desplegable que sale si pulsas espacio -->
+    <string-array name="medidasEspacio">
+        <item>milimetro</item>
+        <item>centimetro</item>
+        <item>decimetro</item>
+        <item>metro</item>
+        <item>decámetro</item>
+        <item>hectómetro</item>
+        <item>kilómetro</item>
+    </string-array>
+
+    <!-- Menu desplegable que sale si pulsas Volumen -->
+    <string-array name="medidasVolumen">
+        <item>litro</item>
+        <item>mililitro</item>
+        <item>kilolitro</item>
+        <item>cm cúbico</item>
+        <item>dm cúbico</item>
+        <item>metro cúbico</item>
+    </string-array>
+
+    <!-- Menu desplegable que sale si pulsas Masa -->
+    <string-array name="medidasMasa">
+        <item>kilogramo</item>
+        <item>gramo</item>
+        <item>decigramo</item>
+        <item>centigramo</item>
+        <item>miligramo</item>
+    </string-array>
+
+
+    <!-- Menu desplegable que sale si pulsas Angulos -->
+    <string-array name="medidasAngulos">
+        <item>Grado sexagesimal</item>
+        <item>Radian</item>
+        <item>Grado Centesimal</item>
+    </string-array>
+
+    <!-- Menu desplegable que sale si pulsas Temperatura -->
+    <string-array name="medidasTemperatura">
+        <item>Fahrenheit</item>
+        <item>Celsius,</item>
+        <item>Kelvin</item>
+    </string-array>
 
 </resources>
