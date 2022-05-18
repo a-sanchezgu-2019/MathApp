@@ -65,7 +65,7 @@ class menu : AppCompatActivity() {
 
         val boton6 = findViewById<Button>(R.id.boton_ecuacion2)
         boton6.setOnClickListener {
-            val intento6 = Intent(this, ecuaciones2::class.java)
+            val intento6 = Intent(this, Ecuaciones2::class.java)
             startActivity(intento6)
         }
 
