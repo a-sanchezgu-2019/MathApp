@@ -139,8 +139,8 @@
 
     <TextView
         android:id="@+id/resultadosView2"
-        android:layout_width="208dp"
-        android:layout_height="63dp"
+        android:layout_width="224dp"
+        android:layout_height="68dp"
         android:background="@drawable/fondo_resultado"
         android:gravity="bottom|right"
         android:text="0"
@@ -148,24 +148,22 @@
         android:textSize="48sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintHorizontal_bias="0.39"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.916" />
+        app:layout_constraintVertical_bias="0.918" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/boton_aceptar"
         android:layout_width="93dp"
         android:layout_height="59dp"
-        android:layout_marginEnd="28dp"
-        android:layout_marginRight="28dp"
         android:text="Aceptar"
         app:layout_constraintBottom_toBottomOf="@+id/ec_1_campo_1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.74"
-        app:layout_constraintStart_toEndOf="@+id/ec_1_campo_1"
+        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/unidadFinal"
-        app:layout_constraintVertical_bias="0.994"
+        app:layout_constraintVertical_bias="0.978"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -235,10 +233,10 @@
         android:text="Valor Salida"
         app:layout_constraintBottom_toTopOf="@+id/resultadosView2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintHorizontal_bias="0.398"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ec_1_campo_1"
-        app:layout_constraintVertical_bias="0.849"
+        app:layout_constraintVertical_bias="0.744"
         tools:ignore="MissingConstraints" />
 
 

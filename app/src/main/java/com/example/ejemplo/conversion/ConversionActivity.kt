@@ -13,8 +13,11 @@ import com.example.ejemplo.menu
 import com.example.ejemplo.util.UnitConversionData
 import com.example.ejemplo.util.UnitType
 import com.fasterxml.jackson.module.kotlin.*
+import kotlinx.android.synthetic.main.activity_ecuaciones.*
 import kotlinx.android.synthetic.main.conversion.*
 import kotlinx.android.synthetic.main.conversion.cerrar_Boton
+import kotlinx.android.synthetic.main.conversion.ec_1_campo_1
+import kotlinx.android.synthetic.main.conversion.resultadosView2
 
 
 class ConversionActivity : AppCompatActivity() {
@@ -56,7 +59,7 @@ class ConversionActivity : AppCompatActivity() {
             ArrayAdapter(this, android.R.layout.simple_spinner_item, medidaInicial);
 
         unidadInicial.adapter = adapterUnits
-        unidadFinal.adapter= adapterUnits
+        unidadFinal.adapter = adapterUnits
 
         medidas.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
             override fun onItemSelected(
@@ -97,6 +100,24 @@ class ConversionActivity : AppCompatActivity() {
             val salida = Intent(Intent.ACTION_MAIN)
             finishAffinity()
         }
+            // boton de realizar conversión
+        boton_aceptar.setOnClickListener {
+            var magnitudEnumerada = UnitType.values().find {
+                it.name == medidas.getItemAtPosition(medidas.selectedItemPosition).toString()
+            }
+            var unidadBase =
+                unidadInicial.getItemAtPosition(unidadInicial.selectedItemPosition).toString()
+            var cosa =""
+            var unidadConvertida =
+                unidadFinal.getItemAtPosition(unidadFinal.selectedItemPosition).toString()
+            var input = ec_1_campo_1.text.toString().toDouble()
+            conversion.initialUnit = unidadBase
+            conversion.resultUnit = unidadConvertida
+            conversion.input = input
+            conversion.magnitude = magnitudEnumerada
+            var valorConvertido = conversion.doOperation().toString()
+            resultadosView2.setText(valorConvertido)
+        }
 
     }
 
@@ -118,15 +139,18 @@ class ConversionActivity : AppCompatActivity() {
             listaMedidas.add(it.toString())
         }
 
-        application.assets.close()
+        //application.assets.close()
     }
 
     fun cambiarUnidades(opcion: String) {
-
+        medidaInicial.clear()
         val unitTypeChosen = UnitType.valueOf(opcion);
         val UnitConversionData = conversionData!!.get(unitTypeChosen);
-
-        medidaInicial = UnitConversionData!!.conversion.keys.toMutableList();
+        //var claves = UnitConversionData!!.conversion.keys.toMutableList()
+       medidaInicial = UnitConversionData!!.conversion.keys.toMutableList()
+//                claves.forEach {
+//                    medidaInicial.add(it)
+//                }
     }
 }
 

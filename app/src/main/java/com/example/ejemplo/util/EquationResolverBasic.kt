@@ -1,4 +1,5 @@
 package com.example.ejemplo.util
+import com.example.ejemplo.conversion.Conversion
 
 /**
  * This class resolves only equations that match with this regex:
@@ -14,7 +15,6 @@ class EquationResolverBasic: EquationResolver {
             replaceVariable(dividedEquation, args[0])
 
             var index: Int = 0;
-            var resultFound: Boolean = false;
             val basicOperands: Array<String> = arrayOf("^", "*", "/", "+", "-")
             while ( 1 < dividedEquation.size && index < basicOperands.size) {
 
@@ -36,8 +36,10 @@ class EquationResolverBasic: EquationResolver {
      * @return Returm true or false based in if it matches with an equation Structure.
      */
     override fun isEquation(equation: String): Boolean {
-
-        val regex: Regex = Regex("(?<!\\S)a+(?:[-+/^*]+(\\d+(?:\\.\\d+)?|pi))+(?!\\S)")
+        if (equation.equals("a=a")) {
+            return true
+        }
+        val regex: Regex = Regex("(?<!\\S)a+(?:[-+/^*]+(|\\d+(?:\\.\\d+)?|pi))+(?!\\S)")
         return equation.matches(regex);
     }
 
@@ -47,19 +49,27 @@ class EquationResolverBasic: EquationResolver {
         return equation.split(regex).toMutableList()
     }
 
-    private fun replaceVariable(equation: List<String>, replace: Double) {
+    private fun replaceVariable(equation: MutableList<String>, replace: Double) {
 
-        for (token in equation) {
+        val equationSize = equation.size - 1
+        for (index in 0..equationSize) {
 
-            token.replace("a", replace.toString())
-            token.replace("pi", Math.PI.toString())
+            if (equation[index] == "a") {
+
+                equation[index] = replace.toString()
+            }
+
+            if (equation[index] == "pi") {
+
+                equation[index] = Math.PI.toString()
+            }
         }
     }
 
     private fun resolveOperand(
         equation: MutableList<String>,
         operand: String
-        ): List<String> {
+        ): MutableList<String> {
 
         val response: MutableList<String> = mutableListOf()
 
@@ -103,10 +113,10 @@ class EquationResolverBasic: EquationResolver {
         var response: Double = 0.0;
         when (operation) {
             "-" -> response = operandLeft.toDouble() - operandRight.toDouble()
-            "+" -> response = operandRight.toDouble() + operandRight.toDouble()
-            "*" -> response = operandRight.toDouble() * operandRight.toDouble()
-            "/" -> response = operandRight.toDouble() + operandRight.toDouble()
-            "^" -> response = Math.pow(operandRight.toDouble(), operandRight.toDouble())
+            "+" -> response = operandLeft.toDouble() + operandRight.toDouble()
+            "*" -> response = operandLeft.toDouble() * operandRight.toDouble()
+            "/" -> response = operandLeft.toDouble() / operandRight.toDouble()
+            "^" -> response = Math.pow(operandLeft.toDouble(), operandRight.toDouble())
         }
 
         return response.toString();

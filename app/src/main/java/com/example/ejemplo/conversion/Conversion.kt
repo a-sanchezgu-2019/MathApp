@@ -28,8 +28,16 @@ class Conversion(val conversionData: Map<UnitType, UnitConversionData>) {
             val resultConversionToBaseUnit: Double? =
                 equationResolver.resolve(arrayOf(input!!.toDouble()), equationInitialUnit);
 
+            if (initialUnit==conversionData[magnitude]!!.unidad){
+
+                resultConversion =
+                    equationResolver.resolve(
+                        arrayOf(input!!),
+                        equationResultUnit
+                    );
+            }
             // Convert from base unit to result unit (ex: seconds to weeks)
-            if (resultConversionToBaseUnit != null) {
+            else if (resultConversionToBaseUnit != null) {
 
                 resultConversion =
                     equationResolver.resolve(
