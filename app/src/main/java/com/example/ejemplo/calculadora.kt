@@ -20,9 +20,15 @@ class calculadora:AppCompatActivity(){
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_calculadora)
 
+        if (Global.fondo_cambiado) {
+            fondoCalculadora.setBackgroundResource(R.drawable.fondo_calc_fondo_cambiado)
+            resultadosView.setBackgroundResource(R.drawable.fondo_resultado_fondo_cambiado)
+        }
         if (!Global.modo_noche) {
-            fondoCalculadora.setBackgroundResource(R.drawable.fondo_calc_dia)
-            resultadosView.setBackgroundResource(R.drawable.fondo_resultadodia)
+            if (!Global.fondo_cambiado) {
+                fondoCalculadora.setBackgroundResource(R.drawable.fondo_calc_dia)
+                resultadosView.setBackgroundResource(R.drawable.fondo_resultadodia)
+            }
             nueveBoton.setBackgroundResource(R.drawable.nuevedia)
             ochoBoton.setBackgroundResource(R.drawable.ochodia)
             sieteBoton.setBackgroundResource(R.drawable.sietedia)
