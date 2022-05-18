@@ -1,23 +1,23 @@
 # language: es
-Característica: Cambiar de tema la aplicación.
+Característica: Cambiar de tema la aplicacion.
 
 Escenario: Acceder a pestaña con temas
 
-    Dado que estoy en el menú principal
-    Cuando pulse en la configuración
-    Entonces accederé a la configuración
+    Dado que estoy en el menu principal
+    Cuando pulse en la configuracion
+    Entonces accedere a la configuracion
 
 Esquema del escenario: Selector de temas
 
     Dado que estoy en el selector de temas.
     Cuando selecciono el tema <tema>.
-    Entonces El tema de la aplicación cambia a <tema>
+    Entonces El tema de la aplicacion cambia a <tema>
 
     Ejemplos:
         | tema       |
         | azul       |
         | naranja    |
-        | daltónicos |
+        | daltonicos |
         | noche      |
         | claro      |
 

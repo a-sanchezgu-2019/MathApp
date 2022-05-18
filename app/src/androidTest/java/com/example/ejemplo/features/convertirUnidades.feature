@@ -1,17 +1,17 @@
 # language: es
-Característica: Conversión de unidades.
+Caracteristica: Conversion de unidades.
 
-Escenario: Acceder a pestaña con temas
+Escenario: Acceder a pestania con temas
 
     Dado que el usuario se encuentre en el menu
     Cuando el usuario seleccione la funcionalidad de conversion de unidades
     Entonces el usuario accedera a la vista de conversion de unidades.
 
-Esquema del escenario: Selección de una unidad
+Esquema del escenario: Seleccion de una unidad
 
     Dado que el usuario esté visualizando las diferentes medidas con las que puede trabajar
     Cuando seleccione <unidad>
-    Entonces la sección de conversión se actualizará con las unidades de medida de <unidad>
+    Entonces la seccion de conversion se actualizara con las unidades de medida de <unidad>
 
     Ejemplos:
         | unidad      |
@@ -22,7 +22,7 @@ Esquema del escenario: Selección de una unidad
         | angulos     |
         | temperatura |
 
-Esquema del escenario: Se realiza la operación de conversión
+Esquema del escenario: Se realiza la operacion de conversion
     Dado que el usuario ha seleccionado una <unidad> con la que trabajar.
     Y ha introducido la <unidadOrigen> y <unidadResultado>
     Cuando Introduzca el <valor> que quiera convertir
@@ -37,11 +37,11 @@ Esquema del escenario: Se realiza la operación de conversión
         | angulos     | radiantes    | grados          | 60    | 1.0472    |
         | temperatura | centigrados  | kelvin          | 60    | 333.15    |
 
-Esquema del escenario: Se realiza la operación de conversión
+Esquema del escenario: Se realiza la operacion de conversion
     Dado que el usuario ha seleccionado una <unidad> con la que trabajar.
     Cuando el usuario introduzca cambia a <nuevaUnidad>
     Entonces Todos los campos se borran
-    Y la sección de conversión se actualizará con las unidades de medida de <nuevaUnidad>
+    Y la seccion de conversion se actualizara con las unidades de medida de <nuevaUnidad>
 
     Ejemplos:
         | unidad      | nuevaUnidad  |
