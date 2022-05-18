@@ -62,7 +62,7 @@ class configuracion : AppCompatActivity() {
                 } else {
                     boton6.setBackgroundResource(R.drawable.color_fondo_dia)
                 }
-                text10.setTextColor(Color.parseColor("000000"))
+                text10.setTextColor(Color.parseColor("#000000"))
                 if (Global.idioma == "Spanish"){
                     modo_nochetext.setBackgroundResource(R.drawable.modo_noche_dia)
                     idiomartext.setBackgroundResource(R.drawable.idioma_dia)
@@ -93,11 +93,11 @@ class configuracion : AppCompatActivity() {
         boton6.setOnClickListener {
             if (Global.fondo_cambiado) { //El fondo estaba cambiado y pulsan para quitarlo
                 Global.fondo_cambiado = false
-                fondo_config.setBackgroundResource(R.drawable.fondo_menu_azul)
+                boton6.setBackgroundResource(R.drawable.color_fondo_azul)
                 if (!Global.modo_noche) {
-                    boton6.setBackgroundResource(R.drawable.color_fondo_dia)
+                    fondo_config.setBackgroundResource(R.drawable.fondo_menu_dia)
                 } else {
-                    boton6.setBackgroundResource(R.drawable.color_fondo_noche)
+                    fondo_config.setBackgroundResource(R.drawable.fondomenu)
                 }
             } else { //El fondo no estaba cambiado y pulsan para cambiarlo
                 Global.fondo_cambiado = true
