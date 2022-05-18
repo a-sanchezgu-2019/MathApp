@@ -107,16 +107,16 @@
         android:id="@+id/boton_ruff"
         android:layout_width="157dp"
         android:layout_height="78dp"
-        android:text="Ruffini"
         android:textSize="20sp"
         android:padding="0dp"
         android:scaleType="centerInside"
+        android:background="@drawable/boton_ruffini"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.925"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.59" />
+        app:layout_constraintVertical_bias="0.585" />
 
     <Button
         android:id="@+id/boton_ecuacion2"
