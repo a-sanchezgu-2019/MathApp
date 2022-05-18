@@ -29,6 +29,8 @@
 
 
 
+
+
     ]]>
 
     <Button
@@ -131,4 +133,19 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.456" />
 
+
+    <Button
+        android:id="@+id/boton_conversion"
+        android:layout_width="157dp"
+        android:layout_height="78dp"
+        android:layout_marginBottom="31dp"
+        android:background="@drawable/calidad2"
+        android:text="boton_ecuacion2"
+        android:textSize="0sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.181"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.615" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,23 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/eltio/AndroidStudioProjects/MathApp/app/src/main/res/layout/activity_ayuda.xml" value="0.1" />
-        <entry key="..\:/Users/eltio/AndroidStudioProjects/MathApp/app/src/main/res/layout/activity_calculadora.xml" value="0.15555555555555556" />
-        <entry key="..\:/Users/eltio/AndroidStudioProjects/MathApp/app/src/main/res/layout/activity_calculadora_trigonometrica.xml" value="0.18055555555555555" />
-        <entry key="..\:/Users/eltio/AndroidStudioProjects/MathApp/app/src/main/res/layout/activity_configuracion.xml" value="0.18055555555555555" />
-        <entry key="..\:/Users/eltio/AndroidStudioProjects/MathApp/app/src/main/res/layout/activity_ecuaciones.xml" value="0.24270833333333333" />
-        <entry key="..\:/Users/eltio/AndroidStudioProjects/MathApp/app/src/main/res/layout/activity_ecuaciones2.xml" value="0.24270833333333333" />
-        <entry key="..\:/Users/eltio/AndroidStudioProjects/MathApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/eltio/AndroidStudioProjects/MathApp/app/src/main/res/layout/activity_menu.xml" value="0.18055555555555555" />
-        <entry key="..\:/Users/eltio/UNIVERSIDAD/CS/MathApp/app/src/main/res/layout/activity_ecuaciones2.xml" value="0.15677083333333333" />
+        <entry key="..\:/Users/Sepu/StudioProjects/MathApp1/app/src/main/res/layout/activity_ayuda.xml" value="0.1296875" />
+        <entry key="..\:/Users/Sepu/StudioProjects/MathApp1/app/src/main/res/layout/activity_calculadora.xml" value="0.1296875" />
+        <entry key="..\:/Users/Sepu/StudioProjects/MathApp1/app/src/main/res/layout/activity_calculadora_trigonometrica.xml" value="0.1296875" />
+        <entry key="..\:/Users/Sepu/StudioProjects/MathApp1/app/src/main/res/layout/activity_configuracion.xml" value="0.1296875" />
+        <entry key="..\:/Users/Sepu/StudioProjects/MathApp1/app/src/main/res/layout/activity_ecuaciones.xml" value="0.1296875" />
+        <entry key="..\:/Users/Sepu/StudioProjects/MathApp1/app/src/main/res/layout/activity_ecuaciones2.xml" value="0.1296875" />
+        <entry key="..\:/Users/Sepu/StudioProjects/MathApp1/app/src/main/res/layout/activity_menu.xml" value="0.1296875" />
+        <entry key="..\:/Users/Sepu/StudioProjects/MathApp1/app/src/main/res/layout/conversion.xml" value="0.1" />
+        <entry key="..\:/Users/eltio/AndroidStudioProjects/MathApp/app/src/main/res/layout/activity_calculadora_trigonometrica.xml" value="0.1" />
+        <entry key="..\:/Users/eltio/AndroidStudioProjects/MathApp/app/src/main/res/layout/activity_menu.xml" value="0.2265625" />
+        <entry key="..\:/Users/eltio/AndroidStudioProjects/MathApp/app/src/main/res/layout/conversion.xml" value="0.33" />
+        <entry key="..\:/cosas/CalidadSoftware/MathApp/app/src/main/res/layout/activity_calculadora_trigonometrica.xml" value="0.18645833333333334" />
+        <entry key="..\:/cosas/CalidadSoftware/MathApp/app/src/main/res/layout/activity_configuracion.xml" value="0.1" />
+        <entry key="..\:/cosas/CalidadSoftware/MathApp/app/src/main/res/layout/conversion.xml" value="0.264" />
       </map>
     </option>
   </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/build/classes" />
-  </component>
-  <component name="ProjectType">
-    <option name="id" value="Android" />
-  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
 </project>

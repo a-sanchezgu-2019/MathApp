@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
+import com.example.ejemplo.conversion.ConversionActivity
 import kotlinx.android.synthetic.main.activity_menu.*
 
 class menu : AppCompatActivity() {
@@ -48,6 +49,7 @@ class menu : AppCompatActivity() {
             startActivity(intentoAyuda)
         }
 
+
         val boton4 = findViewById<Button>(R.id.boton_ecuacion)
         boton4.setOnClickListener {
             val intento4 = Intent(this, ecuaciones::class.java)
@@ -73,5 +75,10 @@ class menu : AppCompatActivity() {
             startActivity(intentoRuffini)
         }
 
+        val boton7 = findViewById<Button>(R.id.boton_conversion)
+        boton7.setOnClickListener {
+            val intento7 = Intent(this, ConversionActivity::class.java)
+            startActivity(intento7)
+        }
     }
 }
