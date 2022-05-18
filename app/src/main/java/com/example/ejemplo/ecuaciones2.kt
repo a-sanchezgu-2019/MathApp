@@ -11,8 +11,9 @@ import kotlinx.android.synthetic.main.activity_ecuaciones.ec_1_campo_1
 import kotlinx.android.synthetic.main.activity_ecuaciones.ec_1_campo_2
 import kotlinx.android.synthetic.main.activity_ecuaciones.resultadosView2
 import kotlinx.android.synthetic.main.activity_ecuaciones2.*
+import kotlin.math.sqrt
 
-class Ecuaciones2 : AppCompatActivity() {
+class ecuaciones2 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ecuaciones2)
@@ -44,7 +45,7 @@ class Ecuaciones2 : AppCompatActivity() {
             val numero_1 = texto_1.toDouble() //b
             val numero_2 = texto_2.toDouble() // c
 
-            val logEcuaciones = LogicaEcuaciones();
+            val logEcuaciones = logicaEcuaciones();
             val (resultado_1, resultado_2) = logEcuaciones.operacion(numero, numero_1, numero_2)
 
             resultadosView2.setText(resultado_1)
