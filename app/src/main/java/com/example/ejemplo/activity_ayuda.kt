@@ -11,9 +11,13 @@ class Activity_ayuda : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ayuda)
-
+        if (Global.fondo_cambiado) {
+            fondo_ayuda.setBackgroundResource(R.drawable.fondo_calc_fondo_cambiado)
+        }
         if (!Global.modo_noche) {
-            fondo_ayuda.setBackgroundResource(R.drawable.fondo_calc_dia)
+            if (!Global.fondo_cambiado) {
+                fondo_ayuda.setBackgroundResource(R.drawable.fondo_calc_dia)
+            }
             textViewMenu.setTextColor(Color.parseColor("#000000"))
             textViewAyudaMenu.setTextColor(Color.parseColor("#000000"))
             textViewCalculadoraBasica.setTextColor(Color.parseColor("#000000"))

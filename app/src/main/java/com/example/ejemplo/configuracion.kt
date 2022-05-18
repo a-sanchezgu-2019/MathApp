@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
+import android.widget.TextView
 import kotlinx.android.synthetic.main.activity_configuracion.*
 import kotlinx.android.synthetic.main.activity_menu.*
 
@@ -12,13 +13,14 @@ class configuracion : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_configuracion)
-
+        val text10 = findViewById<TextView>(R.id.textView10)
         if (!Global.modo_noche) {
             fondo_config.setBackgroundResource(R.drawable.fondo_menu_dia)
             imageButton3.setBackgroundResource(R.drawable.off)
         }
         if (Global.idioma=="English"){
             imageButton5.setBackgroundResource(R.drawable.english)
+            text10.setText("Change Background")
         }
 
         if (!Global.modo_noche && Global.idioma=="Spanish"){
@@ -48,6 +50,7 @@ class configuracion : AppCompatActivity() {
                 Global.modo_noche = false
                 imageButton3.setBackgroundResource(R.drawable.off)
                 fondo_config.setBackgroundResource(R.drawable.fondo_menu_dia)
+                text10.setTextColor(0)
                 if (Global.idioma == "Spanish"){
                     modo_nochetext.setBackgroundResource(R.drawable.modo_noche_dia)
                     idiomartext.setBackgroundResource(R.drawable.idioma_dia)
@@ -69,12 +72,36 @@ class configuracion : AppCompatActivity() {
             }
         }
 
+        //Boton nuevo fondo
+        val boton6 = findViewById<ImageButton>(R.id.imageButton6)
+        boton3.setOnClickListener {
+            if (Global.fondo_cambiado) { //El fondo estaba cambiado y pulsan para quitarlo
+                Global.fondo_cambiado = false
+                fondo_config.setBackgroundResource(R.drawable.fondo_menu_azul)
+                if (!Global.modo_noche) {
+                    imageButton6.setBackgroundResource(R.drawable.color_fondo_dia)
+                } else {
+                    imageButton6.setBackgroundResource(R.drawable.color_fondo_noche)
+                }
+            } else { //El fondo no estaba cambiado y pulsan para cambiarlo
+                Global.fondo_cambiado = true
+                if (!Global.modo_noche) {
+                    imageButton6.setBackgroundResource(R.drawable.color_fondo_dia)
+                    fondo_config.setBackgroundResource(R.drawable.fondo_menu_dia)
+                } else {
+                    imageButton6.setBackgroundResource(R.drawable.color_fondo_noche)
+                    fondo_config.setBackgroundResource(R.drawable.fondomenu)
+                }
+            }
+        }
+
         //Boton idioma
         val boton5 = findViewById<ImageButton>(R.id.imageButton5)
         boton5.setOnClickListener {
             if (Global.idioma == "Spanish") {
                 Global.idioma = "English"
                 imageButton5.setBackgroundResource(R.drawable.english)
+                text10.setText("Change Background")
                 if (Global.modo_noche){
                     modo_nochetext.setBackgroundResource(R.drawable.modo_noche_eng)
                     idiomartext.setBackgroundResource(R.drawable.idioma_eng)
@@ -85,6 +112,7 @@ class configuracion : AppCompatActivity() {
             } else {
                 Global.idioma = "Spanish"
                 imageButton5.setBackgroundResource(R.drawable.spanish)
+                text10.setText("Cambiar Fondo")
                 if (Global.modo_noche){
                     modo_nochetext.setBackgroundResource(R.drawable.modo_noche)
                     idiomartext.setBackgroundResource(R.drawable.idioma)
