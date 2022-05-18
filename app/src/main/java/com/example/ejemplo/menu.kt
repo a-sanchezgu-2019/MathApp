@@ -13,7 +13,9 @@ class menu : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu)
 
-        if (!Global.modo_noche) {
+        if (Global.fondo_cambiado) {
+            fondoMenu.setBackgroundResource(R.drawable.fondo_menu_azul)
+        } else if (!Global.modo_noche) {
             fondoMenu.setBackgroundResource(R.drawable.fondo_menu_dia)
         }
 

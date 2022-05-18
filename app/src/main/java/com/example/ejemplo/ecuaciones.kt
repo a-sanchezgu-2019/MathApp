@@ -49,9 +49,13 @@ class ecuaciones : AppCompatActivity() {
             //resultadosView2.text = if("$resultado".endsWith(".0")){"$resultado".replace(".0","")}else{"%.4f".format(resultado)}
 
         }
-
+        if (Global.fondo_cambiado) {
+            fondo_ecuaciones.setBackgroundResource(R.drawable.fondo_calc_fondo_cambiado)
+        }
         if (!Global.modo_noche) {
-            fondo_ecuaciones.setBackgroundResource(R.drawable.fondo_calc_dia)
+            if (!Global.fondo_cambiado) {
+                fondo_ecuaciones.setBackgroundResource(R.drawable.fondo_calc_dia)
+            }
             imageView11.setImageResource(R.drawable.x_dia)
             imageView4.setImageResource(R.drawable.mas_dia)
             imageView7.setImageResource(R.drawable.igual_dia)

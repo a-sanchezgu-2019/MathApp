@@ -25,9 +25,15 @@ class calculadora_trigonometrica:AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_calculadora_trigonometrica)
 
+        if (Global.fondo_cambiado) {
+            parentesisiz.setBackgroundResource(R.drawable.fondo_calc_fondo_cambiado)
+            resultadosTrigo.setBackgroundResource(R.drawable.fondo_resultado_fondo_cambiado)
+        }
         if (!Global.modo_noche) {
-            parentesisiz.setBackgroundResource(R.drawable.fondo_calc_dia)
-            resultadosTrigo.setBackgroundResource(R.drawable.fondo_resultadodia)
+            if (!Global.fondo_cambiado) {
+                parentesisiz.setBackgroundResource(R.drawable.fondo_calc_dia)
+                resultadosTrigo.setBackgroundResource(R.drawable.fondo_resultadodia)
+            }
             inversoBotonTrig.setBackgroundResource(R.drawable.inversodia)
             eBotonTrig.setBackgroundResource(R.drawable.edia)
             piBotonTrig.setBackgroundResource(R.drawable.pidia)
