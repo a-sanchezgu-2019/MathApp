@@ -95,14 +95,17 @@
     <TextView
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="388dp"
         android:fontFamily="sans-serif-smallcaps"
         android:text="Cambiar Fondo"
         android:textColor="#FFFFFF"
         android:textSize="34sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="389dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
         android:id="@+id/imageButton6"
@@ -111,7 +114,7 @@
         android:layout_marginStart="295dp"
         android:layout_marginLeft="295dp"
         android:layout_marginTop="389dp"
-        android:src="@drawable/color_fondo_azul"
+        android:background="@drawable/color_fondo_azul"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
