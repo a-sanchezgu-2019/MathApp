@@ -15,11 +15,8 @@ class Conversion(val conversionData: Map<UnitType, UnitConversionData>) {
     fun doOperation(): Double? {
 
         var resultConversion: Double? = null;
-        if (initialUnit.equals(resultUnit)) {
-            return input
-        }
 
-        else if (magnitude != null && initialUnit != null && resultUnit != null && input != null) {
+        if (magnitude != null && initialUnit != null && resultUnit != null && input != null) {
 
             val magnitudeConversion = conversionData[magnitude]!!.conversion;
 
@@ -30,10 +27,12 @@ class Conversion(val conversionData: Map<UnitType, UnitConversionData>) {
             // Convert from initial unit to base unit (ex: minutes to seconds)
             val resultConversionToBaseUnit: Double? =
                 equationResolver.resolve(arrayOf(input!!.toDouble()), equationInitialUnit);
+
             if (initialUnit==conversionData[magnitude]!!.unidad){
+
                 resultConversion =
                     equationResolver.resolve(
-                        arrayOf(input)!! as Array<Double>,
+                        arrayOf(input!!),
                         equationResultUnit
                     );
             }
